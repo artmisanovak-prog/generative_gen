@@ -207,6 +207,6 @@
   "provenance": {
     "note": "Lokálně vypočtený lexikální TF-IDF baseline, nikoli neuronový embedding. Obrazový vektor nebyl vypočítán.",
     "illustration_path": "../primarni_data/ilustrace/slon.jpg",
-    "illustration_available": false
+    "illustration_available": true
   }
 }
