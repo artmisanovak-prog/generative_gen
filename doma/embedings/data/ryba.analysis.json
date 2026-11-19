@@ -1,0 +1,708 @@
+{
+  "schema": "semantic-gap.card-decomposition.v1",
+  "card_id": "ryba",
+  "title": "O rybě, která rapovala",
+  "version": "1.0.0",
+  "language": "cs",
+  "source": {
+    "story": {
+      "repository": "artmisanovak-prog/generative_gen",
+      "path": "doma/primarni_data/kriva_pohadka/ryba.txt",
+      "blob_sha": "a85f7b1d3733a4a5180ae1afaa4ea82e73f52e57",
+      "integrity": "source text is authoritative; preserve exact spelling, punctuation and line breaks"
+    },
+    "illustration": {
+      "repository": "artmisanovak-prog/generative_gen",
+      "path": "doma/primarni_data/ilustrace/ryba.jpg",
+      "blob_sha": "025d6a0f96d053a8197fcd8bf5c7ab7aff8aba7e",
+      "description": "Black-and-white hand-drawn female face/figure, prominent lips, surrounding wavy lines, circular bubble-like forms, handwritten title RYBÍ RAP. No literal fish is depicted."
+    }
+  },
+  "purpose": "Rozklad jedné karty na zdrojové, textové, obrazové, významové, formální, relační a transformační vrstvy. Záznam má sloužit člověku i modelu jako pracovní materiál pro porovnávání, navazování zkušeností a tvorbu nových situací. Nejde o uzavřenou interpretaci ani o test, v němž by model musel něco objevovat bez nápovědy.",
+  "provenance_legend": {
+    "source_observation": "Přímo doložitelné v textu nebo ilustraci.",
+    "author_key": "Autorský záměr sdělený autorkou.",
+    "interpretation": "Výklad nebo hypotéza, kterou lze dále rozvíjet.",
+    "open_relation": "Vztah naznačený zdrojem, ale záměrně nerozvedený.",
+    "derived_measure": "Vlastnost odvozená pro strojové porovnání; není sama o sobě významem."
+  },
+  "card_summary": {
+    "premise": "Ryby nejsou němé; jejich projev je představen jako rytmus, vibrace a působení na vodní prostředí.",
+    "central_shift": "Od představy řeči jako slyšitelného hlasu k řeči jako tělesně a prostorově vnímatelnému působení.",
+    "central_mechanism": "Hudební projev se nepředstavuje pouze jako zvuk, ale jako síla měnící vlastnosti prostředí.",
+    "ending": "Vrcholným sdělením není hlasitost ani vítězství v hitparádě, ale schopnost vědět, kdy mlčet; závěr žádá, aby se ticho dostalo nad hladinu."
+  },
+  "text_structure": [
+    {
+      "id": "T01",
+      "name": "Vyvrácení předsudku",
+      "evidence": [
+        "Říká se, že ryby mlčí.",
+        "Ale to je omyl. Kec. Suchozemská lež.",
+        "Ryby totiž nemlčí.",
+        "Ryby rapujou."
+      ],
+      "function": "Odmítnutí běžného předpokladu a zavedení nového pravidla světa."
+    },
+    {
+      "id": "T02",
+      "name": "Předefinování rybí řeči",
+      "evidence": [
+        "Je to rytmus proudů.",
+        "Je to nížka - výška vln a vlnek.",
+        "Je to tempo vodních kruhů.",
+        "Je to mezera mezi bublinama."
+      ],
+      "function": "Řeč je převedena ze slov a hlasu na rytmus, pohyb, vlnění a mezery."
+    },
+    {
+      "id": "T03",
+      "name": "Ekologie hudebních žánrů",
+      "evidence": [
+        "Kosatky zpívají chansony – dlouhé, nostalgické ovlivňují směry proudů.",
+        "Žraloci pějí gospel znějící – hluboký a s ozvěnou. Míchají barevné odstíny hladin s tóny hlubin.",
+        "Piraňi balady.",
+        "Ska umí létací ryby.",
+        "A úhoř nemá hudební ambice."
+      ],
+      "function": "Přiřazení druhů a bytostí k hudebním žánrům; u některých je účinek na vodu uveden, u jiných zůstává otevřený."
+    },
+    {
+      "id": "T04",
+      "name": "Hudba jako změna prostředí",
+      "evidence": [
+        "Ale tohle všechno není hudba pro uši,",
+        "Tohle ovlivňuje různé vodní vlastnosti."
+      ],
+      "function": "Explicitní pravidlo světa: hudba má fyzický nebo prostorový účinek, není určena jen posluchači."
+    },
+    {
+      "id": "T05",
+      "name": "Rybí rap jako přesný projev",
+      "evidence": [
+        "Ryba má rap.",
+        "Ne kvůli slávě.",
+        "Kvůli přesnosti.",
+        "Flow je king a king je ryba.",
+        "Riff kape, flow teče.",
+        "Její punchline je fontána."
+      ],
+      "function": "Rap propojuje přesnost, rytmus, proudění a obrazné fyzikální působení."
+    },
+    {
+      "id": "T06",
+      "name": "Kontrast s ptáky a cenzura",
+      "evidence": [
+        "Ptáci umí jen sprostě nadávat.",
+        "Píp rýmuje s píp jinak bez ideje.",
+        "Cokoli řeknou hned se cenzuruje."
+      ],
+      "function": "Kontrast různých komunikačních režimů a slovní hra mezi ptačím pípáním a cenzurním pípnutím."
+    },
+    {
+      "id": "T07",
+      "name": "Voda odpovídá a přenos mezi médii",
+      "evidence": [
+        "A voda odpověděla:",
+        "Tvořila verše jako vodní kruhy, v kterých byly další kruhy.",
+        "Mlha, spadlá do polí, opsala jejich flow.",
+        "A vytvořila kruhy v obilí."
+      ],
+      "function": "Projev vyvolá odezvu prostředí; rytmus se mění v kruhy, mlha jej přenese do pole a vznikne nový obrazový jev."
+    },
+    {
+      "id": "T08",
+      "name": "Změna smyslového kanálu",
+      "evidence": [
+        "Rybí hudba byla slyšet – ne uchem,",
+        "ale okem - tělem."
+      ],
+      "function": "Vnímání se přesouvá od sluchu k zraku a tělesnému prožitku."
+    },
+    {
+      "id": "T09",
+      "name": "Závěrečné převrácení hodnot",
+      "evidence": [
+        "Ne proto, že zpívaj.",
+        "Ale proto, že ví..",
+        "..kdy mlčet.",
+        "Možná je čas,",
+        "aby se ticho konečně dostalo nad hladinu."
+      ],
+      "function": "Pauza a mlčení se stávají aktivní součástí projevu; závěr převrací obvyklou hierarchii zvuku a ticha."
+    }
+  ],
+  "semantic_entities": [
+    {
+      "id": "E01",
+      "entity": "ryba",
+      "roles": [
+        "hlavní aktér",
+        "tvůrce rapu",
+        "nositel přesnosti"
+      ],
+      "relations": [
+        "vytváří rytmus",
+        "ovlivňuje vodu",
+        "komunikuje i bez běžného hlasu"
+      ]
+    },
+    {
+      "id": "E02",
+      "entity": "voda",
+      "roles": [
+        "prostředí",
+        "médium šíření",
+        "odpovídající aktér"
+      ],
+      "relations": [
+        "nese proudy a vlny",
+        "mění se působením hudby",
+        "vytváří kruhy"
+      ]
+    },
+    {
+      "id": "E03",
+      "entity": "hudební žánry",
+      "roles": [
+        "kódy jednotlivých druhů",
+        "principy působení"
+      ],
+      "relations": [
+        "jsou přiřazeny druhům",
+        "mohou měnit vlastnosti prostředí"
+      ]
+    },
+    {
+      "id": "E04",
+      "entity": "ptáci",
+      "roles": [
+        "kontrastní skupina"
+      ],
+      "relations": [
+        "jejich projev je označen jako křik a nadávání",
+        "jejich pípání se překrývá s cenzurním pípnutím"
+      ]
+    },
+    {
+      "id": "E05",
+      "entity": "ticho",
+      "roles": [
+        "aktivní složka rytmu",
+        "závěrečný motiv"
+      ],
+      "relations": [
+        "má smysl",
+        "je součástí přesnosti",
+        "má se dostat nad hladinu"
+      ]
+    },
+    {
+      "id": "E06",
+      "entity": "mlha",
+      "roles": [
+        "přenosové médium"
+      ],
+      "relations": [
+        "opisuje flow vodních kruhů",
+        "přenáší vzor do polí"
+      ]
+    },
+    {
+      "id": "E07",
+      "entity": "kruhy",
+      "roles": [
+        "stopa rytmu",
+        "opakující se geometrický vzor"
+      ],
+      "relations": [
+        "vznikají ve vodě",
+        "obsahují další kruhy",
+        "přenášejí se do obilí"
+      ]
+    }
+  ],
+  "genre_map": [
+    {
+      "being": "kosatky",
+      "genre": "chanson",
+      "source_effect": "dlouhé, nostalgické; ovlivňují směry proudů",
+      "effect_status": "explicit"
+    },
+    {
+      "being": "žraloci",
+      "genre": "gospel",
+      "source_effect": "hluboký, s ozvěnou; míchají barevné odstíny hladin s tóny hlubin",
+      "effect_status": "explicit"
+    },
+    {
+      "being": "velryba",
+      "genre": "opera",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "medúzy",
+      "genre": "vokály / triangly / rolničky / zvonce",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "delfín",
+      "genre": "folklór",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "chobotnice",
+      "genre": "jazzové improvizace",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "nafukovací ryba",
+      "genre": "dechovka",
+      "source_effect": "zvládá ji, ale nemá ji ráda",
+      "effect_status": "open"
+    },
+    {
+      "being": "piraňi",
+      "genre": "balady",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "kapr",
+      "genre": "hrdelní zpěvy",
+      "source_effect": "zkouší je",
+      "effect_status": "open"
+    },
+    {
+      "being": "mušle a lastury",
+      "genre": "lovestory",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "létací ryby",
+      "genre": "ska",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "tučňák",
+      "genre": "klasika",
+      "source_effect": "neuveden",
+      "effect_status": "open"
+    },
+    {
+      "being": "bělice",
+      "genre": "pop",
+      "source_effect": "je odbornice na pop",
+      "effect_status": "open"
+    },
+    {
+      "being": "úhoř",
+      "genre": "bez hudebních ambicí",
+      "source_effect": "absence hudební ambice",
+      "effect_status": "open"
+    }
+  ],
+  "image_analysis": {
+    "observable_features": [
+      {
+        "feature": "barevnost",
+        "value": "černobílá"
+      },
+      {
+        "feature": "technika",
+        "value": "ruční kresba"
+      },
+      {
+        "feature": "ústřední motiv",
+        "value": "ženská tvář nebo postava"
+      },
+      {
+        "feature": "výrazný detail",
+        "value": "rty"
+      },
+      {
+        "feature": "linie",
+        "value": "vlnité linie kolem hlavy a těla"
+      },
+      {
+        "feature": "opakující se tvary",
+        "value": "kruhové útvary připomínající bubliny"
+      },
+      {
+        "feature": "text v obraze",
+        "value": "RYBÍ RAP"
+      }
+    ],
+    "interpretation_candidates": [
+      "Postava může vizuálně zastupovat řeč nebo hlasový projev.",
+      "Vlnité linie a kruhy mohou převádět rytmus, vibrace, proudění nebo šíření projevu.",
+      "Obraz neukazuje doslovnou rybu; rybí princip je přítomen prostřednictvím názvu a vztahu k textu."
+    ],
+    "measurable_visual_features": [
+      "grayscale_ratio",
+      "edge_density",
+      "curvature_distribution",
+      "circular_shape_count",
+      "line_orientation_histogram",
+      "text_region_presence",
+      "face_or_figure_region",
+      "composition_centroid",
+      "spatial_distribution_of_circles_and_waves"
+    ],
+    "note": "Číselné hodnoty těchto obrazových příznaků zatím nebyly vypočteny. Jsou zde uvedeny jako měřitelné cíle, nikoli jako naměřená data."
+  },
+  "text_form_features": [
+    {
+      "id": "F01",
+      "feature": "krátké rytmické věty",
+      "evidence": [
+        "Hlubší. Širší. Pomalejší.",
+        "A tak ryby neřvou.",
+        "Ryby vibrujou."
+      ],
+      "measurable": [
+        "sentence_length_distribution",
+        "short_sentence_ratio",
+        "punctuation_density"
+      ]
+    },
+    {
+      "id": "F02",
+      "feature": "paralelismus",
+      "evidence": [
+        "Dávaj rytmus vodě.",
+        "Dávaj smysl tichu.",
+        "Dávají beaty proudům."
+      ],
+      "measurable": [
+        "repeated_sentence_openings",
+        "syntactic_pattern_similarity",
+        "anaphora_count"
+      ]
+    },
+    {
+      "id": "F03",
+      "feature": "zvukové řetězení",
+      "evidence": [
+        "Řev. Ryk. Krákot. Jekot."
+      ],
+      "measurable": [
+        "phoneme_overlap",
+        "alliteration_density",
+        "assonance_density"
+      ]
+    },
+    {
+      "id": "F04",
+      "feature": "slovní hříčky a přepínání registrů",
+      "evidence": [
+        "Flow je king a king je ryba.",
+        "Beat jí dělá sea i jezera.",
+        "Píp rýmuje s píp jinak bez ideje."
+      ],
+      "measurable": [
+        "code_switching_count",
+        "homophony_candidates",
+        "semantic_double_reading_annotations"
+      ]
+    },
+    {
+      "id": "F05",
+      "feature": "fragmentace a grafické pauzy",
+      "evidence": [
+        "Ale proto, že ví..",
+        "..kdy mlčet.",
+        "Možná je čas,",
+        "aby se",
+        "přestalo poslouchat a začalo se vnímat."
+      ],
+      "measurable": [
+        "line_break_count",
+        "ellipsis_count",
+        "fragment_count",
+        "pause_positions"
+      ]
+    },
+    {
+      "id": "F06",
+      "feature": "metaforické převody",
+      "evidence": [
+        "Riff kape, flow teče.",
+        "Její punchline je fontána.",
+        "Tvořila verše jako vodní kruhy"
+      ],
+      "measurable": [
+        "cross_domain_mapping_count",
+        "source_target_domain_pairs"
+      ]
+    },
+    {
+      "id": "F07",
+      "feature": "forma provádí obsah",
+      "evidence": [
+        "Flow je king a king je ryba.",
+        "Dávaj rytmus vodě.",
+        "Dávají beaty proudům."
+      ],
+      "measurable": [
+        "rhythmic_pattern_alignment",
+        "repetition_alignment",
+        "form_content_relation_annotations"
+      ]
+    }
+  ],
+  "cross_modal_relations": [
+    {
+      "id": "X01",
+      "relation": "text names / image embodies",
+      "text_side": "Rybí rap je výslovně pojmenován v pohádce.",
+      "image_side": "Nápis RYBÍ RAP a výrazná ústa/postava.",
+      "relation_type": "complementary",
+      "status": "interpretation"
+    },
+    {
+      "id": "X02",
+      "relation": "water motion / drawn line",
+      "text_side": "Proudy, vlny, kruhy, vibrace.",
+      "image_side": "Vlnité linie a kruhové útvary.",
+      "relation_type": "possible_visual_translation",
+      "status": "interpretation"
+    },
+    {
+      "id": "X03",
+      "relation": "fish absent / fish principle present",
+      "text_side": "Ryba je hlavní aktér textu.",
+      "image_side": "Doslovná ryba není zobrazena.",
+      "relation_type": "productive_gap",
+      "status": "source_observation"
+    },
+    {
+      "id": "X04",
+      "relation": "sound / visible body",
+      "text_side": "Hudba je slyšitelná okem a tělem.",
+      "image_side": "Postava, rty, linie a kruhy.",
+      "relation_type": "sensory_translation",
+      "status": "interpretation"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "TR01",
+      "name": "rytmus → proudění",
+      "sequence": [
+        "rybí rap",
+        "rytmus proudů",
+        "změna směru nebo tempa vody"
+      ],
+      "source_support": "Text přímo spojuje rybí rap s rytmem proudů a hudebními vlivy na vodní vlastnosti.",
+      "steps": 3
+    },
+    {
+      "id": "TR02",
+      "name": "flow → kruhový vzor → obilné kruhy",
+      "sequence": [
+        "rybí flow",
+        "voda odpovídá vlněním",
+        "vodní kruhy obsahující další kruhy",
+        "mlha opisuje flow",
+        "kruhy v obilí"
+      ],
+      "source_support": "Výslovný dějový řetězec v závěrečné pasáži.",
+      "steps": 5
+    },
+    {
+      "id": "TR03",
+      "name": "zvuk → tělesné a vizuální vnímání",
+      "sequence": [
+        "hudební projev",
+        "vnímání okem",
+        "vnímání tělem"
+      ],
+      "source_support": "Výslovné tvrzení v textu.",
+      "steps": 3
+    },
+    {
+      "id": "TR04",
+      "name": "hlas → ticho jako aktivní projev",
+      "sequence": [
+        "představa řeči jako hlasu",
+        "rybí rap jako přesnost",
+        "vědět, kdy mlčet",
+        "ticho nad hladinou"
+      ],
+      "source_support": "Závěrečný významový oblouk; poslední krok je autorsky upřesněný.",
+      "steps": 4
+    }
+  ],
+  "open_relations": [
+    {
+      "id": "O01",
+      "relation": "hudební žánr → specifická vlastnost vody",
+      "known": "U kosatek a žraloků je účinek popsán konkrétněji.",
+      "missing": "U ostatních druhů je žánr přiřazen, ale účinek na vodu není určen.",
+      "examples": [
+        "piraňí balady",
+        "kapří hrdelní zpěvy",
+        "ska létacích ryb",
+        "chobotničí jazz",
+        "velrybí opera"
+      ],
+      "use": "Model nebo člověk může doplňovat možné účinky, přičemž návrh se označí jako nově vytvořený, nikoli jako původní obsah pohádky."
+    },
+    {
+      "id": "O02",
+      "relation": "rybí žánr → dynamika prostředí",
+      "known": "Hudba ovlivňuje vodní vlastnosti.",
+      "missing": "Nejsou definovány parametry jako směr, rychlost, hloubka, barva, tlak, rezonance nebo struktura vln.",
+      "use": "Vytvářet konzistentní profily účinků žánrů na prostředí."
+    },
+    {
+      "id": "O03",
+      "relation": "voda → mlha → pole",
+      "known": "Mlha opisuje flow vodních kruhů a vytváří kruhy v obilí.",
+      "missing": "Mechanismus přenosu mezi vodou, mlhou a obilím není fyzikálně vysvětlen.",
+      "use": "Zkoumat zachování vzoru při změně média, měřítka a prostředí."
+    },
+    {
+      "id": "O04",
+      "relation": "kruhy obsahující kruhy",
+      "known": "Text uvádí vnořené kruhy.",
+      "missing": "Není určen počet úrovní, pravidlo opakování ani geometrická přesnost.",
+      "use": "Generovat varianty vnoření, měřítka a rytmického opakování."
+    },
+    {
+      "id": "O05",
+      "relation": "úhoř bez hudebních ambicí",
+      "known": "Úhoř je výslovně vyňat z hudebních ambicí.",
+      "missing": "Není řečeno, jak se jeho neúčast projevuje v prostředí ostatních hudebních druhů.",
+      "use": "Zkoumat roli absence, neúčasti nebo nulového signálu v systému."
+    }
+  ],
+  "author_key": [
+    {
+      "id": "A01",
+      "key": "censorship_beep_homophony",
+      "evidence": [
+        "Píp rýmuje s píp jinak bez ideje.",
+        "Cokoli řeknou hned se cenzuruje."
+      ],
+      "author_intent": "Ptačí přirozené pípání se překrývá s cenzurním pípnutím, kterým se nahrazuje zakázané slovo. Cenzura tak mění dostupnou podobu sdělení; zůstane zvuková náhrada bez původní ideje.",
+      "scope": "author_key"
+    },
+    {
+      "id": "A02",
+      "key": "vertical_reversal_of_sound_silence_hierarchy",
+      "evidence": [
+        "aby se ticho konečně dostalo nad hladinu"
+      ],
+      "author_intent": "Ticho se má dostat do prostoru, kde je vnímán zvuk, a přestat být podřízené nebo skryté pod hladinou. Nejde nutně o odstranění zvuku, ale o převrácení hierarchie a zviditelnění ticha jako stejně legitimní přítomnosti.",
+      "scope": "author_key"
+    }
+  ],
+  "derived_measurements": {
+    "status": "not_computed",
+    "text_metrics": [
+      "character_count",
+      "word_count",
+      "line_count",
+      "paragraph_count",
+      "sentence_count",
+      "mean_words_per_sentence",
+      "sentence_length_variance",
+      "line_length_distribution",
+      "question_mark_count",
+      "exclamation_mark_count",
+      "ellipsis_count",
+      "dash_count",
+      "repetition_rate",
+      "n_gram_repetition",
+      "phonetic_similarity_features"
+    ],
+    "relation_metrics": [
+      "entity_count",
+      "relation_count",
+      "explicit_relation_count",
+      "open_relation_count",
+      "cross_domain_mapping_count",
+      "transformation_chain_count",
+      "mean_transformation_chain_length",
+      "number_of_media_transitions",
+      "number_of_environment_transitions",
+      "nested_pattern_depth"
+    ],
+    "image_metrics": [
+      "image_width",
+      "image_height",
+      "aspect_ratio",
+      "grayscale_ratio",
+      "edge_density",
+      "line_orientation_histogram",
+      "curvature_distribution",
+      "circular_shape_count",
+      "text_region_count",
+      "spatial_occupancy"
+    ],
+    "multimodal_metrics": [
+      "text_image_entity_overlap",
+      "complementary_relation_count",
+      "contradiction_or_absence_count",
+      "sensory_translation_count",
+      "visual_metaphor_candidate_count"
+    ],
+    "caution": "Žádné embeddingové vektory ani obrazové příznaky nejsou v tomto souboru předstírány jako vypočtené. Tento soubor obsahuje anotace, pozorování a definice měřitelných vlastností."
+  },
+  "embedding_units": [
+    {
+      "id": "story_full",
+      "modality": "text",
+      "content": "celá původní pohádka",
+      "purpose": "celková významová reprezentace"
+    },
+    {
+      "id": "story_sections",
+      "modality": "text",
+      "content": "devět strukturálních částí T01–T09",
+      "purpose": "lokální významové reprezentace"
+    },
+    {
+      "id": "text_form",
+      "modality": "derived_text_features",
+      "content": "formální příznaky F01–F07",
+      "purpose": "porovnání rytmu, syntaxe, zvuku a členění"
+    },
+    {
+      "id": "image_full",
+      "modality": "image",
+      "content": "původní ilustrace",
+      "purpose": "vizuální reprezentace"
+    },
+    {
+      "id": "image_regions",
+      "modality": "image_regions",
+      "content": "tvář/postava, rty, vlnité linie, kruhy, nápis",
+      "purpose": "lokální obrazové reprezentace"
+    },
+    {
+      "id": "cross_modal_card",
+      "modality": "multimodal",
+      "content": "text + ilustrace + explicitní vztahy X01–X04",
+      "purpose": "reprezentace celé karty a vztahů mezi médii"
+    }
+  ],
+  "usage_contract": {
+    "allow_author_key_as_context": true,
+    "preserve_open_relations": true,
+    "distinguish_source_from_generated_extension": true,
+    "generated_extensions_require_provenance": true,
+    "do_not_replace_original_source": true,
+    "model_may_add_new_perspectives": true,
+    "model_may_generate_new_situations": true,
+    "note": "Autorský klíč je dostupná zkušenost, ne povinná jediná interpretace. Nové návrhy mají být ukládány vedle zdroje s uvedením původu."
+  }
+}
