@@ -4,155 +4,168 @@
   "method": "TF-IDF unigram baseline, cosine distance, complete pair graph, Kruskal H0",
   "source": {
     "path": "doma/primarni_data/kriva_pohadka/lemur.txt",
-    "raw_sha": "d51838f7bee2e992ba56859c95d63151c2d0a917"
+    "raw_sha": "d51838f7bee2e992ba56859c95d63151c2d0a917",
+    "text": "Karta: doma/ilustrace//lemur.jpg\n\nText: nejlepší je nechat to být vše ostatní je moc nápadné \n\n\n\nO LEMUROVI\n\nkterý nebyl nápadný \n\n—\n\nLemur se narodil v koutku. \n\nV koutku místnosti, v koutku světa, v koutku oka. \n\nTam, kde se věci obvykle nechávají být. \n\nTam, kde se neptá. \n\nTam, kde se neukazuje.\n\n—\n\nA tak si řekl: \n\n„Budu nenápadný.“ \n\n„Budu tak nenápadný, že mě ani moje vlastní stín nepozná.“ \n\n„Budu tak tichý, že i ticho bude hlasité vedle mě.“\n\n—\n\nJenže měl oči jak lampy. \n\nOcas vztyčený jak vykřičník. \n\nA srst jako výkladní skříň, co se snaží být tapetou.\n\n—\n\nVedle něj seděla postava. \n\nKlidná. \n\nTichá. \n\nBez barvy. \n\nBez pohybu. \n\nBez potřeby být.\n\n—\n\nŘekla: \n\n„Nejlepší je nechat to být. Vše ostatní je moc nápadné.“ \n\nA lemur se snažil.\n\n—\n\nZhasl oči. \n\nZlomil si ocas (jen obrazně). \n\nPřikryl se dekou z nezájmu.\n\n—\n\nAle oči mu svítily i pod dekou. \n\nOcas mu trčel i bez svolení. \n\nA srst mu zářila jako reklama na klid, co bliká.\n\n—\n\n„Nejsem nápadný,“ šeptal. \n\n„Jsem jen… výrazně nenápadný.“ \n\n„Jsem jen… ticho, co má barvy.“ \n\n„Jsem jen… pozadí, co se nedá přehlédnout.“\n\n—\n\nPostava vedle něj neřekla nic. \n\nJen se dívala. \n\nA to bylo horší než slova.\n\n—\n\nLemur se pokusil být stínem. \n\nAle jeho stín měl vlastní názor. \n\nLemur se pokusil být flekem na zdi. \n\nAle flek ho odmítl, protože byl moc výrazný.\n\n—\n\nNakonec si sedl. \n\nPřestal se snažit. \n\nOči mu svítily. \n\nOcas mu trčel. \n\nSrst mu zářila.\n\n—\n\nA postava vedle něj řekla: \n\n„Teď jsi konečně neviditelný.“ \n\n„Jak to?“ zeptal se lemur. \n\n„Protože už se nesnažíš.“\n\n—\n\nA tak se lemur stal mistrem nenápadnosti. \n\nNe tím, že zmizel. \n\nAle tím, že přestal křičet, že nechce být vidět.\n\n—\n\nOd té doby sedí v koutku. \n\nOči mu svítí. \n\nOcas mu trčí. \n\nSrst mu září.\n\n—\n\nA každý, kdo ho uvidí, řekne: \n\n„To je ten nenápadný lemur.“ \n\nA pak se tváří, že ho nevidí. \n\nA to je přesně to, co chtěl.\n"
   },
   "segments": [
     {
       "id": "l01",
-      "text": "Lemur se narodil v koutku.\nV koutku místnosti, v koutku světa, v koutku oka.\nTam, kde se věci obvykle nechávají být.\nTam, kde se neptá.\nTam, kde se neukazuje.",
-      "chars": 158,
+      "text": "Lemur se narodil v koutku. \n\nV koutku místnosti, v koutku světa, v koutku oka. \n\nTam, kde se věci obvykle nechávají být. \n\nTam, kde se neptá. \n\nTam, kde se neukazuje.",
+      "chars": 166,
       "words": 18
     },
     {
       "id": "l02",
-      "text": "A tak si řekl:\n„Budu nenápadný.“\n„Budu tak nenápadný, že mě ani moje vlastní stín nepozná.“\n„Budu tak tichý, že i ticho bude hlasité vedle mě.“",
-      "chars": 143,
+      "text": "A tak si řekl: \n\n„Budu nenápadný.“ \n\n„Budu tak nenápadný, že mě ani moje vlastní stín nepozná.“ \n\n„Budu tak tichý, že i ticho bude hlasité vedle mě.“",
+      "chars": 149,
       "words": 14
     },
     {
       "id": "l03",
-      "text": "Jenže měl oči jak lampy.\nOcas vztyčený jak vykřičník.\nA srst jako výkladní skříň, co se snaží být tapetou.",
-      "chars": 106,
+      "text": "Jenže měl oči jak lampy. \n\nOcas vztyčený jak vykřičník. \n\nA srst jako výkladní skříň, co se snaží být tapetou.",
+      "chars": 110,
       "words": 14
     },
     {
       "id": "l04",
-      "text": "Vedle něj seděla postava.\nKlidná.\nTichá.\nBez barvy.\nBez pohybu.\nBez potřeby být.",
-      "chars": 80,
+      "text": "Vedle něj seděla postava. \n\nKlidná. \n\nTichá. \n\nBez barvy. \n\nBez pohybu. \n\nBez potřeby být.",
+      "chars": 90,
       "words": 10
     },
     {
       "id": "l05",
-      "text": "Řekla:\n„Nejlepší je nechat to být. Vše ostatní je moc nápadné.“\nA lemur se snažil.",
-      "chars": 82,
+      "text": "Řekla: \n\n„Nejlepší je nechat to být. Vše ostatní je moc nápadné.“ \n\nA lemur se snažil.",
+      "chars": 86,
       "words": 10
     },
     {
       "id": "l06",
-      "text": "Ale oči mu svítily i pod dekou.\nOcas mu trčel i bez svolení.\nA srst mu zářila jako reklama na klid, co bliká.",
-      "chars": 109,
-      "words": 12
+      "text": "Zhasl oči. \n\nZlomil si ocas (jen obrazně). \n\nPřikryl se dekou z nezájmu.",
+      "chars": 72,
+      "words": 8
     },
     {
       "id": "l07",
-      "text": "„Nejsem nápadný,“ šeptal.\n„Jsem jen… výrazně nenápadný.“\n„Jsem jen… ticho, co má barvy.“\n„Jsem jen… pozadí, co se nedá přehlédnout.“",
-      "chars": 132,
-      "words": 13
-    },
-    {
-      "id": "l08",
-      "text": "Postava vedle něj neřekla nic.\nJen se dívala.\nA to bylo horší než slova.",
-      "chars": 72,
-      "words": 7
-    },
-    {
-      "id": "l09",
-      "text": "Lemur se pokusil být stínem.\nAle jeho stín měl vlastní názor.\nLemur se pokusil být flekem na zdi.\nAle flek ho odmítl, protože byl moc výrazný.",
-      "chars": 142,
-      "words": 18
-    },
-    {
-      "id": "l10",
-      "text": "Nakonec si sedl.\nPřestal se snažit.\nOči mu svítily.\nOcas mu trčel.\nSrst mu zářila.",
-      "chars": 82,
-      "words": 10
-    },
-    {
-      "id": "l11",
-      "text": "A postava vedle něj řekla:\n„Teď jsi konečně neviditelný.“\n„Jak to?“ zeptal se lemur.\n„Protože už se nesnažíš.“",
-      "chars": 110,
+      "text": "Ale oči mu svítily i pod dekou. \n\nOcas mu trčel i bez svolení. \n\nA srst mu zářila jako reklama na klid, co bliká.",
+      "chars": 113,
       "words": 12
     },
     {
+      "id": "l08",
+      "text": "„Nejsem nápadný,“ šeptal. \n\n„Jsem jen… výrazně nenápadný.“ \n\n„Jsem jen… ticho, co má barvy.“ \n\n„Jsem jen… pozadí, co se nedá přehlédnout.“",
+      "chars": 138,
+      "words": 13
+    },
+    {
+      "id": "l09",
+      "text": "Postava vedle něj neřekla nic. \n\nJen se dívala. \n\nA to bylo horší než slova.",
+      "chars": 76,
+      "words": 7
+    },
+    {
+      "id": "l10",
+      "text": "Lemur se pokusil být stínem. \n\nAle jeho stín měl vlastní názor. \n\nLemur se pokusil být flekem na zdi. \n\nAle flek ho odmítl, protože byl moc výrazný.",
+      "chars": 148,
+      "words": 18
+    },
+    {
+      "id": "l11",
+      "text": "Nakonec si sedl. \n\nPřestal se snažit. \n\nOči mu svítily. \n\nOcas mu trčel. \n\nSrst mu zářila.",
+      "chars": 90,
+      "words": 10
+    },
+    {
       "id": "l12",
-      "text": "A tak se lemur stal mistrem nenápadnosti.\nNe tím, že zmizel.\nAle tím, že přestal křičet, že nechce být vidět.",
-      "chars": 109,
+      "text": "A postava vedle něj řekla: \n\n„Teď jsi konečně neviditelný.“ \n\n„Jak to?“ zeptal se lemur. \n\n„Protože už se nesnažíš.“",
+      "chars": 116,
       "words": 12
     },
     {
       "id": "l13",
-      "text": "A každý, kdo ho uvidí, řekne:\n„To je ten nenápadný lemur.“\nA pak se tváří, že ho nevidí.\nA to je přesně to, co chtěl.",
-      "chars": 117,
+      "text": "A tak se lemur stal mistrem nenápadnosti. \n\nNe tím, že zmizel. \n\nAle tím, že přestal křičet, že nechce být vidět.",
+      "chars": 113,
+      "words": 12
+    },
+    {
+      "id": "l14",
+      "text": "Od té doby sedí v koutku. \n\nOči mu svítí. \n\nOcas mu trčí. \n\nSrst mu září.",
+      "chars": 73,
+      "words": 9
+    },
+    {
+      "id": "l15",
+      "text": "A každý, kdo ho uvidí, řekne: \n\n„To je ten nenápadný lemur.“ \n\nA pak se tváří, že ho nevidí. \n\nA to je přesně to, co chtěl.",
+      "chars": 123,
       "words": 10
     }
   ],
   "metrics": {
-    "segment_count": 13,
-    "vocabulary_size": 108,
-    "pair_count": 78,
-    "mean_distance": 0.956165,
-    "mean_similarity": 0.043835
+    "segment_count": 15,
+    "vocabulary_size": 118,
+    "pair_count": 105,
+    "mean_distance": 0.968127,
+    "mean_similarity": 0.031873
   },
   "pairwise": {
     "closest_pairs": [
       {
-        "a": "l06",
-        "b": "l10",
-        "similarity": 0.4595890362962749,
-        "distance": 0.5404109637037251
+        "a": "l07",
+        "b": "l11",
+        "similarity": 0.3791417809346227,
+        "distance": 0.6208582190653773
       },
       {
         "a": "l04",
-        "b": "l08",
-        "similarity": 0.2491154616098089,
-        "distance": 0.7508845383901911
+        "b": "l09",
+        "similarity": 0.1990457607282312,
+        "distance": 0.8009542392717688
+      },
+      {
+        "a": "l09",
+        "b": "l12",
+        "similarity": 0.17909744615681733,
+        "distance": 0.8209025538431827
+      },
+      {
+        "a": "l06",
+        "b": "l07",
+        "similarity": 0.15657223678243481,
+        "distance": 0.8434277632175652
       },
       {
         "a": "l03",
-        "b": "l06",
-        "similarity": 0.23542628322722303,
-        "distance": 0.764573716772777
-      },
-      {
-        "a": "l08",
-        "b": "l11",
-        "similarity": 0.22499369466096364,
-        "distance": 0.7750063053390364
-      },
-      {
-        "a": "l04",
-        "b": "l11",
-        "similarity": 0.1924038421498313,
-        "distance": 0.8075961578501687
+        "b": "l07",
+        "similarity": 0.15556191536897335,
+        "distance": 0.8444380846310267
       }
     ],
     "most_distant_pairs": [
       {
-        "a": "l10",
-        "b": "l13",
+        "a": "l14",
+        "b": "l15",
         "similarity": 0,
         "distance": 1
       },
       {
-        "a": "l10",
-        "b": "l11",
+        "a": "l13",
+        "b": "l14",
         "similarity": 0,
         "distance": 1
       },
       {
-        "a": "l09",
-        "b": "l10",
+        "a": "l12",
+        "b": "l14",
         "similarity": 0,
         "distance": 1
       },
       {
-        "a": "l08",
-        "b": "l13",
+        "a": "l11",
+        "b": "l15",
         "similarity": 0,
         "distance": 1
       },
       {
-        "a": "l08",
+        "a": "l11",
         "b": "l12",
         "similarity": 0,
         "distance": 1
@@ -162,196 +175,256 @@
       [
         0,
         1,
-        0.98015,
-        0.9757,
-        0.95269,
+        0.98815,
+        0.98569,
+        0.97254,
         1,
         1,
         1,
-        0.95051,
         1,
-        0.97805,
-        0.95958,
-        0.97739
+        0.96574,
+        1,
+        0.98713,
+        0.97698,
+        0.85357,
+        0.98709
       ],
       [
         1,
         0,
         1,
-        0.95515,
+        0.96714,
         1,
         1,
-        0.88583,
-        0.94755,
-        0.89846,
         1,
-        0.95949,
+        0.89259,
+        0.96186,
+        0.90373,
         1,
-        0.91999
+        0.97043,
+        1,
+        1,
+        0.92866
       ],
       [
-        0.98015,
+        0.98815,
         1,
         0,
-        0.96505,
-        0.96598,
-        0.76457,
+        0.98132,
+        0.98207,
+        0.94359,
+        0.84444,
         1,
         1,
-        0.90756,
-        0.8145,
+        0.92346,
+        0.90589,
         1,
-        0.97093,
+        0.98497,
+        0.9063,
         1
       ],
       [
-        0.9757,
-        0.95515,
-        0.96505,
+        0.98569,
+        0.96714,
+        0.98132,
         0,
-        0.95835,
-        1,
-        0.9296,
-        0.75088,
-        0.95642,
-        1,
-        0.8076,
-        0.96441,
-        1
-      ],
-      [
-        0.95269,
-        1,
-        0.96598,
-        0.95835,
-        0,
+        0.97836,
         1,
         1,
+        0.93248,
+        0.80095,
+        0.973,
         1,
-        0.84743,
-        1,
-        0.87768,
-        0.93072,
-        0.96124
-      ],
-      [
-        1,
-        1,
-        0.76457,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        0.54041,
-        1,
+        0.8457,
+        0.98186,
         1,
         1
       ],
       [
+        0.97254,
         1,
-        0.88583,
-        1,
-        0.9296,
-        1,
-        1,
+        0.98207,
+        0.97836,
         0,
         1,
         1,
         1,
         1,
+        0.88544,
         1,
-        0.94849
+        0.90069,
+        0.96519,
+        1,
+        0.98047
       ],
       [
         1,
-        0.94755,
         1,
-        0.75088,
+        0.94359,
+        1,
+        1,
+        0,
+        0.84343,
+        1,
+        1,
+        1,
+        0.92846,
+        1,
+        1,
+        0.92878,
+        1
+      ],
+      [
+        1,
+        1,
+        0.84444,
+        1,
+        1,
+        0.84343,
+        0,
+        1,
+        1,
+        1,
+        0.62086,
+        1,
+        1,
+        0.89412,
+        1
+      ],
+      [
+        1,
+        0.89259,
+        1,
+        0.93248,
         1,
         1,
         1,
         0,
         1,
         1,
-        0.77501,
+        1,
+        1,
+        1,
+        1,
+        0.9582
+      ],
+      [
+        1,
+        0.96186,
+        1,
+        0.80095,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0.8209,
+        1,
         1,
         1
       ],
       [
-        0.95051,
-        0.89846,
-        0.90756,
-        0.95642,
-        0.84743,
+        0.96574,
+        0.90373,
+        0.92346,
+        0.973,
+        0.88544,
+        1,
         1,
         1,
         1,
         0,
         1,
-        0.89777,
-        0.92753,
-        0.95945
+        0.91686,
+        0.95656,
+        1,
+        0.97563
       ],
       [
         1,
         1,
-        0.8145,
+        0.90589,
         1,
         1,
-        0.54041,
+        0.92846,
+        0.62086,
         1,
         1,
         1,
         0,
         1,
-        0.91993,
+        0.92186,
+        0.88118,
         1
       ],
       [
-        0.97805,
-        0.95949,
+        0.98713,
+        0.97043,
         1,
-        0.8076,
-        0.87768,
+        0.8457,
+        0.90069,
         1,
         1,
-        0.77501,
-        0.89777,
+        1,
+        0.8209,
+        0.91686,
         1,
         0,
-        0.96786,
-        0.96403
+        0.98368,
+        1,
+        0.98168
       ],
       [
-        0.95958,
+        0.97698,
         1,
-        0.97093,
-        0.96441,
-        0.93072,
+        0.98497,
+        0.98186,
+        0.96519,
         1,
         1,
         1,
-        0.92753,
-        0.91993,
-        0.96786,
+        1,
+        0.95656,
+        0.92186,
+        0.98368,
         0,
-        0.96689
+        1,
+        0.98363
       ],
       [
-        0.97739,
-        0.91999,
+        0.85357,
+        1,
+        0.9063,
         1,
         1,
-        0.96124,
+        0.92878,
+        0.89412,
         1,
-        0.94849,
         1,
-        0.95945,
         1,
-        0.96403,
-        0.96689,
+        0.88118,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0.98709,
+        0.92866,
+        1,
+        1,
+        0.98047,
+        1,
+        1,
+        0.9582,
+        1,
+        0.97563,
+        1,
+        0.98168,
+        0.98363,
+        1,
         0
       ]
     ]
@@ -360,79 +433,91 @@
     "type": "H0 / Kruskal MST",
     "merges": [
       {
-        "a": "l06",
-        "b": "l10",
-        "similarity": 0.4595890362962749,
-        "distance": 0.5404109637037251
+        "a": "l07",
+        "b": "l11",
+        "similarity": 0.3791417809346227,
+        "distance": 0.6208582190653773
       },
       {
         "a": "l04",
-        "b": "l08",
-        "similarity": 0.2491154616098089,
-        "distance": 0.7508845383901911
-      },
-      {
-        "a": "l03",
-        "b": "l06",
-        "similarity": 0.23542628322722303,
-        "distance": 0.764573716772777
-      },
-      {
-        "a": "l08",
-        "b": "l11",
-        "similarity": 0.22499369466096364,
-        "distance": 0.7750063053390364
-      },
-      {
-        "a": "l05",
         "b": "l09",
-        "similarity": 0.15257422463453807,
-        "distance": 0.8474257753654619
+        "similarity": 0.1990457607282312,
+        "distance": 0.8009542392717688
       },
       {
-        "a": "l05",
-        "b": "l11",
-        "similarity": 0.12231802246956291,
-        "distance": 0.8776819775304371
-      },
-      {
-        "a": "l02",
-        "b": "l07",
-        "similarity": 0.11416772475779025,
-        "distance": 0.8858322752422098
-      },
-      {
-        "a": "l02",
-        "b": "l09",
-        "similarity": 0.10153912950764987,
-        "distance": 0.8984608704923501
-      },
-      {
-        "a": "l03",
-        "b": "l09",
-        "similarity": 0.09243795111683473,
-        "distance": 0.9075620488831653
-      },
-      {
-        "a": "l10",
+        "a": "l09",
         "b": "l12",
-        "similarity": 0.08006676366721077,
-        "distance": 0.9199332363327892
+        "similarity": 0.17909744615681733,
+        "distance": 0.8209025538431827
       },
       {
-        "a": "l02",
-        "b": "l13",
-        "similarity": 0.08001015342813811,
-        "distance": 0.9199898465718619
+        "a": "l06",
+        "b": "l07",
+        "similarity": 0.15657223678243481,
+        "distance": 0.8434277632175652
+      },
+      {
+        "a": "l03",
+        "b": "l07",
+        "similarity": 0.15556191536897335,
+        "distance": 0.8444380846310267
       },
       {
         "a": "l01",
-        "b": "l09",
-        "similarity": 0.0494888148341287,
-        "distance": 0.9505111851658713
+        "b": "l14",
+        "similarity": 0.14643135085952452,
+        "distance": 0.8535686491404755
+      },
+      {
+        "a": "l11",
+        "b": "l14",
+        "similarity": 0.11882338883536858,
+        "distance": 0.8811766111646314
+      },
+      {
+        "a": "l05",
+        "b": "l10",
+        "similarity": 0.1145638447126669,
+        "distance": 0.8854361552873331
+      },
+      {
+        "a": "l02",
+        "b": "l08",
+        "similarity": 0.10740795407642001,
+        "distance": 0.89259204592358
+      },
+      {
+        "a": "l05",
+        "b": "l12",
+        "similarity": 0.09930536162250037,
+        "distance": 0.9006946383774996
+      },
+      {
+        "a": "l02",
+        "b": "l10",
+        "similarity": 0.09626746972298472,
+        "distance": 0.9037325302770153
+      },
+      {
+        "a": "l11",
+        "b": "l13",
+        "similarity": 0.07814220633721014,
+        "distance": 0.9218577936627899
+      },
+      {
+        "a": "l03",
+        "b": "l10",
+        "similarity": 0.0765422911603415,
+        "distance": 0.9234577088396585
+      },
+      {
+        "a": "l02",
+        "b": "l15",
+        "similarity": 0.07133651412119757,
+        "distance": 0.9286634858788024
       }
     ],
-    "merge_count": 12
+    "merge_count": 14
   },
   "provenance": {
     "note": "Lokálně vypočtený lexikální TF-IDF baseline, nikoli neuronový embedding. Obrazový vektor nebyl vypočítán.",
