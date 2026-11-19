@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "plamenak",
+  "title": "Plameňák",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/plamenak.txt",
+    "sha": "daeceb515f47f8a68fa6496ebc08af2160759dc8",
+    "characters": 1829
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/plamenak.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Karta: doma/ilustrace/plamenak.jpg Yt audio: https://youtube.com/shorts/Ub9jlugrUvk?is=e2RbyHyhcfOgdt3n",
+      "text": "Karta: doma/ilustrace/plamenak.jpg\n\nYt audio: \nhttps://youtube.com/shorts/Ub9jlugrUvk?is=e2RbyHyhcfOgdt3n",
+      "characters": 105,
+      "words": 14
+    },
+    {
+      "id": "02",
+      "label": "Text: lalalá poletíme spolu zřítíme se dolů až na",
+      "text": "Text: lalalá poletíme spolu zřítíme se dolů až na dno vesmíru lalalá budeme na hlavu\n\nO PLAMEŇÁKOVI\nkterý byl na hlavu\n\n__________\n\nPlameňák zpíval.\n\nLalalá.\n\nVysoko, výš než měl.",
+      "characters": 179,
+      "words": 27
+    },
+    {
+      "id": "03",
+      "label": "Výš než bylo bezpečné. Výš než bylo rozumné. „Poletíme",
+      "text": "Výš než bylo bezpečné.\n\nVýš než bylo rozumné.\n\n„Poletíme spolu!“ křičel.\n\n„Zřídíme se dolů! Až na dno vesmíru!“\n\nA nikdo mu neřekl, že vesmír žádné dno nemá.",
+      "characters": 157,
+      "words": 26
+    },
+    {
+      "id": "04",
+      "label": "Protože plameňák měl růžové peří a hlas, co se",
+      "text": "Protože plameňák měl růžové peří a hlas, co se nedal přerušit.\n\n„Lalalá!“ zpíval.\n\n„Budeme na hlavu!“\n\nA opravdu — letěl hlavou dolů.\n\nNohy mu trčely k nebi.\n\nKřídla mu vlála jako šály.",
+      "characters": 185,
+      "words": 28
+    },
+    {
+      "id": "05",
+      "label": "A oči měl dokořán. „Tohle není let,“ řeklo mu",
+      "text": "A oči měl dokořán.\n\n„Tohle není let,“ řeklo mu kíště.\n\n„To je pád.“\n\n„To je jedno!“ křičel plameňák.\n\n„Hlavně že to má směr!“\n\nA padal dál.\n\nKolem něj se míhaly hvězdy,",
+      "characters": 168,
+      "words": 29
+    },
+    {
+      "id": "06",
+      "label": "mlhoviny i sny a vedle nej se zavlnila prádelní",
+      "text": "mlhoviny i sny a vedle nej se zavlnila prádelní šňůra s jednou ponožkou - tou, co ráno nenašel.\n\n„Kam letíš?“ ptal se komár, co se také držel jeho peří.\n\n„Nevím!“ smál se plameňák.",
+      "characters": 180,
+      "words": 29
+    },
+    {
+      "id": "07",
+      "label": "„Ale letí se mi krásně!“ A pak — ticho.",
+      "text": "„Ale letí se mi krásně!“\n\nA pak —\n\nticho.\n\nTicho tak hluboké, že i vesmír zadržel dech.\n\nPlameňák dopadl.\n\nNe na zem.\n\nNa dno.\n\nNa dno vesmíru.\n\nKde nikdo nebyl.\n\nKromě něj, komára a klíštěte co měl.",
+      "characters": 199,
+      "words": 33
+    },
+    {
+      "id": "08",
+      "label": "A jedné myši, co si zapisovala, co se stalo.",
+      "text": "A jedné myši, co si zapisovala, co se stalo.\n\n„Jsi v pořádku?“ zeptala se.\n\n„Jsem na hlavu,“ řekl plameňák.\n\n„Ale jinak výborně.“\n\nMyš si poznamenala:",
+      "characters": 150,
+      "words": 23
+    },
+    {
+      "id": "09",
+      "label": "“Plameňák – padá s grácií. I když neví kam.",
+      "text": "“Plameňák – padá s grácií. I když neví kam. Hlavně že zpívá.”\n\nA plameňák se usmál.\n\nZ peří mu vypadl omámený komár.\n\nA z kapsy mu vypadla mapa, co ukazovala jen dolů.\n\n„Příště poletím ještě níž,“ řekl.",
+      "characters": 202,
+      "words": 30
+    },
+    {
+      "id": "10",
+      "label": "„A co když už níž nejde?“ „Tak si vymyslím",
+      "text": "„A co když už níž nejde?“\n\n„Tak si vymyslím nové dno.“\n\nA znovu se vznesl.\n\nHlavou dolů.\n\nSrdcem vzhůru.\n\nA zpíval:\n\n„Lalaláááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááá",
+      "characters": 229,
+      "words": 19
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 390,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.9550104446446963,
+    "pca_variance": [
+      0.15753662689309222,
+      0.14418469635896541
+    ],
+    "distances": [
+      [
+        -2.220446049250313e-16,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -2.220446049250313e-16,
+        0.7255013045201716,
+        0.8194194076750962,
+        0.9847950241911527,
+        0.9823235790098408,
+        0.8697832275993833,
+        0.9134372751193637,
+        0.9803773607921341,
+        0.9618711002299084
+      ],
+      [
+        1,
+        0.7255013045201716,
+        0,
+        0.9639333079472713,
+        0.9684510713610406,
+        0.9871757536293103,
+        0.858815330072221,
+        0.9848211628887131,
+        0.9642523424100234,
+        0.9652154428184787
+      ],
+      [
+        1,
+        0.8194194076750962,
+        0.9639333079472713,
+        -2.220446049250313e-16,
+        0.9684017770131498,
+        0.9481478959463157,
+        0.9592247954684872,
+        0.9275837353838412,
+        0.9278943879988399,
+        0.9278338483916878
+      ],
+      [
+        1,
+        0.9847950241911527,
+        0.9684510713610406,
+        0.9684017770131498,
+        1.1102230246251565e-16,
+        0.9844230761692631,
+        0.9676941547719009,
+        0.9887527124791138,
+        0.9407901416070928,
+        0.9963435705873488
+      ],
+      [
+        1,
+        0.9823235790098408,
+        0.9871757536293103,
+        0.9481478959463157,
+        0.9844230761692631,
+        1.1102230246251565e-16,
+        0.9740711611232762,
+        0.9293527576838632,
+        0.9294891612217031,
+        0.9700143061404946
+      ],
+      [
+        1,
+        0.8697832275993833,
+        0.858815330072221,
+        0.9592247954684872,
+        0.9676941547719009,
+        0.9740711611232762,
+        -2.220446049250313e-16,
+        0.9411934678855439,
+        0.9759259945861058,
+        0.9537650661954169
+      ],
+      [
+        1,
+        0.9134372751193637,
+        0.9848211628887131,
+        0.9275837353838412,
+        0.9887527124791138,
+        0.9293527576838632,
+        0.9411934678855439,
+        2.220446049250313e-16,
+        0.9543728782288324,
+        0.9347796987059646
+      ],
+      [
+        1,
+        0.9803773607921341,
+        0.9642523424100234,
+        0.9278943879988399,
+        0.9407901416070928,
+        0.9294891612217031,
+        0.9759259945861058,
+        0.9543728782288324,
+        1.1102230246251565e-16,
+        0.9452427311589703
+      ],
+      [
+        1,
+        0.9618711002299084,
+        0.9652154428184787,
+        0.9278338483916878,
+        0.9963435705873488,
+        0.9700143061404946,
+        0.9537650661954169,
+        0.9347796987059646,
+        0.9452427311589703,
+        0
+      ]
+    ],
+    "coordinates": [
+      [
+        1.021229678253937,
+        -1.2572560126825993
+      ],
+      [
+        -7.500742795474725,
+        1.2954939778866013
+      ],
+      [
+        -7.420410078667143,
+        3.7442175270031344
+      ],
+      [
+        -0.31042128636256283,
+        -3.880589296538691
+      ],
+      [
+        14.128957076428815,
+        13.710761571225708
+      ],
+      [
+        3.9695436513631863,
+        -9.703785423087552
+      ],
+      [
+        -10.372380761894062,
+        7.814632432779313
+      ],
+      [
+        0.28664537820222624,
+        -3.475994999884306
+      ],
+      [
+        5.731840457832632,
+        -6.024407742582651
+      ],
+      [
+        0.4657386803176858,
+        -2.2230720341188626
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.7255013045201716
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.8194194076750962
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.858815330072221
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.9134372751193637
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.9278338483916878
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.9278943879988399
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.9293527576838632
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.9407901416070928
+      },
+      {
+        "a": 0,
+        "b": 1,
+        "distance": 1
+      }
+    ],
+    "pairs": [
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.725501,
+        "similarity": 0.274499
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.819419,
+        "similarity": 0.180581
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.858815,
+        "similarity": 0.141185
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.869783,
+        "similarity": 0.130217
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.913437,
+        "similarity": 0.086563
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.927584,
+        "similarity": 0.072416
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.927834,
+        "similarity": 0.072166
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.927894,
+        "similarity": 0.072106
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.929353,
+        "similarity": 0.070647
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.929489,
+        "similarity": 0.070511
+      },
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.93478,
+        "similarity": 0.06522
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.94079,
+        "similarity": 0.05921
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.941193,
+        "similarity": 0.058807
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.945243,
+        "similarity": 0.054757
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 0.948148,
+        "similarity": 0.051852
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.953765,
+        "similarity": 0.046235
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.954373,
+        "similarity": 0.045627
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.959225,
+        "similarity": 0.040775
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.961871,
+        "similarity": 0.038129
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.963933,
+        "similarity": 0.036067
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.964252,
+        "similarity": 0.035748
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.965215,
+        "similarity": 0.034785
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.967694,
+        "similarity": 0.032306
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.968402,
+        "similarity": 0.031598
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.968451,
+        "similarity": 0.031549
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 0.970014,
+        "similarity": 0.029986
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.974071,
+        "similarity": 0.025929
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.975926,
+        "similarity": 0.024074
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.980377,
+        "similarity": 0.019623
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.982324,
+        "similarity": 0.017676
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.984423,
+        "similarity": 0.015577
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 0.984795,
+        "similarity": 0.015205
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.984821,
+        "similarity": 0.015179
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.987176,
+        "similarity": 0.012824
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.988753,
+        "similarity": 0.011247
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.996344,
+        "similarity": 0.003656
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 1,
+        "similarity": 0
+      }
+    ]
+  }
+}
