@@ -1,0 +1,202 @@
+{
+  "schema": "semantic-gap.embedding-source.v1",
+  "card_id": "mys",
+  "title": "O MYŠI — a o tom, co se stane, když si jí NEvšimneš",
+  "language": "cs",
+  "status": "source_prepared_vectors_not_computed",
+  "source_integrity": {
+    "text": "user_supplied_in_conversation_verbatim",
+    "image": "user_uploaded_in_conversation",
+    "normalization": "Zachovat původní pravopis, interpunkci, velká písmena a zalomení řádků."
+  },
+  "sources": [
+    {
+      "id": "framing_full",
+      "modality": "text",
+      "role": "context_source",
+      "label": "KŘIVÁ POHÁDKA - ROVNÉ SVĚDECTVÍ",
+      "text": "KŘIVÁ POHÁDKA - ROVNÉ SVĚDECTVÍ\n\nROVNÉ SVĚDECTVÍ\n\nZapsáno rukou, která nechtěla nic vysvětlit.\n\nTyto pohádky nevyprávějí příběhy tak, jak by měly.\n\nMísto kouzel tu vládne nedorozumění.\n\nMísto dobra a zla – podivný klid mezi nimi.\n\nZvířata tu mluví, ale ne proto, aby nás bavila.\n\nŘíkají to, co lidé nemohou vyslovit.\n\nPříběhy, co se spíš staly, než vymyslely –\n\na možná se pořád dějí.\n\nJen je nelze vidět z běžného úhlu.\n\nKŘIVÁ POHÁDKA\n\nTaková malá, divná, křivá\n\npohádka o myši,\n\nco možná ani není pohádka,\n\nale něco,\n\nco se stalo.\n\nA v tom světě jsou i jiná zvířata\n\n– čáp, páv, kocour, kozel…\n\nale všechno to je\n\nnapůl sen,\n\nnapůl vtip,\n\nnapůl výklad\n\na napůl úplně mimo",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "story_full",
+      "modality": "text",
+      "role": "full_source",
+      "text": "O MYŠI\n\na o tom, co se stane, když si jí NEvšimneš\n\n\nKdysi – zároveň ne tak docela dávno.\n\nA ne úplně blízko,\n\nale zase ani ne nijak moc daleko.\n\nŽila jedna myš.\n\n\nByla malá,\n\ntak jak to u myší normálně bývá.\n\nA měla dvě veliké uši,\n\ncož také není u myší žádná vzácnost.\n\n\nNebyla nijak zvlášť rychlá,\n\nale ani úplně pomalá.\n\nNebyla hloupá,\n\nale ani kdovíjak chytrá.\n\nNa první pohled\n\nobyčejná, běžná myš.\n\n\nAle ne - normální\n\n\nVšímala si věcí, které ostatní přehlíželi.\n\n\nNapříklad toho,\n\nže se ve vzduchu občas\n\nzadrhne věta.\n\n\nNebo že páv,\n\nkdyž se nikdo nedívá,\n\npřepočítává svá oka.\n\nNebo že čáp,\n\nněkdy jen tak\n\npřistane na komíně\n\na zapomene,\n\nkoho měl donést.\n\n\nA tahle myš\n\nsi začala věci zapisovat.\n\nNe na papír.\n\nAle tak nějak.\n\nDo ticha.\n\nDo koutů.\n\nDo skulin mezi slovama,\n\nkde to obvykle nikdo nečte.\n\n\nA pak si jednoh dne všimla,\n\nže se kolem ní začínají\n\nhromadit zvířata.\n\n\nNe v řadě.\n\nNe v kruhu.\n\nProstě…\n\ntak nějak.\n\n\nA každé si neslo něco,\n\nco nevysvětlovalo.\n\n\nZajíc měl popálené uši\n\na voněl po kouři.\n\nKocour se dusil smíchem,\n\nprotože spolkl tečku.\n\nSlon si v chobotu nesl třešně,\n\nco nikdy nedozrají.\n\nA lemur se nedíval na nic,\n\njen na stranu,\n\nkde nic nebylo.\n\n\nMyš neříkala nic.\n\nAle všechno si poznamenala.\n\nA pak se jednoho dne zeptala první větu.\n\n\nNe velkou.\n\nNe důležitou.\n\nJenom tu jednu:\n\n\n„Chceš myš?“\n\n\nA to nebyla otázka,\n\nco se ptá na ni samotnou.\n\nTo byla otázka,\n\nco se ptá - na všechno.\n\n\nNa smysl.\n\nNa jazyk.\n\nNa strach.\n\nNa to, co si z nás kdo udělá.\n\n\nA taky na to,\n\njestli si tuhle pohádku\n\nnecháš vyprávět do konce.\n\nNebo zapištíš a utečeš.\n\nNebo si ji složíš jinak.\n\n\nProtože od té chvíle,\n\nuž to nebyla jen myš.\n\n\nByl to klíč.\n\nA pádlo.\n\nA past.\n\n\na konec úvodu.\n\nAle začátek něčeho dalšího.\n\n\n..možná..",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s01",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Ne tak docela dávno",
+      "text": "Kdysi – zároveň ne tak docela dávno.\n\nA ne úplně blízko,\n\nale zase ani ne nijak moc daleko.\n\nŽila jedna myš.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s02",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Obyčejná, ale ne normální",
+      "text": "Byla malá,\n\ntak jak to u myší normálně bývá.\n\nA měla dvě veliké uši,\n\ncož také není u myší žádná vzácnost.\n\n\nNebyla nijak zvlášť rychlá,\n\nale ani úplně pomalá.\n\nNebyla hloupá,\n\nale ani kdovíjak chytrá.\n\nNa první pohled\n\nobyčejná, běžná myš.\n\n\nAle ne - normální",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s03",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Všímání si přehlíženého",
+      "text": "Všímala si věcí, které ostatní přehlíželi.\n\n\nNapříklad toho,\n\nže se ve vzduchu občas\n\nzadrhne věta.\n\n\nNebo že páv,\n\nkdyž se nikdo nedívá,\n\npřepočítává svá oka.\n\nNebo že čáp,\n\nněkdy jen tak\n\npřistane na komíně\n\na zapomene,\n\nkoho měl donést.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s04",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Zapisování do ticha",
+      "text": "A tahle myš\n\nsi začala věci zapisovat.\n\nNe na papír.\n\nAle tak nějak.\n\nDo ticha.\n\nDo koutů.\n\nDo skulin mezi slovama,\n\nkde to obvykle nikdo nečte.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s05",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Zvířata a jejich nevysvětlené věci",
+      "text": "A pak si jednoh dne všimla,\n\nže se kolem ní začínají\n\nhromadit zvířata.\n\n\nNe v řadě.\n\nNe v kruhu.\n\nProstě…\n\ntak nějak.\n\n\nA každé si neslo něco,\n\nco nevysvětlovalo.\n\n\nZajíc měl popálené uši\n\na voněl po kouři.\n\nKocour se dusil smíchem,\n\nprotože spolkl tečku.\n\nSlon si v chobotu nesl třešně,\n\nco nikdy nedozrají.\n\nA lemur se nedíval na nic,\n\njen na stranu,\n\nkde nic nebylo.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s06",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "První otázka",
+      "text": "Myš neříkala nic.\n\nAle všechno si poznamenala.\n\nA pak se jednoho dne zeptala první větu.\n\n\nNe velkou.\n\nNe důležitou.\n\nJenom tu jednu:\n\n\n„Chceš myš?“",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s07",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Otázka na všechno",
+      "text": "A to nebyla otázka,\n\nco se ptá na ni samotnou.\n\nTo byla otázka,\n\nco se ptá - na všechno.\n\n\nNa smysl.\n\nNa jazyk.\n\nNa strach.\n\nNa to, co si z nás kdo udělá.\n\n\nA taky na to,\n\njestli si tuhle pohádku\n\nnecháš vyprávět do konce.\n\nNebo zapištíš a utečeš.\n\nNebo si ji složíš jinak.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s08",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Klíč, pádlo a past",
+      "text": "Protože od té chvíle,\n\nuž to nebyla jen myš.\n\n\nByl to klíč.\n\nA pádlo.\n\nA past.\n\n\na konec úvodu.\n\nAle začátek něčeho dalšího.\n\n\n..možná..",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "illustration_full",
+      "modality": "image",
+      "role": "full_source_image",
+      "source": "user-uploaded image 1000194179.jpg",
+      "repository_path": null,
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      },
+      "visual_observations": [
+        "černobílá ruční kresba ženy/postavy s výraznýma očima, účesem a dlouhým krkem",
+        "postava drží u hrudi tmavý tvar připomínající myš nebo zvířecí siluetu",
+        "vpravo ručně psané nápisy „Chceš myš“ a znaky připomínající otazníky",
+        "ručně kreslený rám a kontrast silných černých tahů",
+        "svislý systémový popisek fotoaparátu Motorola je součástí fotografie, nikoli kresby"
+      ]
+    }
+  ],
+  "measurable_text_features": {
+    "status": "computed_in_browser_from_verbatim_source",
+    "candidates": [
+      "myš",
+      "všimla",
+      "věta",
+      "ticho",
+      "zvířata",
+      "otázka",
+      "smysl",
+      "jazyk",
+      "strach",
+      "klíč",
+      "pádlo",
+      "past",
+      "ne",
+      "ani",
+      "něco",
+      "tak nějak"
+    ]
+  },
+  "embedding_protocol": {
+    "text_model": "record exact provider/model/version",
+    "image_model": "record exact provider/model/version",
+    "comparison_rule": "Only compare vectors from the same model/version, dimension and compatible embedding space.",
+    "joint_multimodal": "Only when explicitly supported by the model.",
+    "no_synthetic_vectors": true
+  }
+}
