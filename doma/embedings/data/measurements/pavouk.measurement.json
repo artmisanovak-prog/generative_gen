@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "pavouk",
+  "title": "Pavouk",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/pavouk.txt",
+    "sha": "ddd7605738b1ae8e0718b62bd29cc2a15631e99f",
+    "characters": 1745
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/pavouk.jpg",
+    "status": "soubor ověřen v repozitáři; numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "PAVOUK který byl jen Jen Tak. Tak.",
+      "text": "PAVOUK\n\nkterý byl jen Jen Tak. Tak.\n\nPavouk měl nitě.\n\nTenké, pevné, neviditelné.\n\nVěšel na ně věci.\n\nNe věci jako ponožky nebo klíče.\n\nAle věci, co se nedají držet.",
+      "characters": 165,
+      "words": 29
+    },
+    {
+      "id": "02",
+      "label": "Slova, co se neřekla. Pocity, co se",
+      "text": "Slova, co se neřekla.\n\nPocity, co se nehodily.\n\nOtázky, co neměly odpověď.\n\nVšechno zůstalo viset.\n\nJen tak.\n\nTak.\n\nJedna věta visela mezi dvěma větvemi.",
+      "characters": 153,
+      "words": 24
+    },
+    {
+      "id": "03",
+      "label": "„Promiň, že jsem…“ A dál už nic.",
+      "text": "„Promiň, že jsem…“\n\nA dál už nic.\n\nJen nit.\n\nJen ticho.\n\nJedna vzpomínka visela nad dveřmi.\n\nNa den, kdy se mělo něco stát, ale nestalo.\n\nA pořád tam byla.",
+      "characters": 155,
+      "words": 29
+    },
+    {
+      "id": "04",
+      "label": "Jako ozdoba, co nikdo nechtěl. Jedna omluva",
+      "text": "Jako ozdoba, co nikdo nechtěl.\n\nJedna omluva visela těsně nad hlavou.\n\nTak nízko, že se jí dalo dotknout.\n\nAle nikdo to neudělal.\n\nProtože co kdyby spadla?\n\nPavouk seděl uprostřed.\n\nV srdci sítě.",
+      "characters": 195,
+      "words": 32
+    },
+    {
+      "id": "05",
+      "label": "A nehybal se. Protože když se hýbeš,",
+      "text": "A nehybal se.\n\nProtože když se hýbeš, věci padají.\n\nA když padají, už je nikdo nezvedne.\n\n„Proč to nenecháš spadnout?“ zeptala se myš.\n\nTa, co si zapisuje ticho.\n\n„Protože když to visí, ještě to může být,“ řekl pavouk.",
+      "characters": 218,
+      "words": 38
+    },
+    {
+      "id": "06",
+      "label": "„A když to spadne?“ „Pak už je",
+      "text": "„A když to spadne?“\n\n„Pak už je to jen minulost.“\n\nMyš si to poznamenala.\n\nDo mezery mezi slovy „jen“ a „tak“.\n\nA pak se zeptala:\n\n„A co když to visí moc dlouho?“\n\n„Pak to ztvrdne,“ řekl pavouk.",
+      "characters": 194,
+      "words": 37
+    },
+    {
+      "id": "07",
+      "label": "„A už to nejde rozmotat.“ Pavouk dál",
+      "text": "„A už to nejde rozmotat.“\n\nPavouk dál věšel.\n\nJednu lásku, co se neřekla.\n\nJednu hádku, co se nevyřešila.\n\nJednu neděli, co se nikdy nestala.\n\nA jednu větu, co zněla:\n\n„To je v pohodě.“",
+      "characters": 185,
+      "words": 33
+    },
+    {
+      "id": "08",
+      "label": "Ale nebyla. Vítr přišel. Nenápadný. Ale přesný.",
+      "text": "Ale nebyla.\n\nVítr přišel.\n\nNenápadný.\n\nAle přesný.\n\nZavál.\n\nA všechno se rozhoupalo.\n\nAle nic nespadlo.",
+      "characters": 103,
+      "words": 15
+    },
+    {
+      "id": "09",
+      "label": "„Všechno zůstalo viset,“ řekl pavouk. „Jen tak.“",
+      "text": "„Všechno zůstalo viset,“ řekl pavouk.\n\n„Jen tak.“\n\n„Tak.“\n\nMyš se podívala nahoru.\n\nNa síť.\n\nNa věci, co visely.\n\nNa to, co se mělo stát, ale nestalo.",
+      "characters": 150,
+      "words": 26
+    },
+    {
+      "id": "10",
+      "label": "A řekla: „Možná je tohle ten největší",
+      "text": "A řekla:\n\n„Možná je tohle ten největší pád. Když se nic nezmění.“\n\nPavouk se usmál.\n\nAle jen trochu.\n\nA zavěsil další věc.\n\nTentokrát ticho.",
+      "characters": 140,
+      "words": 24
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 396,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.927657,
+    "pca_pc1_percent": 17.78,
+    "pca_pc2_percent": 14.69,
+    "pca_first_two_percent": 32.47
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.893385,
+        0.958874,
+        0.950092,
+        0.955967,
+        0.958346,
+        0.938414,
+        0.973686,
+        0.807811,
+        0.965879
+      ],
+      [
+        0.893385,
+        0,
+        0.954971,
+        0.925454,
+        0.971063,
+        0.945127,
+        0.853091,
+        0.974092,
+        0.770476,
+        0.978936
+      ],
+      [
+        0.958874,
+        0.954971,
+        0,
+        0.943318,
+        0.956779,
+        0.933648,
+        0.953655,
+        0.940101,
+        0.838569,
+        0.923145
+      ],
+      [
+        0.950092,
+        0.925454,
+        0.943318,
+        0,
+        0.920811,
+        0.95499,
+        0.937565,
+        0.974037,
+        0.941393,
+        0.983322
+      ],
+      [
+        0.955967,
+        0.971063,
+        0.956779,
+        0.920811,
+        0,
+        0.728601,
+        0.908425,
+        0.977262,
+        0.910867,
+        0.89643
+      ],
+      [
+        0.958346,
+        0.945127,
+        0.933648,
+        0.95499,
+        0.728601,
+        0,
+        0.887331,
+        0.971108,
+        0.897355,
+        0.91098
+      ],
+      [
+        0.938414,
+        0.853091,
+        0.953655,
+        0.937565,
+        0.908425,
+        0.887331,
+        0,
+        0.977137,
+        0.907162,
+        0.95061
+      ],
+      [
+        0.973686,
+        0.974092,
+        0.940101,
+        0.974037,
+        0.977262,
+        0.971108,
+        0.977137,
+        0,
+        0.94789,
+        0.930148
+      ],
+      [
+        0.807811,
+        0.770476,
+        0.838569,
+        0.941393,
+        0.910867,
+        0.897355,
+        0.907162,
+        0.94789,
+        0,
+        0.966253
+      ],
+      [
+        0.965879,
+        0.978936,
+        0.923145,
+        0.983322,
+        0.89643,
+        0.91098,
+        0.95061,
+        0.930148,
+        0.966253,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.106615,
+        0.041126,
+        0.049908,
+        0.044033,
+        0.041654,
+        0.061586,
+        0.026314,
+        0.192189,
+        0.034121
+      ],
+      [
+        0.106615,
+        1,
+        0.045029,
+        0.074546,
+        0.028937,
+        0.054873,
+        0.146909,
+        0.025908,
+        0.229524,
+        0.021064
+      ],
+      [
+        0.041126,
+        0.045029,
+        1,
+        0.056682,
+        0.043221,
+        0.066352,
+        0.046345,
+        0.059899,
+        0.161431,
+        0.076855
+      ],
+      [
+        0.049908,
+        0.074546,
+        0.056682,
+        1,
+        0.079189,
+        0.04501,
+        0.062435,
+        0.025963,
+        0.058607,
+        0.016678
+      ],
+      [
+        0.044033,
+        0.028937,
+        0.043221,
+        0.079189,
+        1,
+        0.271399,
+        0.091575,
+        0.022738,
+        0.089133,
+        0.10357
+      ],
+      [
+        0.041654,
+        0.054873,
+        0.066352,
+        0.04501,
+        0.271399,
+        1,
+        0.112669,
+        0.028892,
+        0.102645,
+        0.08902
+      ],
+      [
+        0.061586,
+        0.146909,
+        0.046345,
+        0.062435,
+        0.091575,
+        0.112669,
+        1,
+        0.022863,
+        0.092838,
+        0.04939
+      ],
+      [
+        0.026314,
+        0.025908,
+        0.059899,
+        0.025963,
+        0.022738,
+        0.028892,
+        0.022863,
+        1,
+        0.05211,
+        0.069852
+      ],
+      [
+        0.192189,
+        0.229524,
+        0.161431,
+        0.058607,
+        0.089133,
+        0.102645,
+        0.092838,
+        0.05211,
+        1,
+        0.033747
+      ],
+      [
+        0.034121,
+        0.021064,
+        0.076855,
+        0.016678,
+        0.10357,
+        0.08902,
+        0.04939,
+        0.069852,
+        0.033747,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "05",
+        "b": "06",
+        "distance": 0.728601,
+        "similarity": 0.271399
+      },
+      {
+        "a": "02",
+        "b": "09",
+        "distance": 0.770476,
+        "similarity": 0.229524
+      },
+      {
+        "a": "01",
+        "b": "09",
+        "distance": 0.807811,
+        "similarity": 0.192189
+      },
+      {
+        "a": "03",
+        "b": "09",
+        "distance": 0.838569,
+        "similarity": 0.161431
+      },
+      {
+        "a": "02",
+        "b": "07",
+        "distance": 0.853091,
+        "similarity": 0.146909
+      },
+      {
+        "a": "06",
+        "b": "07",
+        "distance": 0.887331,
+        "similarity": 0.112669
+      },
+      {
+        "a": "01",
+        "b": "02",
+        "distance": 0.893385,
+        "similarity": 0.106615
+      },
+      {
+        "a": "05",
+        "b": "10",
+        "distance": 0.89643,
+        "similarity": 0.10357
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "04",
+        "b": "10",
+        "distance": 0.983322,
+        "similarity": 0.016678
+      },
+      {
+        "a": "02",
+        "b": "10",
+        "distance": 0.978936,
+        "similarity": 0.021064
+      },
+      {
+        "a": "05",
+        "b": "08",
+        "distance": 0.977262,
+        "similarity": 0.022738
+      },
+      {
+        "a": "07",
+        "b": "08",
+        "distance": 0.977137,
+        "similarity": 0.022863
+      },
+      {
+        "a": "02",
+        "b": "08",
+        "distance": 0.974092,
+        "similarity": 0.025908
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      17.7766,
+      14.6943
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "PAVOUK který byl jen Jen Tak. Tak.",
+        "x": 6.465264330598829,
+        "y": -4.525875847972387
+      },
+      {
+        "id": "02",
+        "label": "Slova, co se neřekla. Pocity, co se",
+        "x": 4.663811192270139,
+        "y": 0.5367212278482951
+      },
+      {
+        "id": "03",
+        "label": "„Promiň, že jsem…“ A dál už nic.",
+        "x": 3.8444676376901157,
+        "y": -4.142087923200488
+      },
+      {
+        "id": "04",
+        "label": "Jako ozdoba, co nikdo nechtěl. Jedna omluva",
+        "x": 4.249315717453335,
+        "y": -4.1945243888293655
+      },
+      {
+        "id": "05",
+        "label": "A nehybal se. Protože když se hýbeš,",
+        "x": -13.791584079999952,
+        "y": -2.120431045400798
+      },
+      {
+        "id": "06",
+        "label": "„A když to spadne?“ „Pak už je",
+        "x": -15.863508020328752,
+        "y": 1.268420925304087
+      },
+      {
+        "id": "07",
+        "label": "„A už to nejde rozmotat.“ Pavouk dál",
+        "x": 3.382615517699244,
+        "y": 19.87579400649853
+      },
+      {
+        "id": "08",
+        "label": "Ale nebyla. Vítr přišel. Nenápadný. Ale přesný.",
+        "x": 2.575383196809146,
+        "y": -2.012698534321906
+      },
+      {
+        "id": "09",
+        "label": "„Všechno zůstalo viset,“ řekl pavouk. „Jen tak.“",
+        "x": 3.7079616865588774,
+        "y": -2.40513743401268
+      },
+      {
+        "id": "10",
+        "label": "A řekla: „Možná je tohle ten největší",
+        "x": 0.7662728212489648,
+        "y": -2.2801809859132804
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "05",
+        "to": "06",
+        "death": 0.728601
+      },
+      {
+        "from": "02",
+        "to": "09",
+        "death": 0.770476
+      },
+      {
+        "from": "01",
+        "to": "09",
+        "death": 0.807811
+      },
+      {
+        "from": "03",
+        "to": "09",
+        "death": 0.838569
+      },
+      {
+        "from": "02",
+        "to": "07",
+        "death": 0.853091
+      },
+      {
+        "from": "06",
+        "to": "07",
+        "death": 0.887331
+      },
+      {
+        "from": "05",
+        "to": "10",
+        "death": 0.89643
+      },
+      {
+        "from": "04",
+        "to": "05",
+        "death": 0.920811
+      },
+      {
+        "from": "08",
+        "to": "10",
+        "death": 0.930148
+      }
+    ],
+    "largest_finite_lifetime": 0.930148,
+    "mean_merge_distance": 0.848141
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do stejnoměrných navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy úseků jsou odvozené z jejich prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding ani sémantická vzdálenost. PCA osy jsou vypočtené samostatně pro tuto kartu; souřadnice nelze přímo porovnávat napříč kartami."
+  }
+}
