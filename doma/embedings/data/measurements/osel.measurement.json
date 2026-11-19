@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "osel",
+  "title": "Osel",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/osel.txt",
+    "sha": "0cc35169f40c3fd1c2e0373db42e25ef665aff4c",
+    "characters": 1723
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/osel.jpg",
+    "status": "soubor ověřen v repozitáři; numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Text: levá pravá seno sláma pro jednoho",
+      "text": "Text: levá pravá seno sláma pro jednoho psina pro druhého oslovina jedna dvě raz raz dva\n\nO OSLOVI\n\nkterý šel vlevo, ale myslel si, že jde vpravo\n\nOsel se narodil mezi dvěma hromadami.\n\nJedna byla seno.\n\nDruhá sláma.\n\nA nikdo mu neřekl, která je která.",
+      "characters": 252,
+      "words": 45
+    },
+    {
+      "id": "02",
+      "label": "„Levá,“ řekl někdo. „Pravá,“ řekl jiný. „Seno,“",
+      "text": "„Levá,“ řekl někdo.\n\n„Pravá,“ řekl jiný.\n\n„Seno,“ řekl hlas.\n\n„Sláma,“ řekl stín.\n\nOsel se podíval.\n\nObě hromady vypadaly stejně.",
+      "characters": 129,
+      "words": 19
+    },
+    {
+      "id": "03",
+      "label": "Jedna trochu měkčí. Jedna trochu hlučnější. Ale",
+      "text": "Jedna trochu měkčí.\n\nJedna trochu hlučnější.\n\nAle jinak? Chaos.\n\n„Pro jednoho psina,“ řekl hlas.\n\n„Pro druhého oslovina,“ dodal jiný.\n\nA osel se zamyslel:\n\n„Kdo jsem já? Psina, nebo oslovina?“",
+      "characters": 192,
+      "words": 29
+    },
+    {
+      "id": "04",
+      "label": "Šel vlevo. Pak se otočil. A šel",
+      "text": "Šel vlevo.\n\nPak se otočil.\n\nA šel vpravo.\n\nAle vypadalo to stejně.\n\nZemě byla země.\n\nHromada byla hromada.",
+      "characters": 106,
+      "words": 18
+    },
+    {
+      "id": "05",
+      "label": "A pravidla? Neviditelná. Potkal myš. Ta si",
+      "text": "A pravidla? Neviditelná.\n\nPotkal myš.\n\nTa si zapisovala, co se děje.\n\n„Kam jdeš?“ zeptala se.\n\n„Nevím,“ řekl osel.\n\n„Levá, pravá, seno, sláma. Všechno se mi míchá.“\n\nMyš si poznamenala:",
+      "characters": 185,
+      "words": 29
+    },
+    {
+      "id": "06",
+      "label": "Osel – zmatený, ale důsledný. „A co",
+      "text": "Osel – zmatený, ale důsledný.\n\n„A co hledáš?“\n\n„Správnost,“ řekl osel.\n\n„A co to je?“\n\n„To, co se neřekne nahlas, ale všichni to očekávají.“\n\nMyš se zamyslela.",
+      "characters": 159,
+      "words": 26
+    },
+    {
+      "id": "07",
+      "label": "A pak mu podala cedulku. Na jedné",
+      "text": "A pak mu podala cedulku.\n\nNa jedné straně bylo napsáno „seno“.\n\nNa druhé „sláma“.\n\nAle písmo bylo stejné.\n\nOsel si ji pověsil na krk.\n\nA šel dál.\n\nLevá.",
+      "characters": 152,
+      "words": 28
+    },
+    {
+      "id": "08",
+      "label": "Pravá. Seno. Sláma. A když ho někdo",
+      "text": "Pravá.\n\nSeno.\n\nSláma.\n\nA když ho někdo zastavil a zeptal se:\n\n„Kam jdeš?“\n\nŘekl:",
+      "characters": 80,
+      "words": 14
+    },
+    {
+      "id": "09",
+      "label": "„Podle cedulky.“ „A co je na ní?“",
+      "text": "„Podle cedulky.“\n\n„A co je na ní?“\n\n„To, co si myslíš, že tam je.“\n\nA tak se stal průvodcem.\n\nNe tím, co ví.\n\nAle tím, co jde.\n\nA když se někdo ztratil,",
+      "characters": 152,
+      "words": 32
+    },
+    {
+      "id": "10",
+      "label": "šel za oslem. Protože i když neví,",
+      "text": "šel za oslem.\n\nProtože i když neví,\n\nvypadá, že ví.\n\nA když se někdo ptal, co je to „oslovina“,\n\nmyš řekla:\n\n„To je, když jdeš dál, i když nevíš, kam.“",
+      "characters": 151,
+      "words": 30
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 358,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.929067,
+    "pca_pc1_percent": 19.2,
+    "pca_pc2_percent": 14.03,
+    "pca_first_two_percent": 33.23
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.935877,
+        0.792846,
+        0.904126,
+        0.904396,
+        0.963407,
+        0.933866,
+        0.892558,
+        0.947486,
+        0.960474
+      ],
+      [
+        0.935877,
+        0,
+        0.893498,
+        0.978657,
+        0.90373,
+        0.940242,
+        0.952205,
+        0.871195,
+        0.982772,
+        0.986288
+      ],
+      [
+        0.792846,
+        0.893498,
+        0,
+        0.986201,
+        0.975085,
+        0.958017,
+        0.983605,
+        0.974047,
+        0.981227,
+        0.975387
+      ],
+      [
+        0.904126,
+        0.978657,
+        0.986201,
+        0,
+        0.983856,
+        0.9367,
+        0.918978,
+        0.980636,
+        0.966465,
+        0.954345
+      ],
+      [
+        0.904396,
+        0.90373,
+        0.975085,
+        0.983856,
+        0,
+        0.869696,
+        0.947543,
+        0.82271,
+        0.923683,
+        0.937657
+      ],
+      [
+        0.963407,
+        0.940242,
+        0.958017,
+        0.9367,
+        0.869696,
+        0,
+        0.963569,
+        0.954369,
+        0.777572,
+        0.857686
+      ],
+      [
+        0.933866,
+        0.952205,
+        0.983605,
+        0.918978,
+        0.947543,
+        0.963569,
+        0,
+        0.956629,
+        0.931889,
+        0.973524
+      ],
+      [
+        0.892558,
+        0.871195,
+        0.974047,
+        0.980636,
+        0.82271,
+        0.954369,
+        0.956629,
+        0,
+        0.91498,
+        0.855189
+      ],
+      [
+        0.947486,
+        0.982772,
+        0.981227,
+        0.966465,
+        0.923683,
+        0.777572,
+        0.931889,
+        0.91498,
+        0,
+        0.803132
+      ],
+      [
+        0.960474,
+        0.986288,
+        0.975387,
+        0.954345,
+        0.937657,
+        0.857686,
+        0.973524,
+        0.855189,
+        0.803132,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.064123,
+        0.207154,
+        0.095874,
+        0.095604,
+        0.036593,
+        0.066134,
+        0.107442,
+        0.052514,
+        0.039526
+      ],
+      [
+        0.064123,
+        1,
+        0.106502,
+        0.021343,
+        0.09627,
+        0.059758,
+        0.047795,
+        0.128805,
+        0.017228,
+        0.013712
+      ],
+      [
+        0.207154,
+        0.106502,
+        1,
+        0.013799,
+        0.024915,
+        0.041983,
+        0.016395,
+        0.025953,
+        0.018773,
+        0.024613
+      ],
+      [
+        0.095874,
+        0.021343,
+        0.013799,
+        1,
+        0.016144,
+        0.0633,
+        0.081022,
+        0.019364,
+        0.033535,
+        0.045655
+      ],
+      [
+        0.095604,
+        0.09627,
+        0.024915,
+        0.016144,
+        1,
+        0.130304,
+        0.052457,
+        0.17729,
+        0.076317,
+        0.062343
+      ],
+      [
+        0.036593,
+        0.059758,
+        0.041983,
+        0.0633,
+        0.130304,
+        1,
+        0.036431,
+        0.045631,
+        0.222428,
+        0.142314
+      ],
+      [
+        0.066134,
+        0.047795,
+        0.016395,
+        0.081022,
+        0.052457,
+        0.036431,
+        1,
+        0.043371,
+        0.068111,
+        0.026476
+      ],
+      [
+        0.107442,
+        0.128805,
+        0.025953,
+        0.019364,
+        0.17729,
+        0.045631,
+        0.043371,
+        1,
+        0.08502,
+        0.144811
+      ],
+      [
+        0.052514,
+        0.017228,
+        0.018773,
+        0.033535,
+        0.076317,
+        0.222428,
+        0.068111,
+        0.08502,
+        1,
+        0.196868
+      ],
+      [
+        0.039526,
+        0.013712,
+        0.024613,
+        0.045655,
+        0.062343,
+        0.142314,
+        0.026476,
+        0.144811,
+        0.196868,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "06",
+        "b": "09",
+        "distance": 0.777572,
+        "similarity": 0.222428
+      },
+      {
+        "a": "01",
+        "b": "03",
+        "distance": 0.792846,
+        "similarity": 0.207154
+      },
+      {
+        "a": "09",
+        "b": "10",
+        "distance": 0.803132,
+        "similarity": 0.196868
+      },
+      {
+        "a": "05",
+        "b": "08",
+        "distance": 0.82271,
+        "similarity": 0.17729
+      },
+      {
+        "a": "08",
+        "b": "10",
+        "distance": 0.855189,
+        "similarity": 0.144811
+      },
+      {
+        "a": "06",
+        "b": "10",
+        "distance": 0.857686,
+        "similarity": 0.142314
+      },
+      {
+        "a": "05",
+        "b": "06",
+        "distance": 0.869696,
+        "similarity": 0.130304
+      },
+      {
+        "a": "02",
+        "b": "08",
+        "distance": 0.871195,
+        "similarity": 0.128805
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "02",
+        "b": "10",
+        "distance": 0.986288,
+        "similarity": 0.013712
+      },
+      {
+        "a": "03",
+        "b": "04",
+        "distance": 0.986201,
+        "similarity": 0.013799
+      },
+      {
+        "a": "04",
+        "b": "05",
+        "distance": 0.983856,
+        "similarity": 0.016144
+      },
+      {
+        "a": "03",
+        "b": "07",
+        "distance": 0.983605,
+        "similarity": 0.016395
+      },
+      {
+        "a": "02",
+        "b": "09",
+        "distance": 0.982772,
+        "similarity": 0.017228
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      19.1984,
+      14.0327
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "Text: levá pravá seno sláma pro jednoho",
+        "x": -18.6614051273264,
+        "y": 8.277290462108741
+      },
+      {
+        "id": "02",
+        "label": "„Levá,“ řekl někdo. „Pravá,“ řekl jiný. „Seno,“",
+        "x": 0.03534876353382165,
+        "y": -4.684952779007751
+      },
+      {
+        "id": "03",
+        "label": "Jedna trochu měkčí. Jedna trochu hlučnější. Ale",
+        "x": -7.527249304914359,
+        "y": -2.850035003528925
+      },
+      {
+        "id": "04",
+        "label": "Šel vlevo. Pak se otočil. A šel",
+        "x": 0.2773284478753568,
+        "y": -3.2510192081809635
+      },
+      {
+        "id": "05",
+        "label": "A pravidla? Neviditelná. Potkal myš. Ta si",
+        "x": 1.4461416597683086,
+        "y": -3.9467307276024655
+      },
+      {
+        "id": "06",
+        "label": "Osel – zmatený, ale důsledný. „A co",
+        "x": 5.476982076998065,
+        "y": 1.3932717339466596
+      },
+      {
+        "id": "07",
+        "label": "A pak mu podala cedulku. Na jedné",
+        "x": 1.3791325924749027,
+        "y": -11.518170624053573
+      },
+      {
+        "id": "08",
+        "label": "Pravá. Seno. Sláma. A když ho někdo",
+        "x": 0.9550565198896076,
+        "y": -1.3864556774863048
+      },
+      {
+        "id": "09",
+        "label": "„Podle cedulky.“ „A co je na ní?“",
+        "x": 8.698223723704574,
+        "y": 9.078369365337837
+      },
+      {
+        "id": "10",
+        "label": "šel za oslem. Protože i když neví,",
+        "x": 7.920440647995978,
+        "y": 8.888432458466783
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "06",
+        "to": "09",
+        "death": 0.777572
+      },
+      {
+        "from": "01",
+        "to": "03",
+        "death": 0.792846
+      },
+      {
+        "from": "09",
+        "to": "10",
+        "death": 0.803132
+      },
+      {
+        "from": "05",
+        "to": "08",
+        "death": 0.82271
+      },
+      {
+        "from": "08",
+        "to": "10",
+        "death": 0.855189
+      },
+      {
+        "from": "02",
+        "to": "08",
+        "death": 0.871195
+      },
+      {
+        "from": "01",
+        "to": "08",
+        "death": 0.892558
+      },
+      {
+        "from": "01",
+        "to": "04",
+        "death": 0.904126
+      },
+      {
+        "from": "04",
+        "to": "07",
+        "death": 0.918978
+      }
+    ],
+    "largest_finite_lifetime": 0.918978,
+    "mean_merge_distance": 0.848701
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do stejnoměrných navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy úseků jsou odvozené z jejich prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding ani sémantická vzdálenost. PCA osy jsou vypočtené samostatně pro tuto kartu; souřadnice nelze přímo porovnávat napříč kartami."
+  }
+}
