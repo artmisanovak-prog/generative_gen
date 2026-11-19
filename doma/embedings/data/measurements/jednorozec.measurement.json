@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "jednorozec",
+  "title": "Jednorožec",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/jednorozec.txt",
+    "sha": "e4b2744cedf61798d62fb4fe77184ce7c98de258",
+    "characters": 2947
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/jednorozec.jpg",
+    "status": "numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Text: nevěřím na delfíny ani na lední",
+      "text": "Text: nevěřím na delfíny ani na lední medvědy\n\nO JEDNOROŽCOVI\n\nkterý nevěřil na delfíny ani na lední medvědy\n\n—\n\nJednorožec byl.\n\nTo je první lež.\n\nAle když se řekne „jednorožec“, každý ví, co si představit.\n\nBílý. Roh. Lesk.\n\nNeskutečný, ale přesto definovaný neskutečně přesně..\n\n—\n\nJednorožec žil v krajině, kde se věřilo na všechno.",
+      "characters": 336,
+      "words": 52
+    },
+    {
+      "id": "02",
+      "label": "Na víly, na mluvící stromy, na svítící",
+      "text": "Na víly, na mluvící stromy, na svítící houby.\n\nNa delfíny, zpívající podvodní songy, které nikdo neslyší.\n\nNa lední medvědy, tancující kankán, který naopak slyší každej. i ti delfíni v těch svých hlubinách.\n\n—\n\nAle akorát ten ne. jednorožec nevěřil.\n\nNe v delfíny.\n\nNe v lední medvědy.\n\n„Jsou jen vymyšlení,“ říkal. „Jako Polednice, dědek Potíž nebo třeba hadi.“\n\n—\n\nA přitom je jmenoval.",
+      "characters": 388,
+      "words": 60
+    },
+    {
+      "id": "03",
+      "label": "A přitom o nich věděl. A přitom",
+      "text": "A přitom o nich věděl.\n\nA přitom měl v očích jejich stopy.\n\n—\n\nProtože kdysi — ne tak docela dávno, ale rozhodně ne dnes —\n\nse utrhla kra.\n\nVelká.\n\nLedová.\n\nA na ní lední medvěd.\n\nLed a voda. Silný vítr a vlny moře.\n\nA delfíni.",
+      "characters": 227,
+      "words": 42
+    },
+    {
+      "id": "04",
+      "label": "— A jeden z nich byl zvědavý.",
+      "text": "—\n\nA jeden z nich byl zvědavý.\n\nA medvěd byl sám.\n\nA kra byla dost velká.\n\nA příroda nemá moc rozumu.\n\n—\n\nA tak se stalo, co se stát nemělo.\n\nSpojili se.\n\nNe z lásky.\n\nZ logiky, která se tvářila jako nehoda.",
+      "characters": 207,
+      "words": 40
+    },
+    {
+      "id": "05",
+      "label": "— Ledová kra se houpala, jak ji",
+      "text": "—\n\nLedová kra se houpala, jak ji moře nadnášelo na vlnách.\n\nMedvědovy tlapy klouzali po ledu, delfín se nadechoval v bublinách.\n\n—\n\nVzduch byl plný soli a páry, zvuk zpěvu se mísil s praskáním ledu.\n\n—\n\nDva světy, které se nikdy neměly potkat, se navzájem poznaly.\n\nA mráz, místo aby je oddělil, spoji jel.\n\nA když si toho příroda všimla, bylo pozdě.\n\nRozum to odmítl, jenže hmota už to věděla.",
+      "characters": 394,
+      "words": 67
+    },
+    {
+      "id": "06",
+      "label": "— Medvěd se stal v té chvíli",
+      "text": "—\n\nMedvěd se stal v té chvíli rybou a delfin šelmou. Dva životy stvořené z protikladů. Z původní nesmyslnosti střetu, nemohlo vzejít nic kříženeheho.\n\n—\n\nA tak - vznikl tvor zcela vymyšlený.\n\n—\n\nA z toho se stal jednorožec.\n\nNe hned.\n\nNe přímo.\n\nAle postupně.\n\nZ ploutve a tlapy. Z bělosti a lesku. Ze šupin a z kožichu. Z úsměvu a zubů a z dechu, co se mění v mlhu.\n\n—",
+      "characters": 369,
+      "words": 66
+    },
+    {
+      "id": "07",
+      "label": "A když se jednorožec narodil, byl krásný.",
+      "text": "A když se jednorožec narodil, byl krásný.\n\nAle nejistý.\n\nJenže když zjistil:\n\nz čeho je vyrobený,\n\nz čeho je vysněný, z čeho je – zpanikařil.\n\n—\n\nProtože pokud je z reálných věcí,\n\nmůže být reálný.\n\nA pokud je reálný,\n\npřestává být jednorožec.",
+      "characters": 243,
+      "words": 40
+    },
+    {
+      "id": "08",
+      "label": "— Takže se rozhodl: Zapřít. Zrušit. Zneplatnit.",
+      "text": "—\n\nTakže se rozhodl:\n\nZapřít.\n\nZrušit.\n\nZneplatnit.\n\nZpochybnit.\n\nZnejistit.\n\nZamluvit.\n\n—\n\n„Delfíni neexistují,“ řekl.",
+      "characters": 119,
+      "words": 12
+    },
+    {
+      "id": "09",
+      "label": "„Lední medvěd pff jenom mýtus.“ „Nikdy nebyli.",
+      "text": "„Lední medvěd pff jenom mýtus.“\n\n„Nikdy nebyli. Žádná realita. Jsou jen neskutečnost. To, co není možné. Tak jako já.\n\n—\n\nAle jednou, když se díval do vody,\n\nuviděl odraz. a ten měl stín.\n\nA ten stín měl ploutev.\n\nta ploutev mela srst.\n\nA roh.\n\n—\n\nA jednorožec zavřel oči.",
+      "characters": 272,
+      "words": 47
+    },
+    {
+      "id": "10",
+      "label": "A řekl: „To není já. To není",
+      "text": "A řekl:\n\n„To není já.\n\nTo není pravda. To není možné. Tak jako já.“\n\n—\n\nA voda se zavlnila,\n\nkdyž vítr zavál.\n\nA medvěd někde na severu se usmál na vločku sněhu.\n\nA delfín někde v hlubinách poslal polibek po vodnim kruhu.\n\n—\n\ntakže zůstaň v klidu, když ti někdo řekne, že něco není možné: Nejspíš právě zachraňuje jednorožce.",
+      "characters": 325,
+      "words": 57
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 704,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.932789,
+    "pca_pc1_percent": 18.31,
+    "pca_pc2_percent": 14.7,
+    "pca_first_two_percent": 33.01
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.768924,
+        0.950341,
+        0.970861,
+        0.944313,
+        0.972936,
+        0.93705,
+        0.99318,
+        0.946007,
+        0.934924
+      ],
+      [
+        0.768924,
+        0,
+        0.885292,
+        0.971072,
+        0.964349,
+        0.953363,
+        0.96895,
+        0.989043,
+        0.938794,
+        0.934471
+      ],
+      [
+        0.950341,
+        0.885292,
+        0,
+        0.865684,
+        0.928623,
+        0.882134,
+        0.961519,
+        0.982225,
+        0.897645,
+        0.9047
+      ],
+      [
+        0.970861,
+        0.971072,
+        0.865684,
+        0,
+        0.913008,
+        0.759526,
+        0.887765,
+        0.983444,
+        0.924192,
+        0.925019
+      ],
+      [
+        0.944313,
+        0.964349,
+        0.928623,
+        0.913008,
+        0,
+        0.92701,
+        0.942274,
+        0.984075,
+        0.951508,
+        0.919825
+      ],
+      [
+        0.972936,
+        0.953363,
+        0.882134,
+        0.759526,
+        0.92701,
+        0,
+        0.834079,
+        0.991669,
+        0.929337,
+        0.921222
+      ],
+      [
+        0.93705,
+        0.96895,
+        0.961519,
+        0.887765,
+        0.942274,
+        0.834079,
+        0,
+        0.996601,
+        0.959763,
+        0.971324
+      ],
+      [
+        0.99318,
+        0.989043,
+        0.982225,
+        0.983444,
+        0.984075,
+        0.991669,
+        0.996601,
+        0,
+        0.996232,
+        0.965027
+      ],
+      [
+        0.946007,
+        0.938794,
+        0.897645,
+        0.924192,
+        0.951508,
+        0.929337,
+        0.959763,
+        0.996232,
+        0,
+        0.846219
+      ],
+      [
+        0.934924,
+        0.934471,
+        0.9047,
+        0.925019,
+        0.919825,
+        0.921222,
+        0.971324,
+        0.965027,
+        0.846219,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.231076,
+        0.049659,
+        0.029139,
+        0.055687,
+        0.027064,
+        0.06295,
+        0.00682,
+        0.053993,
+        0.065076
+      ],
+      [
+        0.231076,
+        1,
+        0.114708,
+        0.028928,
+        0.035651,
+        0.046637,
+        0.03105,
+        0.010957,
+        0.061206,
+        0.065529
+      ],
+      [
+        0.049659,
+        0.114708,
+        1,
+        0.134316,
+        0.071377,
+        0.117866,
+        0.038481,
+        0.017775,
+        0.102355,
+        0.0953
+      ],
+      [
+        0.029139,
+        0.028928,
+        0.134316,
+        1,
+        0.086992,
+        0.240474,
+        0.112235,
+        0.016556,
+        0.075808,
+        0.074981
+      ],
+      [
+        0.055687,
+        0.035651,
+        0.071377,
+        0.086992,
+        1,
+        0.07299,
+        0.057726,
+        0.015925,
+        0.048492,
+        0.080175
+      ],
+      [
+        0.027064,
+        0.046637,
+        0.117866,
+        0.240474,
+        0.07299,
+        1,
+        0.165921,
+        0.008331,
+        0.070663,
+        0.078778
+      ],
+      [
+        0.06295,
+        0.03105,
+        0.038481,
+        0.112235,
+        0.057726,
+        0.165921,
+        1,
+        0.003399,
+        0.040237,
+        0.028676
+      ],
+      [
+        0.00682,
+        0.010957,
+        0.017775,
+        0.016556,
+        0.015925,
+        0.008331,
+        0.003399,
+        1,
+        0.003768,
+        0.034973
+      ],
+      [
+        0.053993,
+        0.061206,
+        0.102355,
+        0.075808,
+        0.048492,
+        0.070663,
+        0.040237,
+        0.003768,
+        1,
+        0.153781
+      ],
+      [
+        0.065076,
+        0.065529,
+        0.0953,
+        0.074981,
+        0.080175,
+        0.078778,
+        0.028676,
+        0.034973,
+        0.153781,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "04",
+        "b": "06",
+        "distance": 0.759526,
+        "similarity": 0.240474
+      },
+      {
+        "a": "01",
+        "b": "02",
+        "distance": 0.768924,
+        "similarity": 0.231076
+      },
+      {
+        "a": "06",
+        "b": "07",
+        "distance": 0.834079,
+        "similarity": 0.165921
+      },
+      {
+        "a": "09",
+        "b": "10",
+        "distance": 0.846219,
+        "similarity": 0.153781
+      },
+      {
+        "a": "03",
+        "b": "04",
+        "distance": 0.865684,
+        "similarity": 0.134316
+      },
+      {
+        "a": "03",
+        "b": "06",
+        "distance": 0.882134,
+        "similarity": 0.117866
+      },
+      {
+        "a": "02",
+        "b": "03",
+        "distance": 0.885292,
+        "similarity": 0.114708
+      },
+      {
+        "a": "04",
+        "b": "07",
+        "distance": 0.887765,
+        "similarity": 0.112235
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "07",
+        "b": "08",
+        "distance": 0.996601,
+        "similarity": 0.003399
+      },
+      {
+        "a": "08",
+        "b": "09",
+        "distance": 0.996232,
+        "similarity": 0.003768
+      },
+      {
+        "a": "01",
+        "b": "08",
+        "distance": 0.99318,
+        "similarity": 0.00682
+      },
+      {
+        "a": "06",
+        "b": "08",
+        "distance": 0.991669,
+        "similarity": 0.008331
+      },
+      {
+        "a": "02",
+        "b": "08",
+        "distance": 0.989043,
+        "similarity": 0.010957
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      18.308,
+      14.7007
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "Text: nevěřím na delfíny ani na lední",
+        "x": 11.039605487350924,
+        "y": -10.917424070627648
+      },
+      {
+        "id": "02",
+        "label": "Na víly, na mluvící stromy, na svítící",
+        "x": 12.122484593399493,
+        "y": -16.263015549329456
+      },
+      {
+        "id": "03",
+        "label": "A přitom o nich věděl. A přitom",
+        "x": 1.2839756171229708,
+        "y": 0.43593393520954277
+      },
+      {
+        "id": "04",
+        "label": "— A jeden z nich byl zvědavý.",
+        "x": -4.671164368291379,
+        "y": 1.2093983611419243
+      },
+      {
+        "id": "05",
+        "label": "— Ledová kra se houpala, jak ji",
+        "x": 3.0204234635604874,
+        "y": 18.475388960453845
+      },
+      {
+        "id": "06",
+        "label": "— Medvěd se stal v té chvíli",
+        "x": -27.696781643251782,
+        "y": -6.839459916173749
+      },
+      {
+        "id": "07",
+        "label": "A když se jednorožec narodil, byl krásný.",
+        "x": -5.2606806037205285,
+        "y": -1.6538303684727926
+      },
+      {
+        "id": "08",
+        "label": "— Takže se rozhodl: Zapřít. Zrušit. Zneplatnit.",
+        "x": 1.9363456091385545,
+        "y": 0.8894428014312327
+      },
+      {
+        "id": "09",
+        "label": "„Lední medvěd pff jenom mýtus.“ „Nikdy nebyli.",
+        "x": 3.192812531024815,
+        "y": 3.6391873294144275
+      },
+      {
+        "id": "10",
+        "label": "A řekl: „To není já. To není",
+        "x": 5.032979313666516,
+        "y": 11.024378516952522
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "04",
+        "to": "06",
+        "death": 0.759526
+      },
+      {
+        "from": "01",
+        "to": "02",
+        "death": 0.768924
+      },
+      {
+        "from": "06",
+        "to": "07",
+        "death": 0.834079
+      },
+      {
+        "from": "09",
+        "to": "10",
+        "death": 0.846219
+      },
+      {
+        "from": "03",
+        "to": "04",
+        "death": 0.865684
+      },
+      {
+        "from": "02",
+        "to": "03",
+        "death": 0.885292
+      },
+      {
+        "from": "03",
+        "to": "09",
+        "death": 0.897645
+      },
+      {
+        "from": "04",
+        "to": "05",
+        "death": 0.913008
+      },
+      {
+        "from": "08",
+        "to": "10",
+        "death": 0.965027
+      }
+    ],
+    "largest_finite_lifetime": 0.965027,
+    "mean_merge_distance": 0.859489
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy vycházejí z prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding. PCA osy jsou specifické pro tuto kartu a nelze je přímo porovnávat napříč kartami."
+  }
+}
