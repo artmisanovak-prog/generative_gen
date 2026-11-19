@@ -1,0 +1,254 @@
+{
+  "schema": "semantic-gap.embedding-source.v1",
+  "card_id": "kocour",
+  "title": "O KOCOUROVI — Jak kocour sežral dvě berušky a půl hodiny krkal tečky",
+  "language": "cs",
+  "status": "source_prepared_vectors_not_computed",
+  "source_integrity": {
+    "text": "user_supplied_in_conversation_verbatim",
+    "image": "user_uploaded_in_conversation",
+    "normalization": "Preserve original spelling, punctuation, line breaks and unusual forms; no editorial correction."
+  },
+  "sources": [
+    {
+      "id": "story_full",
+      "modality": "text",
+      "role": "full_source",
+      "text": "O KOCOUROVI\nJak kocour sežral dvě berušky a půl hodiny krkal tečky\n\n\nSležral dvě - ne tři, ne jednu - dvě - přesně -14 teček a trvalo to půl hodiny - 30 minut - přesně. \n\nJak to přišlo tak to přestalo.\n\nRáz na ráz.\n\n\nChňap a hlt a chlamst - nebo něco takového a nakonec - mlask, mlask - dvakrát - přesně.\n\n\nŽily byly dvě berušky, každá sedm teček měla, když uviděl je jeden kocour byla to mela.\n\nAspoň pro ně.\n\nPo 14ti tečkách\n\nv jednom mžiku \n\nzem se slehla.\n\nRozhodně aspoň kocour se svými útrobami.\n\n\nAle ta myš, vždycky zvědavá byla.\n\nOdmalička chodívala \n\na kde mohla se vyptávala, \n\nkde se tečky na beruškách vzaly?\n\nK čemu je maji? \n\nProč si radši nevytvoří pravý maskování?\n\n\nA ta přesná matika..\n\nKdo vlastně z těch, co s nimi přijdou do styku, takhle přesně počítá?\n\n\nNo a toho dne - náhle - se to stalo\n\na myš svou odpověď měla.\n\n\nKocour mlaskl a pak znovu \n\na hned na to začalo to.\n\nPůl hodiny a bylo to zaznamenáno - přesně.\n\n\nKocour krkal tečky a dokončoval věty!\n\nNěkdy celé souvětí!!\n\nJenomže tím zároveň skákal lidem do řeči,\n\ntím že za ně dokončoval, co nedokončili.\n\n\nSkočil všem do řeči koncem věty\n\n\nale vždycky o něco málo\n\n\nněkdy i o docela dost\n\n\ndřív, než měla věta původně skončit\n\n\nnebo - než původně věta skončit měla.\n\nA celou půlhodinu nemohl tenkrát nikdo nic \n\nne - dokončit.\n\nNešlo to.\n\n\nKaždému dřív.\n\n\nnež se k tomu dostal.\n\n\nvšem kocour větu ukončil.\n\n\nHned.\n\n\nKocour se tomu smál, \n\nale krkal dál.\n\nA krkal, dokud neskončil.\n\nPředstavte si to:\n\nSkončil větu a pak skončil krkat.\n\n\nA lidé zase začali moct své věty ukončovat sami.\n\nHned.\n\n\nJenže, jak se to tak občas stává, \n\npřestože nikdo nevěděl co, \n\nkaždý věděl, \n\nže něco nebylo stejné.\n\n\nA to, co jednou není stejné dnes, \n\nto není jednou stejné nikdy.\n\n\nJen nedokončené věty bývají všechny stejné. Jednou, dnes i zítra.\n\n\nBerušky mají na sobě nedokončené konce vět. Věci, které jsou nespolknuté.\n\n\nKocour to nevěděl - a dvě spolknul.\n\nSpolknuté konce ale vykrkal zpátky \n\na lide se naučili, \n\nže všechno se spolknout nedá. \n\nA že tečka je někdy silnější, než celá věta.\n\n\nKocour se nažral a myš i věty zůstali celé.\n\nDíky bohu za to.\n\nŠtěstí dvou berušek se vrátilo zpátky.\n\n\nAle všimly si toho jen kocour a malá myš.\n\nA ani jeden neříkali nic.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s01",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Číselné vymezení události",
+      "text": "Sležral dvě - ne tři, ne jednu - dvě - přesně -14 teček a trvalo to půl hodiny - 30 minut - přesně.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s02",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Rytmický popis požití",
+      "text": "Chňap a hlt a chlamst - nebo něco takového a nakonec - mlask, mlask - dvakrát - přesně.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s03",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Původ teček a počet",
+      "text": "Žily byly dvě berušky, každá sedm teček měla, když uviděl je jeden kocour byla to mela.\n\nAspoň pro ně.\n\nPo 14ti tečkách\n\nv jednom mžiku \n\nzem se slehla.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s04",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Myší otázky",
+      "text": "Ale ta myš, vždycky zvědavá byla.\n\nOdmalička chodívala \n\na kde mohla se vyptávala, \n\nkde se tečky na beruškách vzaly?\n\nK čemu je maji? \n\nProč si radši nevytvoří pravý maskování?\n\n\nA ta přesná matika..\n\nKdo vlastně z těch, co s nimi přijdou do styku, takhle přesně počítá?",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s05",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Krkání a předčasné dokončování",
+      "text": "Kocour krkal tečky a dokončoval věty!\n\nNěkdy celé souvětí!!\n\nJenomže tím zároveň skákal lidem do řeči,\n\ntím že za ně dokončoval, co nedokončili.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s06",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Mechanismus předčasného ukončení",
+      "text": "Skočil všem do řeči koncem věty\n\n\nale vždycky o něco málo\n\n\nněkdy i o docela dost\n\n\ndřív, než měla věta původně skončit\n\n\nnebo - než původně věta skončit měla.\n\nA celou půlhodinu nemohl tenkrát nikdo nic \n\nne - dokončit.\n\nNešlo to.\n\n\nKaždému dřív.\n\n\nnež se k tomu dostal.\n\n\nvšem kocour větu ukončil.\n\n\nHned.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s07",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Konec krkání a návrat řeči",
+      "text": "Kocour se tomu smál, \n\nale krkal dál.\n\nA krkal, dokud neskončil.\n\nPředstavte si to:\n\nSkončil větu a pak skončil krkat.\n\n\nA lidé zase začali moct své věty ukončovat sami.\n\nHned.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s08",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Nedokončené věty a stejnost",
+      "text": "Jenže, jak se to tak občas stává, \n\npřestože nikdo nevěděl co, \n\nkaždý věděl, \n\nže něco nebylo stejné.\n\n\nA to, co jednou není stejné dnes, \n\nto není jednou stejné nikdy.\n\n\nJen nedokončené věty bývají všechny stejné. Jednou, dnes i zítra.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s09",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Berušky jako nositelky konců vět",
+      "text": "Berušky mají na sobě nedokončené konce vět. Věci, které jsou nespolknuté.\n\n\nKocour to nevěděl - a dvě spolknul.\n\nSpolknuté konce ale vykrkal zpátky \n\na lide se naučili, \n\nže všechno se spolknout nedá. \n\nA že tečka je někdy silnější, než celá věta.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "s10",
+      "modality": "text",
+      "role": "source_segment",
+      "label": "Závěrečné navrácení",
+      "text": "Kocour se nažral a myš i věty zůstali celé.\n\nDíky bohu za to.\n\nŠtěstí dvou berušek se vrátilo zpátky.\n\n\nAle všimly si toho jen kocour a malá myš.\n\nA ani jeden neříkali nic.",
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      }
+    },
+    {
+      "id": "illustration_full",
+      "modality": "image",
+      "role": "full_source_image",
+      "source": "uploaded image 1000194178.jpg",
+      "repository_path": null,
+      "embedding": {
+        "status": "not_computed",
+        "model": null,
+        "space": null,
+        "dimension": null,
+        "vector": null
+      },
+      "visual_observations": [
+        "černobílá ruční kresba",
+        "centrální stylizovaná kočičí hlava s výraznýma očima a ušima",
+        "v centru a kolem kočky jsou husté překrývající se kreslené tvary a kruhy",
+        "rozmístěné plné a obrysové tečky",
+        "ručně psaný text včetně nápisů Kocour sežral 2x, dvě berušky, 0,5 h, krkal, tečky, meow",
+        "obraz propojuje kočku, berušky, tečky a textové popisky v jedné kompozici"
+      ]
+    }
+  ],
+  "measurable_text_features": {
+    "status": "descriptive_features_not_semantic_embeddings",
+    "features": [
+      {
+        "id": "numeric_mentions",
+        "values": [
+          "2",
+          "14",
+          "půl hodiny",
+          "30 minut",
+          "sedm",
+          "14ti"
+        ],
+        "note": "Doslovné číselné a časové výrazy; zachovat jejich zápis."
+      },
+      {
+        "id": "repeated_lexemes",
+        "candidates": [
+          "přesně",
+          "tečky",
+          "věta",
+          "dokončit",
+          "skončil",
+          "hned",
+          "krkal"
+        ],
+        "note": "Seznam kandidátů k automatickému spočítání výskytů."
+      },
+      {
+        "id": "sentence_completion_terms",
+        "candidates": [
+          "konec",
+          "končit",
+          "dokončit",
+          "ukončil",
+          "nedokončené",
+          "skončil"
+        ],
+        "note": "Lexikální kandidáti, nikoli interpretace."
+      },
+      {
+        "id": "onomatopoeia",
+        "examples": [
+          "Chňap",
+          "hlt",
+          "chlamst",
+          "mlask",
+          "krkal"
+        ],
+        "note": "Zvukomalebné a zvukově popisné výrazy."
+      },
+      {
+        "id": "line_breaks",
+        "status": "derive_from_verbatim_text",
+        "note": "Počet řádků, prázdných řádků a délky řádků lze měřit přímo ze zachovaného zdroje."
+      }
+    ]
+  },
+  "embedding_protocol": {
+    "text_model": "record exact provider, model and version when vectors are generated",
+    "image_model": "record exact provider, model and version when vectors are generated",
+    "comparison_rule": "Only compare vectors produced by the same model/version, modality-compatible embedding space and dimension. Text and image vectors are not comparable unless the model explicitly provides a shared joint space.",
+    "joint_multimodal": "Create only if a model explicitly supports a shared text-image embedding space.",
+    "no_synthetic_vectors": true
+  }
+}
