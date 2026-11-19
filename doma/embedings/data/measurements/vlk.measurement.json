@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "vlk",
+  "title": "Vlk",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/vlk.txt",
+    "sha": "808efd5f9a392fc2bc6859925625304a37ec8189",
+    "characters": 9614
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/vlk.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "pohádka o PANDĚ A O VLKOVI tak a teď",
+      "text": "pohádka o PANDĚ A O VLKOVI\n\ntak a teď tady přichází vyprávění:\n\n[dramatická hudba] - třeba sólo na buben\n\nNěkde v neurčitých časech i v místech nejistých, tam někde snad dá se najít klíč, k věcem, co nejdou snadno říct.\n\ntam se z ničeho nic zarazila myš a šokem ztuhla, jak byla.\n\ntaké pamatuje si, jak jí spadla brada a ocas si do vřesu zamotala.\n\nskutečnost ukazovala na to, že protože, před sebou uviděla: Velkou Pandu.\n\nobě oči dokořán vyvalila a zírala na obrovského tvora.\n\nmyš ještě nikdy předtím naživo skutečného medvěda neviděla, a nevěda teda, jak mají být Pandy Velké.\n\nale tohle tak úplně nečekala.\n\npo jistě určitě dlouhé chvilce se z šoku maličko vzpamatovala a začala prostým popisem toho, co uviděla.\n\nv každé ruce - přesněji pracce - dva tři bambusy pevně svírálala a velmi zamyšleně panda dusala sem a tam mezi stromama.",
+      "characters": 839,
+      "words": 124
+    },
+    {
+      "id": "02",
+      "label": "se zamračeným obočím a pevně zavřenýma očima a nakrčeným",
+      "text": "se zamračeným obočím a pevně zavřenýma očima a nakrčeným čelem, až skoro do týla. sama si pro sebe \"šeptala\" (- no, snažila se to jo, ale co si budeme..teda.. víte, jak šeptá medvěd??)\n\nmyš to teda na vlastní uši zažila.\n\na ačkoli medvědovi nic souvislého nerozumněla, mezi vším tím mumrajem, zasechla namátkou slova jako: barevná, barevnější, černá, barva, barva, taky, bíla, dvě, dalmatin, papoušek, nebarevná, fleky a podobně útržky nesourodých Velkých myšlenek.\n\nno jo, ale jak to tak bývá, ne všichni mají v povaze furt spát a pandí tiché přemýtaní přilákalo vlka - koho jiného?\n\nvlk přišel přímo k pandě a rovnou jí hlubokým, ale jasným hlasem povídá toto: “tak se mi zdá, holčičko, že by sis měla dát od těch bambusů asi maličkou přestávečku,”\n\na že se bojí o ní o pandičku\n\na strach má hlavně o její hlavičku.",
+      "characters": 817,
+      "words": 126
+    },
+    {
+      "id": "03",
+      "label": "hned nato pokračoval v tom duchu, že co to",
+      "text": "hned nato pokračoval v tom duchu, že co to vlastně malá panda mele za nesmysly? (prý malá?), že se to nedá poslouchat, že mu z toho jde hlava kolem a že se nemůže soustředit na čtení.\n\nmyši z toho okamžiku zapsala do kouta v tichu, co panda odpověděla vlku:\n\nprohlásila způsobem dramatickým a velmi: “jsem barevnější, než dalmatin” a významně dodala: \"psst.\" a gestem “tiše” výrok doplnila.\n\nno a vlk chvíli koukal naprázdno.\n\nv hlavě se mu to setmělo.\n\na když tu informaci ustál.\n\nprohlásil co nejvíc ledabyle, teda, že jestli na tom panda trvá, její tajemství nevyzradí.\n\nale toho lajdáckého tónu zanechal hned.\n\npřemýšlel, jestli točil se na místě on\n\nnebo se s nim točil svět?\n\nzakoulel očima tam a zpět,\n\nzávěrem buď dostal tik nebo na ní jedním okem mrk!\n\na koktavě zeptal se:\n\n“že co je na tom tajemného???\n\nbarevnější než dalmatin?\n\nkdyž má ty velky fleky?\n\nto vidí každej ne??!?”",
+      "characters": 888,
+      "words": 140
+    },
+    {
+      "id": "04",
+      "label": "nato se mu obě obočí, jedno po druhém, pravé",
+      "text": "nato se mu obě obočí, jedno po druhém, pravé a pak levé, vyšplhaly do tak vysokohého oblouku, že mu na nich začaly hnízdit ptáci.\n\nkdyž je přestal marně plašit, už nemrkal - jen upřel pohled z něhož opeřené šlehaly starosti o chadáka tu malou pandu a zmohl se jen na chabý dodatek:\n\n“že si vlastně není jist, jestli si sám on nepotřebuje chvilku dáchnout..?\n\nprotože to se mu snad určitě jenom zdá..”\n\nsice pořád nemrkal, ale stále nevěřil svým očím.\n\na ani uším.\n\n“co mu to ta blbka vykládá?\n\nse zbláznila??\n\nbarevnější??\n\njak to jako myslí??\n\na proč??”\n\na tahle otázka se mu pevně zakousla do hlavy. a užírala ho jako bonbony.\n\n(vlk barvy umí jen přečíst.\n\nví, že ze existují, musel se to naučit.\n\n- ale jestli je barevnější černá nebo bílá? tak to už na něj bylo prostě moc.\n\nDoslova.)\n\na vlk to nevydržel a řekl pandě,\n\nco si o ní myslí: \"že je stejně barevná jako všichni ostatní a nechápe, na co se tak vytahuje?\"\n\npanda v reakci viditelně zastříhala ušima.\n\nčelo nakrčila.\n\ndo kolen se plácla.",
+      "characters": 1000,
+      "words": 165
+    },
+    {
+      "id": "05",
+      "label": "a zaostřila. a nakonec - úplně vybuchla smíchy!! a",
+      "text": "a zaostřila.\n\na nakonec - úplně vybuchla smíchy!!\n\na smála se, až si musela sednout doprostřed palouku, přímo na zem.\n\nnejdřív napadlo tu velkou hlavu, že vlk se jako malý barvy poznat prostě nenaučil.\n\njenže z vlka klouže:\n\non \"umí\" poznat barvu skoro každou, když ji někdo napíše pomocí písmen.\n\nvlk nevidí barvy.\n\nžádné.\n\nani dvě.\n\nkaždá barva jiná, pro něj písmena jen jinak poskládaná.\n\npro něj barva víc neznamená.\n\nČerná a bílá jsou jen slova.\n\nnebarevnost ve světě bez barev, nemá co dělat.\n\nvlk vysvětloval:\n\n“že červenou barvu sice \"vidí\", ale vidí jí stejně jako všecky ostatní barvy, že jí sice vidí , ale nepozná jí vůbec od modrý ani zelený, žlutý - prostě nevidí rozdíl..\n\nale že to rozezná, když mu to tam napíšou.\n\nA proto ten červený kříž.\n\nlidé se schodli prý na tom, že pokud jako vlk chce žít v \"jejich\" lese, že musí znát základní symboly a tak ho naučily, co znamená červený kříž.\n\nto zase pandě se nedopřává klidu a zvědavě ta ona toho vlka, všetečnýma otázkama vyslýchala zhurta.",
+      "characters": 1004,
+      "words": 163
+    },
+    {
+      "id": "06",
+      "label": "že prý \"jak jak ji vlastně rozezná od jiných",
+      "text": "že prý \"jak jak ji vlastně rozezná od jiných zvířat když vidí všeckyo stejně černobíle?? - a od stromů?\"\n\na vlk ji vysvětluje trpělivě, celou rozmanitou grafičnost svého světa.\n\njedinou větou, je prý “omezený”, zněl soud.\n\nlidé jiný pohled na svět, pletou si se slepotou - blbě.\n\non vidí odstíny a stíny sice nosem hlavně, ale pruhy a skrvny rozezná od fleků na jedno čuch.\n\ns dalmatinem nesplete si jí.\n\nani dalmatina nespletl si zatím ještě s ničím jiným a navíc upozornil, že nenaráží do stromů, a ne náhodou, ale protože je “vidí.”\n\njenže to jako důkaz nikomu nestačilo a vlk se kvůli tomu překladu dokonce musel naučit číst. (jenže, vlastně, teda on nikdy nepochopil \"čtení\" on jen vlastně opakuje písmena, která se naučil, stejně jako se naučil třeba kříž.)\n\nprotože kříž prý že vidí, ten pozná dobře - ale vidí ho šedivě jako všecky ostatní věci.",
+      "characters": 853,
+      "words": 135
+    },
+    {
+      "id": "07",
+      "label": "no, ale on povídal, že jemu by to ani",
+      "text": "no, ale on povídal, že jemu by to ani tak nevadilo, že on je zvyklý a protože on si doteďka dost dobře vystačil nejlíp úplně sám i bez kříže.\n\nale když je teda ta moderní doba..\n\na protože ho videl, naučil se i to, že je to znak, prý, že jmenuje se kříž.\n\nnestačilo to však.\n\nlidem prý přišlo kdo ví proč důležité mu tam připsat to slovo červený, a aby se naučil číst lidské písmo:\n\n“aby poznal a uměl si přečíst, to prý důležité sdělení, že jde o kříž, který je prý údajně červený.”\n\na panda? její soucitnost a empatie se jistě stanou příslovnými a ona ikonou ironie.\n\npanda se znova rozčílí,\n\nale místo aby litovala tragiku situace Vlčí,\n\nže prý lituje světa, ve kterém musí žít, prohlašuje, a už nešeptá.\n\nkruté nespravedlnosti, a zbytečná nedbalost podle ní má tohle na svědomí a vlkovi závidí jediný jeho zrzavý chlup.\n\nže prý tvor, co barvy nevidí, je jimi celý žíhaný a ona chudák jako černobílý tvor, je považována vlastně za nebarevnou.",
+      "characters": 945,
+      "words": 157
+    },
+    {
+      "id": "08",
+      "label": "vlk se k pandě zachová velkoryse v tom vyprávění",
+      "text": "vlk se k pandě zachová velkoryse v tom vyprávění a jeden svůj zrzavý chlup jí věnuje, když mu panda ukáže, kdery to je.\n\ndavá jí ho se slovy, že on stejně neviděl, že ho měl a že mu dál nechybí.\n\npanda si chlup slavnostně vystaví a už zase vesele s kdekým často vtipkuje, že ona jeden chlup ma zrzavý.\n\na panda je zase veselá, a stačil jí k tomu jediný zrzavý chlup.\n\nbyla ráda, že ho má.\n\nvždy když ho videla, byla šťastná, že není zrzavá.\n\nTaké vlk je spokojený, prestoze zrzavou barvu nevidí dál. pandina neskromná radost z jeho, tedy teď už jejího, chlupu má kouzelný vliv zase zpátky na vlka - preci jen to byl původně jeho chlup.\n\nA také jemu se obě dvě oči rozzářili a i ta obočí mu konečně klesla zpátky do přirozené polohy.\n\ni ptáci odletěli.\n\na vlk se dokonce s celou tlamou usmál do širokého úsměvu, když otevřel tlamu a bílé tesáky se ostře blýskly čistotou.\n\npanda zamžourala, ale vlk vykládal dál vyloženě nadšeně: “že se teď snaží naučit podle čtení i psát.”\n\nnapadlo ho totiž, že by si chtěl vyzkoušet, jaké to je.",
+      "characters": 1030,
+      "words": 172
+    },
+    {
+      "id": "09",
+      "label": "a sen měl a v něm chtěl, příručku sepsat",
+      "text": "a sen měl a v něm chtěl, příručku sepsat všem pro všechny ostatní, kteří mají zrakové potíže. a také v plánu měl, věnovat tam odstavec i těm, kteří o barvách mají zkreslené mínění.\n\nnazval ji jednoduše \"Z vlčí perspektivy (ptáků prý bylo dost) aneb Graficnost černobílého světa.\"\n\nPanda názvem samozřejmě ihned totálně nadšená byla.\n\n*poznámka - ale co jen si myš všimla?\n\nona panda sice vypadala jako šílená, vlkovi a všem se zdálo to jen trošku přehnané její nadšení - ale ve skutečnosti - panda velmi silně podprahově motivovala vlka.\n\na zahy, ten\n\nnapnul veškeré síly, které měl a skutečně příručku vytvořil!\n\n.\n\n*poznámka k poznámce - podepsal se hrdě velkými písmeny, vlastním jmenem Vlk a dokonce knihu pandě věnoval - ne tu fyzickou - panda stejně neuměla číst, ale v úvodním proslovu se o pandě píše vlastně všude.\n\na na závěr otiskl pandě velké poděkování psané opravdovým písmem.\n\nale tajemství do konce celé vlkovi akce byla skutečnost, že se dokonce ani nenaučil to psaní pomocí čtení, které už znal.\n\njak plánoval.",
+      "characters": 1028,
+      "words": 149
+    },
+    {
+      "id": "10",
+      "label": "tajemství to bylo velmi velké - každý ho znal",
+      "text": "tajemství to bylo velmi velké - každý ho znal - vlk se tím tajemstvím záměrně netajil - k čemu jinak asi tak by ho měl?\n\nslavné tajemství spočívalo v tom, že se vlk dozvěděl o technologiich a že si pořídil zařízení, které pry: “poslouchá, co říká a písmena podle toho dělá za nej.”\n\nOno.\n\nale.\n\nTohle dokonale vystihovalo vlka a to, že není zařaditelný mezi moderní členy normální společnosti, nemusíme říkat.\n\nOn totiž svou příručku i sám si ilustroval.\n\nJenže - kniha nakonec je ilustrovaná nekompromysně celá.\n\nslova psaním vytvořená, složené z písmen jeho kniha obsahovala všehovšudy dvě - vlkův podpis a poděkování pandě.\n\na nikdo snad nenajde důvod divit se tomu, že z příručky se stal mezinárodní hit.\n\ntakřka přes noc a ve všech koutech světa. knížka totiž nepotřebovala překlad.\n\na nebyl to původně jeho záměr, zadělal si na to náhodně. ale jak seděl u technologie, která uměla psát písmena, co prý říkal, trávil čas tak, že s\n\ni mimoděk čmáral a hrál se svým úhlem z opečené větve - jenže místo toho - bezděky - stvořil piktogtam!\n\nzpůsob jak obejít každou zasranou barvu\n\na i celej posranej text.",
+      "characters": 1107,
+      "words": 162
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 2209,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.9227313081436044,
+    "pca_variance": [
+      0.13588041859868913,
+      0.12122700523419834
+    ],
+    "distances": [
+      [
+        1.1102230246251565e-16,
+        0.9465307039297949,
+        0.9524793947711826,
+        0.936221952889062,
+        0.9626453292317426,
+        0.9579889408277386,
+        0.9538105046306289,
+        0.9517156863308897,
+        0.942401753993024,
+        0.9440785997753824
+      ],
+      [
+        0.9465307039297949,
+        0,
+        0.9293835831155165,
+        0.9133655857502248,
+        0.9249298225962772,
+        0.9482684344602719,
+        0.9455894830834949,
+        0.9520056635315675,
+        0.9516201060427036,
+        0.9381635569718463
+      ],
+      [
+        0.9524793947711826,
+        0.9293835831155165,
+        -2.220446049250313e-16,
+        0.8694798936938404,
+        0.9192875739071654,
+        0.9350721038192525,
+        0.9067094155691333,
+        0.9113055422993432,
+        0.9436698422647999,
+        0.9262333766895808
+      ],
+      [
+        0.936221952889062,
+        0.9133655857502248,
+        0.8694798936938404,
+        0,
+        0.8883155331335442,
+        0.9062037057877248,
+        0.880990742438533,
+        0.8848784674366673,
+        0.9337906751309042,
+        0.920110712702247
+      ],
+      [
+        0.9626453292317426,
+        0.9249298225962772,
+        0.9192875739071654,
+        0.8883155331335442,
+        0,
+        0.8568532899640481,
+        0.896897601694415,
+        0.8994623133200362,
+        0.935754915116976,
+        0.9159698624841436
+      ],
+      [
+        0.9579889408277386,
+        0.9482684344602719,
+        0.9350721038192525,
+        0.9062037057877248,
+        0.8568532899640481,
+        -2.220446049250313e-16,
+        0.8684091639203877,
+        0.9278276272987237,
+        0.9379123668690688,
+        0.9339381688677147
+      ],
+      [
+        0.9538105046306289,
+        0.9455894830834949,
+        0.9067094155691333,
+        0.880990742438533,
+        0.896897601694415,
+        0.8684091639203877,
+        0,
+        0.8664696769100034,
+        0.9351745741359261,
+        0.9130522342752471
+      ],
+      [
+        0.9517156863308897,
+        0.9520056635315675,
+        0.9113055422993432,
+        0.8848784674366673,
+        0.8994623133200362,
+        0.9278276272987237,
+        0.8664696769100034,
+        0,
+        0.9220326620679952,
+        0.9020814304482406
+      ],
+      [
+        0.942401753993024,
+        0.9516201060427036,
+        0.9436698422647999,
+        0.9337906751309042,
+        0.935754915116976,
+        0.9379123668690688,
+        0.9351745741359261,
+        0.9220326620679952,
+        0,
+        0.9338262922851794
+      ],
+      [
+        0.9440785997753824,
+        0.9381635569718463,
+        0.9262333766895808,
+        0.920110712702247,
+        0.9159698624841436,
+        0.9339381688677147,
+        0.9130522342752471,
+        0.9020814304482406,
+        0.9338262922851794,
+        -2.220446049250313e-16
+      ]
+    ],
+    "coordinates": [
+      [
+        6.272750519124887,
+        -10.30307225428579
+      ],
+      [
+        7.576014067394118,
+        -4.8545947045707685
+      ],
+      [
+        5.231575385740541,
+        -3.5262464729866685
+      ],
+      [
+        3.9593247173330592,
+        8.689483272082397
+      ],
+      [
+        8.235533447605956,
+        27.630583122232995
+      ],
+      [
+        7.4580923243338235,
+        10.356809846901937
+      ],
+      [
+        -3.082616940784048,
+        12.795272367140702
+      ],
+      [
+        -44.84180763504799,
+        -0.1488924151471286
+      ],
+      [
+        5.8815251175299785,
+        -20.248547134926522
+      ],
+      [
+        3.309608996769675,
+        -20.390795626441054
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.8568532899640481
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.8664696769100034
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.8684091639203877
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.8694798936938404
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.880990742438533
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.9020814304482406
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.9133655857502248
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.9220326620679952
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "distance": 0.936221952889062
+      }
+    ],
+    "pairs": [
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.856853,
+        "similarity": 0.143147
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.86647,
+        "similarity": 0.13353
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.868409,
+        "similarity": 0.131591
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.86948,
+        "similarity": 0.13052
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.880991,
+        "similarity": 0.119009
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.884878,
+        "similarity": 0.115122
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.888316,
+        "similarity": 0.111684
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.896898,
+        "similarity": 0.103102
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.899462,
+        "similarity": 0.100538
+      },
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.902081,
+        "similarity": 0.097919
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 0.906204,
+        "similarity": 0.093796
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.906709,
+        "similarity": 0.093291
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.911306,
+        "similarity": 0.088694
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.913052,
+        "similarity": 0.086948
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.913366,
+        "similarity": 0.086634
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.91597,
+        "similarity": 0.08403
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.919288,
+        "similarity": 0.080712
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.920111,
+        "similarity": 0.079889
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.922033,
+        "similarity": 0.077967
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 0.92493,
+        "similarity": 0.07507
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.926233,
+        "similarity": 0.073767
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.927828,
+        "similarity": 0.072172
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.929384,
+        "similarity": 0.070616
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.933791,
+        "similarity": 0.066209
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.933826,
+        "similarity": 0.066174
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 0.933938,
+        "similarity": 0.066062
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.935072,
+        "similarity": 0.064928
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.935175,
+        "similarity": 0.064825
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.935755,
+        "similarity": 0.064245
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 0.936222,
+        "similarity": 0.063778
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.937912,
+        "similarity": 0.062088
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.938164,
+        "similarity": 0.061836
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.942402,
+        "similarity": 0.057598
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.94367,
+        "similarity": 0.05633
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 0.944079,
+        "similarity": 0.055921
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.945589,
+        "similarity": 0.054411
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.946531,
+        "similarity": 0.053469
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.948268,
+        "similarity": 0.051732
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.95162,
+        "similarity": 0.04838
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 0.951716,
+        "similarity": 0.048284
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.952006,
+        "similarity": 0.047994
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.952479,
+        "similarity": 0.047521
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.953811,
+        "similarity": 0.046189
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 0.957989,
+        "similarity": 0.042011
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.962645,
+        "similarity": 0.037355
+      }
+    ]
+  }
+}
