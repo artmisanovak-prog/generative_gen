@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "liska",
+  "title": "Liška",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/liska.txt",
+    "sha": "e50fcf2ab630aa30d7a947ef5a32c0a92703fe38",
+    "characters": 2211
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/liska.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "O LIŠCE která byla z části —",
+      "text": "O LIŠCE\n\nkterá byla z části\n\n—",
+      "characters": 30,
+      "words": 4
+    },
+    {
+      "id": "02",
+      "label": "Kdysi, v krajině, kde se stromy nenakláněly kvůli větru,",
+      "text": "Kdysi, v krajině, kde se stromy nenakláněly kvůli větru, ale kvůli tíze slov, žila liška. Ne ta z dětských knížek, co krade slepice a směje se pod fousy. Tahle liška byla jiná. Tichá. Pozorující. A hlavně – celá.\n\n—",
+      "characters": 215,
+      "words": 33
+    },
+    {
+      "id": "03",
+      "label": "Měla kožich, který se leskl jako podzimní večer. Tlapky,",
+      "text": "Měla kožich, který se leskl jako podzimní večer. Tlapky, které uměly chodit po sněhu, aniž by ho rušily. Oči, které viděly věci, co se ještě nestaly. A srdce – těžké, tvrdé, ale průzračné. Diamant. Velký. Ne pro parádu. Pro tíhu.\n\n—",
+      "characters": 232,
+      "words": 38
+    },
+    {
+      "id": "04",
+      "label": "Ale svět si všiml. A jakmile si svět všimne,",
+      "text": "Ale svět si všiml. A jakmile si svět všimne, začne chtít.\n\n—\n\nPrvní přišli obchodníci. S měřítky, s cenami, s rukama připravenýma brát.\n\n„Ten kožich,“ řekli. „To je přesně ono. Luxus. Teplo. Lesk.“\n\nA tak lišce vzali srst.",
+      "characters": 222,
+      "words": 32
+    },
+    {
+      "id": "05",
+      "label": "Zůstala nahá. Ale ne slabá. Jen jiná. — Pak",
+      "text": "Zůstala nahá. Ale ne slabá. Jen jiná.\n\n—\n\nPak přišli ti, co chodí v botách z hadí kůže. znají cestu. My chceme směr.“\n\nA tak jí vzali chodidla.\n\nZůstaly jí jen vzpomínky na stopy.\n\n—\n\nPotom přišli šperkaři. Ne pro krásu, ale pro sílu.",
+      "characters": 234,
+      "words": 39
+    },
+    {
+      "id": "06",
+      "label": "„Zuby z mrožoviny? Pche. Ale liščí zuby – to",
+      "text": "„Zuby z mrožoviny? Pche. Ale liščí zuby – to je elegance s ostřím.“\n\nA tak jí vzali úsměv.\n\nZůstalo mlčení.\n\n—\n\nNakonec přišel někdo, kdo se neptal. Nepředstavil se. Jen sáhl do její hrudi a vytáhl srdce.\n\nByl to kámen. Diamant. Velký.",
+      "characters": 235,
+      "words": 36
+    },
+    {
+      "id": "07",
+      "label": "„Tohle je to nejcennější,“ řekl. A odešel. — A",
+      "text": "„Tohle je to nejcennější,“ řekl.\n\nA odešel.\n\n—\n\nA liška?\n\nZůstala. Bez srsti. Bez tlapek. Bez smíchu. Bez srdce.\n\nAle pořád tam byla.\n\nNe jako zvíře. Jako stín. Jako paměť.\n\n—",
+      "characters": 175,
+      "words": 27
+    },
+    {
+      "id": "08",
+      "label": "Začala se pohybovat jinak. Ne kráčet – ale klouzat.",
+      "text": "Začala se pohybovat jinak. Ne kráčet – ale klouzat. Ne mluvit – ale šeptat. Ne žít – ale být.\n\n—\n\nA v tom bytí se začalo něco dít.\n\nLidé, kteří si z ní vzali, začali ztrácet.\n\nKožich se rozpadl na chlupy, které se nedaly sešít.",
+      "characters": 227,
+      "words": 38
+    },
+    {
+      "id": "09",
+      "label": "Boty z hadí kůže se rozpadly na šupiny, které",
+      "text": "Boty z hadí kůže se rozpadly na šupiny, které klouzaly z nohou.\n\nŠperky ze zubů se začaly třepit, jako by se smály těm, kdo je nosí.\n\nA diamant? Ten zčernal. Ne z špíny. Z pravdy.\n\n—\n\nProtože to, co se vezme násilím, se neudrží.\n\nA to, co se vezme z lišky, se nehodí nikomu jinému.\n\n—",
+      "characters": 284,
+      "words": 47
+    },
+    {
+      "id": "10",
+      "label": "Liška se mezitím stala legendo,u. Ne tou, co se",
+      "text": "Liška se mezitím stala legendo,u.\n\nNe tou, co se vypráví dětem.\n\nTou, co se šeptá mezi stromy.\n\n„Viděli jste ji?“\n\n„Ne, ale cítili jsme ji.“\n\n„Jak?“\n\n„Jako ticho, které má tvar.“\n\n—\n\nA tak se začalo říkat, že někde běhá liška, která nemá nic – a právě proto má všechno.\n\n—\n\nJejí srdce je kámen.\n\nAle ne ten, co se nosí.\n\nTen, co se nese.",
+      "characters": 337,
+      "words": 60
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 551,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.9526492115730415,
+    "pca_variance": [
+      0.19672061946668434,
+      0.14361179629864193
+    ],
+    "distances": [
+      [
+        0,
+        0.971580232178231,
+        1,
+        0.9622294153751789,
+        1,
+        1,
+        0.9711838664909133,
+        1,
+        1,
+        0.9744247051534408
+      ],
+      [
+        0.971580232178231,
+        0,
+        0.9706111659559264,
+        0.9968257156693522,
+        0.9714733556288389,
+        0.9790194930024824,
+        0.9663777266344084,
+        0.9459701179857104,
+        0.9373503660272258,
+        0.9028062596313933
+      ],
+      [
+        1,
+        0.9706111659559264,
+        -2.220446049250313e-16,
+        0.9884394948083266,
+        0.9321443354806279,
+        0.9437114772094106,
+        0.9664606507338387,
+        0.9278695123288118,
+        0.8955898383271714,
+        0.896311344372548
+      ],
+      [
+        0.9622294153751789,
+        0.9968257156693522,
+        0.9884394948083266,
+        -2.220446049250313e-16,
+        0.9595017759281053,
+        0.9522290763920231,
+        0.9838808518842354,
+        0.953909780849176,
+        0.9772063610943259,
+        0.9745885377433938
+      ],
+      [
+        1,
+        0.9714733556288389,
+        0.9321443354806279,
+        0.9595017759281053,
+        -2.220446049250313e-16,
+        0.9192989955380909,
+        0.9763204380052445,
+        0.9501010362175598,
+        0.9545067488627587,
+        0.9516572003285423
+      ],
+      [
+        1,
+        0.9790194930024824,
+        0.9437114772094106,
+        0.9522290763920231,
+        0.9192989955380909,
+        0,
+        0.9706646396295098,
+        0.9510148608036446,
+        0.9084266695115316,
+        0.9301433096782099
+      ],
+      [
+        0.9711838664909133,
+        0.9663777266344084,
+        0.9664606507338387,
+        0.9838808518842354,
+        0.9763204380052445,
+        0.9706646396295098,
+        1.1102230246251565e-16,
+        0.9802081012204983,
+        0.9645674450469192,
+        0.9522812189943564
+      ],
+      [
+        1,
+        0.9459701179857104,
+        0.9278695123288118,
+        0.953909780849176,
+        0.9501010362175598,
+        0.9510148608036446,
+        0.9802081012204983,
+        0,
+        0.883726863793171,
+        0.8750364059248026
+      ],
+      [
+        1,
+        0.9373503660272258,
+        0.8955898383271714,
+        0.9772063610943259,
+        0.9545067488627587,
+        0.9084266695115316,
+        0.9645674450469192,
+        0.883726863793171,
+        0,
+        0.799565130346924
+      ],
+      [
+        0.9744247051534408,
+        0.9028062596313933,
+        0.896311344372548,
+        0.9745885377433938,
+        0.9516572003285423,
+        0.9301433096782099,
+        0.9522812189943564,
+        0.8750364059248026,
+        0.799565130346924,
+        1.1102230246251565e-16
+      ]
+    ],
+    "coordinates": [
+      [
+        -3.157365122054451,
+        -1.190825449398497
+      ],
+      [
+        -2.650889265116922,
+        -2.5486931759157625
+      ],
+      [
+        -2.6752642791829455,
+        -0.1347209778664206
+      ],
+      [
+        -5.96441289169793,
+        -3.175985129760766
+      ],
+      [
+        -6.520392959591238,
+        -4.399032764515333
+      ],
+      [
+        -4.451587586032348,
+        -0.5188673818179212
+      ],
+      [
+        -4.865445997065142,
+        -2.945677820204473
+      ],
+      [
+        -1.6187420588217698,
+        0.07476975377835966
+      ],
+      [
+        5.819920923053582,
+        22.803088678235238
+      ],
+      [
+        26.08417923650921,
+        -7.96405573253444
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.799565130346924
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.8750364059248026
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.8955898383271714
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.9028062596313933
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.9084266695115316
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.9192989955380909
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.9522290763920231
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.9522812189943564
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "distance": 0.9622294153751789
+      }
+    ],
+    "pairs": [
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.799565,
+        "similarity": 0.200435
+      },
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.875036,
+        "similarity": 0.124964
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.883727,
+        "similarity": 0.116273
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.89559,
+        "similarity": 0.10441
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.896311,
+        "similarity": 0.103689
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.902806,
+        "similarity": 0.097194
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.908427,
+        "similarity": 0.091573
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.919299,
+        "similarity": 0.080701
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.92787,
+        "similarity": 0.07213
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 0.930143,
+        "similarity": 0.069857
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.932144,
+        "similarity": 0.067856
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.93735,
+        "similarity": 0.06265
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.943711,
+        "similarity": 0.056289
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.94597,
+        "similarity": 0.05403
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.950101,
+        "similarity": 0.049899
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.951015,
+        "similarity": 0.048985
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.951657,
+        "similarity": 0.048343
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 0.952229,
+        "similarity": 0.047771
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.952281,
+        "similarity": 0.047719
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.95391,
+        "similarity": 0.04609
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.954507,
+        "similarity": 0.045493
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.959502,
+        "similarity": 0.040498
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 0.962229,
+        "similarity": 0.037771
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.964567,
+        "similarity": 0.035433
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.966378,
+        "similarity": 0.033622
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.966461,
+        "similarity": 0.033539
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.970611,
+        "similarity": 0.029389
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.970665,
+        "similarity": 0.029335
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.971184,
+        "similarity": 0.028816
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 0.971473,
+        "similarity": 0.028527
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.97158,
+        "similarity": 0.02842
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 0.974425,
+        "similarity": 0.025575
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.974589,
+        "similarity": 0.025411
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.97632,
+        "similarity": 0.02368
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.977206,
+        "similarity": 0.022794
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.979019,
+        "similarity": 0.020981
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.980208,
+        "similarity": 0.019792
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.983881,
+        "similarity": 0.016119
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.988439,
+        "similarity": 0.011561
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.996826,
+        "similarity": 0.003174
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      }
+    ]
+  }
+}
