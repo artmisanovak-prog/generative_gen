@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "drak",
+  "title": "Drak",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/drak.txt",
+    "sha": "753de715f11a1c80faf55cea1cf4765f23665a59",
+    "characters": 2161
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/drak.jpg",
+    "status": "soubor ověřen v repozitáři; numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Text: kuck kuck ehl eche kuck ZÁKAZ",
+      "text": "Text: kuck kuck ehl eche kuck ZÁKAZ KOUŘENÍ Marlboro\n\nO DRÁČKOVI\n\nkterý chrchlal\n\n—\n\n—\n\nNa začátku nebylo nic.\n\nTedy – skoro nic.\n\nByla tam louka, trochu prachu, trochu ticha, a jedna cedule.\n\nZÁKAZ KOUŘENÍ",
+      "characters": 206,
+      "words": 32
+    },
+    {
+      "id": "02",
+      "label": "Stála tam sama, jako kdyby něco hlídala.",
+      "text": "Stála tam sama, jako kdyby něco hlídala.\n\nAle nebylo co.\n\n—\n\nA pak – pod ní – se objevilo vejce.\n\nNe že by tam někdo vejce položil.\n\nTo vejce tam bylo vždycky.\n\nJen si ho nikdo nevšiml, protože bylo přesně v barvě zákazu.\n\nBílé s červeným pruhem.\n\nA uvnitř?",
+      "characters": 257,
+      "words": 46
+    },
+    {
+      "id": "03",
+      "label": "Uvnitř to bublalo. — Až jednoho dne",
+      "text": "Uvnitř to bublalo.\n\n—\n\nAž jednoho dne – křup –\n\nskořápka praskla.\n\nA z vejce se vyklubal dráček.\n\nMalý.\n\nZmačkaný.\n\nZelený.\n\nA hned jak se narodil, začal kašlat.",
+      "characters": 161,
+      "words": 25
+    },
+    {
+      "id": "04",
+      "label": "— Kuck. Kuck. Ehl. Eche. Kuck. —",
+      "text": "—\n\nKuck. Kuck. Ehl. Eche. Kuck.\n\n—\n\nNe plamen.\n\nNe dým.\n\nJen chrchlání.\n\nMísto ohně – kašel.\n\nMísto hrdinství – přestupek.\n\n—",
+      "characters": 125,
+      "words": 17
+    },
+    {
+      "id": "05",
+      "label": "A právě v tom to bylo. Protože",
+      "text": "A právě v tom to bylo.\n\nProtože ten kašel nebyl nemoc.\n\nByla to řeč.\n\nByla to onomatopoie.\n\nZvuk, který se stal slovem.\n\nA slovo, které se stalo problémem.\n\nProtože teprve zákaz mu dal smysl.\n\nBez cedule by to byl jen zvuk.",
+      "characters": 223,
+      "words": 41
+    },
+    {
+      "id": "06",
+      "label": "Ale s cedulí to byl přestupek. —",
+      "text": "Ale s cedulí to byl přestupek.\n\n—\n\nA tak se začalo řešit:\n\nCo bylo dřív?\n\nDráček nebo vejce?\n\nVejce nebo cedule?\n\nCedule nebo zákaz?\n\nA co když – co když –\n\nta cedule byla uvnitř vejce?",
+      "characters": 185,
+      "words": 33
+    },
+    {
+      "id": "07",
+      "label": "Jako vtip. Jako překvapení. Jako varování, které",
+      "text": "Jako vtip.\n\nJako překvapení.\n\nJako varování, které se samo vyklube.\n\n—\n\nDráček mezitím chrchlal dál.\n\nKuck. Kuck. Eche.\n\nA lidé se sbíhali.\n\n„To je nebezpečné!“ říkali.\n\n„To je proti pravidlům!“",
+      "characters": 194,
+      "words": 29
+    },
+    {
+      "id": "08",
+      "label": "„To je nevhodné místo pro draka!“ —",
+      "text": "„To je nevhodné místo pro draka!“\n\n—\n\nAle dráček neplival oheň.\n\nNepálil.\n\nNeškodil.\n\nJen kašlal.\n\nA tím připomínal, že i ticho má zvuk.\n\nA že i zákaz může být porodní bolest.\n\nA ta je nesnesitelná pro vejce.",
+      "characters": 208,
+      "words": 36
+    },
+    {
+      "id": "09",
+      "label": "— Zvířata se začala scházet. Myš, co",
+      "text": "—\n\nZvířata se začala scházet.\n\nMyš, co zapisuje do skulin.\n\nRyba, co rapuje proudem.\n\nZaječice, co přežila oheň.\n\nA všichni se dívali na dráčka.\n\nA nikdo ho neokřikl.\n\nProtože věděli, že někdy je kašel víc než plamen.\n\nŽe někdy je přirozenost přestupkem jen proto, že někdo postavil ceduli.",
+      "characters": 290,
+      "words": 47
+    },
+    {
+      "id": "10",
+      "label": "— A tak se začalo říkat, že",
+      "text": "—\n\nA tak se začalo říkat, že někde pod cedulí, která zakazuje kouření, se narodil dráček, co místo ohně chrchlá.\n\n—\n\nA že jeho k\n\našel je jazyk.\n\nA že jeho jazyk je otázka.\n\nA že ta otázka zní:\n\nCo bylo dřív?",
+      "characters": 208,
+      "words": 40
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 493,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.939173,
+    "pca_pc1_percent": 15.68,
+    "pca_pc2_percent": 13.89,
+    "pca_first_two_percent": 29.57
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.957558,
+        0.993915,
+        0.805055,
+        0.950116,
+        0.949473,
+        0.912935,
+        0.979885,
+        0.986752,
+        0.971908
+      ],
+      [
+        0.957558,
+        0,
+        0.946567,
+        0.965756,
+        0.926017,
+        0.881524,
+        0.949011,
+        0.943666,
+        0.924497,
+        0.929573
+      ],
+      [
+        0.993915,
+        0.946567,
+        0,
+        1,
+        0.952624,
+        0.93361,
+        0.955358,
+        0.962548,
+        0.975007,
+        0.933026
+      ],
+      [
+        0.805055,
+        0.965756,
+        1,
+        0,
+        0.981794,
+        0.984556,
+        0.895237,
+        0.96898,
+        0.970341,
+        0.950729
+      ],
+      [
+        0.950116,
+        0.926017,
+        0.952624,
+        0.981794,
+        0,
+        0.899097,
+        0.912751,
+        0.940441,
+        0.957775,
+        0.9666
+      ],
+      [
+        0.949473,
+        0.881524,
+        0.93361,
+        0.984556,
+        0.899097,
+        0,
+        0.972065,
+        0.935113,
+        0.930283,
+        0.841002
+      ],
+      [
+        0.912935,
+        0.949011,
+        0.955358,
+        0.895237,
+        0.912751,
+        0.972065,
+        0,
+        0.925946,
+        0.958391,
+        0.945968
+      ],
+      [
+        0.979885,
+        0.943666,
+        0.962548,
+        0.96898,
+        0.940441,
+        0.935113,
+        0.925946,
+        0,
+        0.920609,
+        0.858115
+      ],
+      [
+        0.986752,
+        0.924497,
+        0.975007,
+        0.970341,
+        0.957775,
+        0.930283,
+        0.958391,
+        0.920609,
+        0,
+        0.860605
+      ],
+      [
+        0.971908,
+        0.929573,
+        0.933026,
+        0.950729,
+        0.9666,
+        0.841002,
+        0.945968,
+        0.858115,
+        0.860605,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.042442,
+        0.006085,
+        0.194945,
+        0.049884,
+        0.050527,
+        0.087065,
+        0.020115,
+        0.013248,
+        0.028092
+      ],
+      [
+        0.042442,
+        1,
+        0.053433,
+        0.034244,
+        0.073983,
+        0.118476,
+        0.050989,
+        0.056334,
+        0.075503,
+        0.070427
+      ],
+      [
+        0.006085,
+        0.053433,
+        1,
+        0,
+        0.047376,
+        0.06639,
+        0.044642,
+        0.037452,
+        0.024993,
+        0.066974
+      ],
+      [
+        0.194945,
+        0.034244,
+        0,
+        1,
+        0.018206,
+        0.015444,
+        0.104763,
+        0.03102,
+        0.029659,
+        0.049271
+      ],
+      [
+        0.049884,
+        0.073983,
+        0.047376,
+        0.018206,
+        1,
+        0.100903,
+        0.087249,
+        0.059559,
+        0.042225,
+        0.0334
+      ],
+      [
+        0.050527,
+        0.118476,
+        0.06639,
+        0.015444,
+        0.100903,
+        1,
+        0.027935,
+        0.064887,
+        0.069717,
+        0.158998
+      ],
+      [
+        0.087065,
+        0.050989,
+        0.044642,
+        0.104763,
+        0.087249,
+        0.027935,
+        1,
+        0.074054,
+        0.041609,
+        0.054032
+      ],
+      [
+        0.020115,
+        0.056334,
+        0.037452,
+        0.03102,
+        0.059559,
+        0.064887,
+        0.074054,
+        1,
+        0.079391,
+        0.141885
+      ],
+      [
+        0.013248,
+        0.075503,
+        0.024993,
+        0.029659,
+        0.042225,
+        0.069717,
+        0.041609,
+        0.079391,
+        1,
+        0.139395
+      ],
+      [
+        0.028092,
+        0.070427,
+        0.066974,
+        0.049271,
+        0.0334,
+        0.158998,
+        0.054032,
+        0.141885,
+        0.139395,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "01",
+        "b": "04",
+        "distance": 0.805055,
+        "similarity": 0.194945
+      },
+      {
+        "a": "06",
+        "b": "10",
+        "distance": 0.841002,
+        "similarity": 0.158998
+      },
+      {
+        "a": "08",
+        "b": "10",
+        "distance": 0.858115,
+        "similarity": 0.141885
+      },
+      {
+        "a": "09",
+        "b": "10",
+        "distance": 0.860605,
+        "similarity": 0.139395
+      },
+      {
+        "a": "02",
+        "b": "06",
+        "distance": 0.881524,
+        "similarity": 0.118476
+      },
+      {
+        "a": "04",
+        "b": "07",
+        "distance": 0.895237,
+        "similarity": 0.104763
+      },
+      {
+        "a": "05",
+        "b": "06",
+        "distance": 0.899097,
+        "similarity": 0.100903
+      },
+      {
+        "a": "05",
+        "b": "07",
+        "distance": 0.912751,
+        "similarity": 0.087249
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "03",
+        "b": "04",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "01",
+        "b": "03",
+        "distance": 0.993915,
+        "similarity": 0.006085
+      },
+      {
+        "a": "01",
+        "b": "09",
+        "distance": 0.986752,
+        "similarity": 0.013248
+      },
+      {
+        "a": "04",
+        "b": "06",
+        "distance": 0.984556,
+        "similarity": 0.015444
+      },
+      {
+        "a": "04",
+        "b": "05",
+        "distance": 0.981794,
+        "similarity": 0.018206
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      15.6812,
+      13.8896
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "Text: kuck kuck ehl eche kuck ZÁKAZ",
+        "x": -6.722900982914481,
+        "y": -4.044197839904399
+      },
+      {
+        "id": "02",
+        "label": "Stála tam sama, jako kdyby něco hlídala.",
+        "x": -5.303857532243791,
+        "y": 20.10481692130565
+      },
+      {
+        "id": "03",
+        "label": "Uvnitř to bublalo. — Až jednoho dne",
+        "x": -1.9745117299303707,
+        "y": -1.1957144907984156
+      },
+      {
+        "id": "04",
+        "label": "— Kuck. Kuck. Ehl. Eche. Kuck. —",
+        "x": -2.4634766076890533,
+        "y": -1.9590987798835824
+      },
+      {
+        "id": "05",
+        "label": "A právě v tom to bylo. Protože",
+        "x": -8.099839534777903,
+        "y": -1.302944385481643
+      },
+      {
+        "id": "06",
+        "label": "Ale s cedulí to byl přestupek. —",
+        "x": -1.471139919426892,
+        "y": -0.5072335482223189
+      },
+      {
+        "id": "07",
+        "label": "Jako vtip. Jako překvapení. Jako varování, které",
+        "x": -3.711234441843474,
+        "y": -2.8830197622993357
+      },
+      {
+        "id": "08",
+        "label": "„To je nevhodné místo pro draka!“ —",
+        "x": 0.8996167374344938,
+        "y": -5.652956994719131
+      },
+      {
+        "id": "09",
+        "label": "— Zvířata se začala scházet. Myš, co",
+        "x": 20.600932161637072,
+        "y": 6.188116790147917
+      },
+      {
+        "id": "10",
+        "label": "— A tak se začalo říkat, že",
+        "x": 8.246411849754312,
+        "y": -8.747767910143898
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "01",
+        "to": "04",
+        "death": 0.805055
+      },
+      {
+        "from": "06",
+        "to": "10",
+        "death": 0.841002
+      },
+      {
+        "from": "08",
+        "to": "10",
+        "death": 0.858115
+      },
+      {
+        "from": "09",
+        "to": "10",
+        "death": 0.860605
+      },
+      {
+        "from": "02",
+        "to": "06",
+        "death": 0.881524
+      },
+      {
+        "from": "04",
+        "to": "07",
+        "death": 0.895237
+      },
+      {
+        "from": "05",
+        "to": "06",
+        "death": 0.899097
+      },
+      {
+        "from": "05",
+        "to": "07",
+        "death": 0.912751
+      },
+      {
+        "from": "03",
+        "to": "10",
+        "death": 0.933026
+      }
+    ],
+    "largest_finite_lifetime": 0.933026,
+    "mean_merge_distance": 0.876268
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do stejnoměrných navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy úseků jsou odvozené z jejich prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding ani sémantická vzdálenost. PCA osy jsou vypočtené samostatně pro tuto kartu; souřadnice nelze přímo porovnávat napříč kartami."
+  }
+}
