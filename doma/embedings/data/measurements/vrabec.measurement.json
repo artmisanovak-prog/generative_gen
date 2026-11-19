@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "vrabec",
+  "title": "Vrabec",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/vrabec.txt",
+    "sha": "67271c9fb391766d85c4a521e61e3281b0ff9e2c",
+    "characters": 1161
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/vrabec.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Karta: images/vrabec.jpg Text: lepší holub na střeše než vrabec",
+      "text": "Karta: images/vrabec.jpg\n\nText: lepší holub na střeše než vrabec na hlavě\n\nO VRABCOVI",
+      "characters": 85,
+      "words": 14
+    },
+    {
+      "id": "02",
+      "label": "🐦 který se dostal z hrsti na hlavu Byla",
+      "text": "🐦 který se dostal z hrsti na hlavu\n\nByla jednou jedna dáma, co si řekla:",
+      "characters": 73,
+      "words": 13
+    },
+    {
+      "id": "03",
+      "label": "„Lepší vrabec v hrsti než holub na střeše.“ A",
+      "text": "„Lepší vrabec v hrsti než holub na střeše.“\n\nA tak si jednoho dne chytila vrabce.\n\nMalého.\n\nPípajícího.",
+      "characters": 103,
+      "words": 15
+    },
+    {
+      "id": "04",
+      "label": "Trochu nervózního. Ale byl její. Holub seděl dál na",
+      "text": "Trochu nervózního.\n\nAle byl její.\n\nHolub seděl dál na střeše.\n\nVelký.\n\nDq12ůstojný.\n\nNedosažitelný.",
+      "characters": 99,
+      "words": 13
+    },
+    {
+      "id": "05",
+      "label": "Ale ona má přece vrabce. V hrsti. Jistotu. Jenže",
+      "text": "Ale ona má přece vrabce.\n\nV hrsti.\n\nJistotu.\n\nJenže vrabec se nechtěl držet.\n\nZačal se vrtět.\n\nŠkrábat.\n\nPípat.",
+      "characters": 111,
+      "words": 17
+    },
+    {
+      "id": "06",
+      "label": "A nakonec – šup! – vyskočil z hrsti rovnou",
+      "text": "A nakonec – šup! – vyskočil z hrsti rovnou na hlavu.\n\nA tam zůstal.\n\nNe jako trofej.\n\nJako názor.",
+      "characters": 97,
+      "words": 14
+    },
+    {
+      "id": "07",
+      "label": "Jako myšlenka, co se nedá setřást. Seděl jí na",
+      "text": "Jako myšlenka, co se nedá setřást.\n\nSeděl jí na temeni.\n\nNa čele.\n\nNa představách.\n\nA nejen to – začal si tam stavět hnízdo.",
+      "characters": 124,
+      "words": 21
+    },
+    {
+      "id": "08",
+      "label": "Z peří. Z pochybností. Z ranních vlasů. A ona",
+      "text": "Z peří.\n\nZ pochybností.\n\nZ ranních vlasů.\n\nA ona chodil po světě s vrabcem na hlavě.\n\nRozcuchaná.\n\nRozladěná.\n\nRozmyšlená.",
+      "characters": 122,
+      "words": 14
+    },
+    {
+      "id": "09",
+      "label": "A všichni říkali: „To je vrabčí hnízdo.“ A holub?",
+      "text": "A všichni říkali:\n\n„To je vrabčí hnízdo.“\n\nA holub?\n\nTen pořád seděl na střeše.\n\nTichý.\n\nVznešený.\n\nNedotěrný.",
+      "characters": 110,
+      "words": 15
+    },
+    {
+      "id": "10",
+      "label": "A tak si dáma jednoho dne sedla, podívala se",
+      "text": "A tak si dáma jednoho dne sedla,\n\npodívala se nahoru a řekla:\n\n„Možná je lepší holub na střeše než vrabec na hlavě.“\n\nA vrabec se jen zavrtěl.\n\nA přidal další větvičku.",
+      "characters": 168,
+      "words": 27
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 239,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.9455301516742878,
+    "pca_variance": [
+      0.17796989167466468,
+      0.14023765757489162
+    ],
+    "distances": [
+      [
+        0,
+        0.9840771849037614,
+        0.8116616072797878,
+        0.9333626084928139,
+        0.9645461389188853,
+        0.9855648746021585,
+        0.9635600505532425,
+        0.936039346822178,
+        0.9381357885928528,
+        0.6892744531506478
+      ],
+      [
+        0.9840771849037614,
+        0,
+        0.9512647969219343,
+        0.9922981022009131,
+        0.9480565460738548,
+        0.9120242193281103,
+        0.9244323019519884,
+        0.9928569317790251,
+        0.992849782638512,
+        0.8973272987030806
+      ],
+      [
+        0.8116616072797878,
+        0.9512647969219343,
+        2.220446049250313e-16,
+        0.9432042694502133,
+        0.9374027003501535,
+        0.974420477889942,
+        0.96673353630913,
+        0.992930289985313,
+        0.947272499683958,
+        0.737462740793875
+      ],
+      [
+        0.9333626084928139,
+        0.9922981022009131,
+        0.9432042694502133,
+        -2.220446049250313e-16,
+        0.9716554799125879,
+        0.9930177007106336,
+        0.9625566536505746,
+        0.9929251592821454,
+        0.9233472940780514,
+        0.9543171001323791
+      ],
+      [
+        0.9645461389188853,
+        0.9480565460738548,
+        0.9374027003501535,
+        0.9716554799125879,
+        1.1102230246251565e-16,
+        0.9843032305847719,
+        0.9517524288001091,
+        0.9737120842217382,
+        1,
+        0.9069982387452368
+      ],
+      [
+        0.9855648746021585,
+        0.9120242193281103,
+        0.974420477889942,
+        0.9930177007106336,
+        0.9843032305847719,
+        1.1102230246251565e-16,
+        0.9127722985140154,
+        0.9935243181012968,
+        0.9935178369144483,
+        0.9901040786079535
+      ],
+      [
+        0.9635600505532425,
+        0.9244323019519884,
+        0.96673353630913,
+        0.9625566536505746,
+        0.9517524288001091,
+        0.9127722985140154,
+        -2.220446049250313e-16,
+        0.9836528250002379,
+        0.9171662117852941,
+        0.941717093592482
+      ],
+      [
+        0.936039346822178,
+        0.9928569317790251,
+        0.992930289985313,
+        0.9929251592821454,
+        0.9737120842217382,
+        0.9935243181012968,
+        0.9836528250002379,
+        0,
+        0.9934319241503616,
+        0.9561521234774778
+      ],
+      [
+        0.9381357885928528,
+        0.992849782638512,
+        0.947272499683958,
+        0.9233472940780514,
+        1,
+        0.9935178369144483,
+        0.9171662117852941,
+        0.9934319241503616,
+        1.1102230246251565e-16,
+        0.9354741977048436
+      ],
+      [
+        0.6892744531506478,
+        0.8973272987030806,
+        0.737462740793875,
+        0.9543171001323791,
+        0.9069982387452368,
+        0.9901040786079535,
+        0.941717093592482,
+        0.9561521234774778,
+        0.9354741977048436,
+        -2.220446049250313e-16
+      ]
+    ],
+    "coordinates": [
+      [
+        3.441437973365443,
+        0.15427917321149956
+      ],
+      [
+        -1.4222763915575125,
+        1.029103584469307
+      ],
+      [
+        2.985172718417332,
+        0.5525579051575734
+      ],
+      [
+        -1.7517901619386407,
+        2.494308122949656
+      ],
+      [
+        -1.1608811606158091,
+        5.9634954830511635
+      ],
+      [
+        -4.278253948447265,
+        1.66797830113188
+      ],
+      [
+        -7.579987322371842,
+        -12.114132086094756
+      ],
+      [
+        -1.8060604337743034,
+        4.369977144782386
+      ],
+      [
+        -2.1088594948094106,
+        0.6260995045086752
+      ],
+      [
+        13.681498221741236,
+        -4.743667133167368
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 0,
+        "b": 9,
+        "distance": 0.6892744531506478
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.737462740793875
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.8973272987030806
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.9069982387452368
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.9120242193281103
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.9127722985140154
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.9171662117852941
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.9233472940780514
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "distance": 0.936039346822178
+      }
+    ],
+    "pairs": [
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 0.689274,
+        "similarity": 0.310726
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.737463,
+        "similarity": 0.262537
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.811662,
+        "similarity": 0.188338
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.897327,
+        "similarity": 0.102673
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.906998,
+        "similarity": 0.093002
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.912024,
+        "similarity": 0.087976
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.912772,
+        "similarity": 0.087228
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.917166,
+        "similarity": 0.082834
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.923347,
+        "similarity": 0.076653
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.924432,
+        "similarity": 0.075568
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 0.933363,
+        "similarity": 0.066637
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.935474,
+        "similarity": 0.064526
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 0.936039,
+        "similarity": 0.063961
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.937403,
+        "similarity": 0.062597
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.938136,
+        "similarity": 0.061864
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.941717,
+        "similarity": 0.058283
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.943204,
+        "similarity": 0.056796
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.947272,
+        "similarity": 0.052728
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 0.948057,
+        "similarity": 0.051943
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.951265,
+        "similarity": 0.048735
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.951752,
+        "similarity": 0.048248
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.954317,
+        "similarity": 0.045683
+      },
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.956152,
+        "similarity": 0.043848
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.962557,
+        "similarity": 0.037443
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.96356,
+        "similarity": 0.03644
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.964546,
+        "similarity": 0.035454
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.966734,
+        "similarity": 0.033266
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.971655,
+        "similarity": 0.028345
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.973712,
+        "similarity": 0.026288
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.97442,
+        "similarity": 0.02558
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.983653,
+        "similarity": 0.016347
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.984077,
+        "similarity": 0.015923
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.984303,
+        "similarity": 0.015697
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 0.985565,
+        "similarity": 0.014435
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 0.990104,
+        "similarity": 0.009896
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.992298,
+        "similarity": 0.007702
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.99285,
+        "similarity": 0.00715
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.992857,
+        "similarity": 0.007143
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.992925,
+        "similarity": 0.007075
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.99293,
+        "similarity": 0.00707
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 0.993018,
+        "similarity": 0.006982
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.993432,
+        "similarity": 0.006568
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.993518,
+        "similarity": 0.006482
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.993524,
+        "similarity": 0.006476
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      }
+    ]
+  }
+}
