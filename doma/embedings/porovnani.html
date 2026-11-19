@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Semantic Gap · měření karet</title>
+<style>
+:root{--bg:#07111b;--panel:#0d1b28;--panel2:#102434;--text:#e7f0f5;--muted:#9aafbd;--line:#203747;--accent:#8fc9d8;--accent2:#d5a56e;--good:#9fc7a9}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--accent)}main{max-width:1120px;margin:auto;padding:24px 18px 64px}
+header{padding:24px 0 20px;border-bottom:1px solid var(--line)}.eyebrow{font-size:11px;letter-spacing:.18em;color:var(--accent);text-transform:uppercase}
+h1{font:300 clamp(38px,7vw,68px)/1.02 Georgia,serif;margin:12px 0}h2{font:300 30px Georgia,serif;margin:0 0 10px}h3{font:500 17px Georgia,serif;margin:20px 0 8px;color:var(--accent)}
+p{margin:8px 0}.intro{max-width:760px;color:var(--muted);font-size:17px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.tabs button,.action{background:transparent;border:1px solid var(--line);color:var(--text);padding:10px 16px;border-radius:2px;font:inherit;cursor:pointer}.tabs button[aria-pressed=true]{background:var(--accent);color:#07111b;border-color:var(--accent)}
+.panel{background:var(--panel);border:1px solid var(--line);padding:18px;margin:14px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.metric{background:var(--panel2);padding:14px;border:1px solid var(--line)}.metric strong{display:block;font:300 30px Georgia,serif;color:var(--accent)}.metric span{display:block;color:var(--muted);font-size:12px}
+.note{border-left:3px solid var(--accent2);padding:10px 14px;color:var(--muted);background:#101d27;margin:14px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:8px 9px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--accent);font-weight:500}td.num{text-align:right;font-variant-numeric:tabular-nums}
+.scroll{overflow:auto}.matrix td{text-align:center;min-width:58px;font-variant-numeric:tabular-nums}.matrix th:first-child{min-width:190px}
+svg{width:100%;height:auto;display:block;background:#091722;border:1px solid var(--line)}.legend{font-size:12px;color:var(--muted)}
+.pair{padding:12px 0;border-bottom:1px solid var(--line)}.pair:last-child{border:0}.pair b{color:var(--accent)}
+details{border-top:1px solid var(--line);padding:12px 0}summary{cursor:pointer;color:var(--accent);font-size:16px}
+.small{font-size:12px;color:var(--muted)}.status{color:var(--good)}footer{border-top:1px solid var(--line);margin-top:32px;padding-top:18px;color:var(--muted);font-size:12px}
+@media(max-width:600px){main{padding:16px 12px 44px}.panel{padding:13px}table{font-size:11px}.matrix th:first-child{min-width:130px}}
+</style>
+</head>
+<body><main>
+<header><div class="eyebrow">MOUSE · SEMANTIC GAP · VÝZKUMNÉ PRACOVIŠTĚ</div><h1>Co se děje uvnitř karet</h1><p class="intro">Tři samostatná měření. Každá pohádka má svůj vlastní prostor, vlastní vzdálenosti a vlastní topologii. Tady si můžeš prohlížet, které části se k sobě podle textu přibližují a které zůstávají oddělené.</p></header>
+<nav class="tabs" aria-label="Výběr karty"><button data-card="ryba" aria-pressed="true">Ryba</button><button data-card="kocour" aria-pressed="false">Kocour</button><button data-card="mys" aria-pressed="false">Myš</button></nav>
+<section class="panel"><div class="eyebrow">JAK TO ČÍST</div><h2 id="cardTitle">Ryba</h2><p id="plainIntro"></p><div class="grid" id="metrics"></div></section>
+<section class="panel"><div class="eyebrow">01 / KTERÉ ČÁSTI JSOU SI NEJBLIŽŠÍ</div><h2>Mapa vzdáleností</h2><p>Každé políčko porovnává dvě části pohádky. Menší číslo znamená, že mají v textu více společných slov a slovních spojení. Nula by znamenala shodný směr vektorů, jednička žádný lexikální překryv.</p><div class="scroll matrix" id="matrix"></div><h3>Nejbližší spojení</h3><div id="closest"></div><h3>Nejvzdálenější dvojice</h3><div id="distant"></div></section>
+<section class="panel"><div class="eyebrow">02 / ROZLOŽENÍ ČÁSTÍ</div><h2>Dvourozměrná mapa (PCA)</h2><p>Každý bod je jeden úsek pohádky. Body blízko sebe mají podobnější slovní skladbu. Mapa zjednodušuje původní mnohorozměrný prostor do dvou os, takže část detailů se při promítnutí ztratí.</p><div id="pca"></div><p class="legend" id="pcaCaption"></p></section>
+<section class="panel"><div class="eyebrow">03 / TOPOLOGIE</div><h2>Jak se oddělené části postupně propojují</h2><p>Představ si, že každá část pohádky je nejprve samostatný ostrov. Postupně povolujeme spojení mezi podobnějšími částmi. Když se dva ostrovy spojí, zaznamenáme vzdálenost, při které k tomu došlo.</p><div id="topology"></div><div class="note" id="topologyNote"></div></section>
+<section class="panel"><div class="eyebrow">04 / CO Z TOHO LZE VYČÍST</div><h2>Výklad výsledku</h2><div id="interpretation"></div></section>
+<section class="panel"><div class="eyebrow">05 / METODA A OMEZENÍ</div><details open><summary>Co přesně bylo vypočítáno?</summary><p>Text každého úseku byl převeden na TF-IDF vektor. Ten zohledňuje, jak často se slovo nebo dvojice sousedních slov v úseku objevuje a jak vzácná je v rámci dané pohádky. Potom se počítala kosinová vzdálenost, PCA a persistentní homologie H0.</p></details><details><summary>Co tato čísla neříkají?</summary><p>Nejde o neuronové embeddingy a vzdálenosti nejsou přímým měřením významu. Například dvě části mohou vyjadřovat podobnou myšlenku jinými slovy, a proto se v TF-IDF prostoru jeví jako vzdálené. Naopak opakování stejných slov může vytvořit blízkost i bez stejného významu.</p></details><details><summary>Co zatím chybí?</summary><p>V těchto výpočtech nejsou obrazové embeddingy ani společný textově-obrazový prostor. Ilustrace tedy zatím nejsou součástí numerické topologie. To je další samostatná vrstva měření, kterou nelze zaměňovat s textovou.</p></details><p class="small">Výsledky jsou uložené v samostatných JSON souborech v data/measurements/. Tato stránka je pouze čte a zobrazuje, takže se výpočty nemusí při každém otevření znovu provádět.</p></section>
+<footer><a href="index.html">← Zpět na pracoviště embeddings</a><br>Semantic Gap · lokální měření TF-IDF · výsledky uložené jako datové soubory</footer>
+</main>
+<script>
+const FILES={ryba:"data/measurements/ryba.measurement.json",kocour:"data/measurements/kocour.measurement.json",mys:"data/measurements/mys.measurement.json"};
+const EXPLAIN={
+ryba:"U Ryby se ukazuje poměrně výrazná odlišnost mezi některými tematickými částmi. Nejbližší lexikální spojení je mezi úvodním popřením představy, že ryby mlčí, a závěrečným posunem od poslouchání k vnímání. Jinými slovy: začátek a konec sdílejí část slovní a tematické slovní zásoby, přestože stojí na různých místech příběhu.",
+kocour:"U Kocoura se nejvíc přibližuje pasáž, v níž lidé znovu získávají možnost dokončovat vlastní věty, a závěrečné navrácení celistvosti. Další blízkost spojuje přesné číselné vymezení s pasáží o původu teček. Výpočet zachycuje slovní návaznost, nikoli sám o sobě celý významový mechanismus příběhu.",
+mys:"U Myši se nejvíc přibližuje část o zvířatech a jejich nevysvětlených zvláštnostech s částí, v níž se otázka „Chceš myš?“ rozšiřuje na otázku o všem. To ukazuje lexikální most mezi pozorováním zvláštních jevů a závěrečnou otázkou."
+};
+let current=null;
+const fmt=x=>Number(x).toFixed(3);
+function metric(value,label){return '<div class="metric"><strong>'+value+'</strong><span>'+label+'</span></div>'}
+function renderMatrix(d){
+ const names=d.source_segments.map(s=>s.id),labels=d.source_segments.map(s=>s.label);
+ let out='<table><thead><tr><th>Úsek</th>'+names.map(n=>'<th>'+n+'</th>').join('')+'</tr></thead><tbody>';
+ d.pairwise.distance_matrix.forEach((row,i)=>{out+='<tr><th>'+names[i]+' · '+labels[i]+'</th>'+row.map(v=>'<td>'+fmt(v)+'</td>').join('')+'</tr>'});
+ return out+'</tbody></table>';
+}
+function pairsHtml(items,segments){
+ const map=Object.fromEntries(segments.map(s=>[s.id,s.label]));
+ return items.map(p=>'<div class="pair"><b>'+map[p.a]+'</b> ↔ <b>'+map[p.b]+'</b><br>Vzdálenost '+fmt(p.distance)+' · podobnost '+fmt(p.similarity)+'</div>').join('');
+}
+function pcaSvg(d){
+ const pts=d.pca.coordinates,w=760,h=390,pad=56;
+ const xs=pts.map(p=>p.x),ys=pts.map(p=>p.y),minx=Math.min(...xs),maxx=Math.max(...xs),miny=Math.min(...ys),maxy=Math.max(...ys);
+ const X=v=>pad+(v-minx)/(maxx-minx||1)*(w-2*pad),Y=v=>h-pad-(v-miny)/(maxy-miny||1)*(h-2*pad);
+ let s='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="PCA mapa úseků"><line x1="'+pad+'" y1="'+(h-pad)+'" x2="'+(w-pad)+'" y2="'+(h-pad)+'" stroke="#496274"/><line x1="'+pad+'" y1="'+pad+'" x2="'+pad+'" y2="'+(h-pad)+'" stroke="#496274"/>';
+ pts.forEach((p,i)=>{const x=X(p.x),y=Y(p.y);s+='<circle cx="'+x+'" cy="'+y+'" r="7" fill="#8fc9d8"/><text x="'+(x+10)+'" y="'+(y-9)+'" fill="#e7f0f5" font-size="13">'+p.id+'</text>';});
+ s+='<text x="'+(w/2)+'" y="'+(h-12)+'" text-anchor="middle" fill="#9aafbd" font-size="12">1. osa</text><text x="16" y="'+(h/2)+'" transform="rotate(-90 16 '+(h/2)+')" text-anchor="middle" fill="#9aafbd" font-size="12">2. osa</text></svg>';
+ return s;
+}
+function topologyHtml(d){
+ const bars=d.topology.merges;
+ const max=Math.max(...bars.map(x=>x.death));
+ return '<div class="scroll"><table><thead><tr><th>Část, která se připojuje</th><th>Ke které části</th><th>Vzdálenost při spojení</th><th>Průběh</th></tr></thead><tbody>'+bars.map(b=>'<tr><td>'+b.from+'</td><td>'+b.to+'</td><td class="num">'+fmt(b.death)+'</td><td><div style="background:#203747;height:9px;min-width:90px"><div style="height:9px;background:#8fc9d8;width:'+(b.death/max*100)+'%"></div></div></td></tr>').join('')+'</tbody></table></div>';
+}
+function render(d,id){
+ current=d;document.getElementById("cardTitle").textContent=d.title;
+ document.getElementById("plainIntro").textContent=EXPLAIN[id];
+ const m=d.metrics;
+ document.getElementById("metrics").innerHTML=
+ metric(m.segments,"částí pohádky")+
+ metric(m.feature_dimensions,"rozlišovaných slov a slovních spojení")+
+ metric(m.compared_pairs,"porovnaných dvojic")+
+ metric((m.mean_cosine_distance).toFixed(3),"průměrná vzdálenost částí")+
+ metric(m.pca_first_two_percent+" %","informací zachycených mapou PCA");
+ document.getElementById("matrix").innerHTML=renderMatrix(d);
+ document.getElementById("closest").innerHTML=pairsHtml(d.pairwise.closest_pairs.slice(0,5),d.source_segments);
+ document.getElementById("distant").innerHTML=pairsHtml(d.pairwise.most_distant_pairs,d.source_segments);
+ document.getElementById("pca").innerHTML=pcaSvg(d);
+ document.getElementById("pcaCaption").textContent="První dvě osy zachycují "+m.pca_first_two_percent+" % variability této textové reprezentace. Každý bod je jeden úsek, nikoli samostatná karta.";
+ document.getElementById("topology").innerHTML=topologyHtml(d);
+ document.getElementById("topologyNote").textContent="Nejpozději se připojuje komponenta "+d.topology.merges[0].from+" při vzdálenosti "+fmt(d.topology.largest_finite_lifetime)+". Jedna výsledná komponenta zůstane po spojení všech úseků.";
+ document.getElementById("interpretation").innerHTML="<p>"+EXPLAIN[id]+"</p><p>Neber to jako rozsudek o tom, co pohádka znamená. Je to mapa slovních vztahů, která ukazuje, kam se vyplatí podívat při hlubší významové a obrazové analýze.</p>";
+}
+async function select(id){
+ document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.card===id)));
+ document.getElementById("cardTitle").textContent="Načítám…";
+ try{const r=await fetch(FILES[id]);if(!r.ok)throw new Error("Soubor se nepodařilo načíst: "+FILES[id]);render(await r.json(),id);}
+ catch(e){document.getElementById("cardTitle").textContent="Data se nepodařilo načíst";document.getElementById("plainIntro").textContent=e.message+" Otevři stránku přes GitHub Pages, ne jako lokální soubor.";}
+}
+document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>select(b.dataset.card)));
+select("ryba");
+</script></body></html>
