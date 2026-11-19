@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "veverka",
+  "title": "Veverka",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/veverka.txt",
+    "sha": "bc12cce2558fcdb322ea4859a77251daad050290",
+    "characters": 2344
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/veverka.jpg",
+    "status": "numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "O VEVERCE která se modlí činy Veverka",
+      "text": "O VEVERCE\n\nkterá se modlí činy\n\nVeverka běžela.\n\nNe kvůli něčemu.\n\nNe od něčeho.\n\nBěžela, protože to bylo potřeba.\n\nA když to nebylo potřeba, tak to bylo možné.\n\nA když to nebylo možné, tak to bylo aspoň směrem.\n\nOříšek.\n\nDíra.",
+      "characters": 227,
+      "words": 40
+    },
+    {
+      "id": "02",
+      "label": "Zahrabat. Zamaskovat. Zamrkat. Znovu. Nikdy nemluvila. Ale",
+      "text": "Zahrabat.\n\nZamaskovat.\n\nZamrkat.\n\nZnovu.\n\nNikdy nemluvila.\n\nAle když se na ni někdo podíval, měl pocit, že mu právě něco řekla.\n\nA že to bylo důležité.\n\nA že to bylo na něj.\n\nJednou ji pozoroval jezevec.",
+      "characters": 203,
+      "words": 35
+    },
+    {
+      "id": "03",
+      "label": "Dlouho. A pak si napsal na kůru",
+      "text": "Dlouho.\n\nA pak si napsal na kůru stromu:\n\n„Modli se činy.“\n\nA pak se tvářil, že to vymyslel.\n\nA pak se snažil běhat jako ona.\n\nA po třetím oříšku si sedl.\n\nA po čtvrtém si začal stěžovat, že ho bolí tlapky.\n\nA po pátém napsal báseň o smyslu života.\n\nA pak se šel vyspat.",
+      "characters": 270,
+      "words": 54
+    },
+    {
+      "id": "04",
+      "label": "Veverka mezitím doběhla na druhý konec lesa.",
+      "text": "Veverka mezitím doběhla na druhý konec lesa.\n\nZahrabala.\n\nZamaskovala.\n\nZamrkala.\n\nZnovu.\n\nNěkdo se zeptal:\n\n„To je prorok?“\n\n„Ne. To je jen veverka.“ upřesnila myš.\n\n„Aha.“",
+      "characters": 173,
+      "words": 25
+    },
+    {
+      "id": "05",
+      "label": "A pak někdo řekl: „Ale co když",
+      "text": "A pak někdo řekl:\n\n„Ale co když to není o tom, co dělá?“\n\n„Ale o tom, že to dělá?“\n\nA nikdo neodpověděl.\n\nProtože veverka právě běžela kolem.\n\nA nesla další oříšek.\n\nA nikdo se neodvážil ji zastavit.\n\nJednou se stalo, že někdo zahrabal oříšek tam, kde už byl.\n\nA pak ho znovu vykopal.",
+      "characters": 284,
+      "words": 53
+    },
+    {
+      "id": "06",
+      "label": "A pak ho znovu zahrabal. A pak",
+      "text": "A pak ho znovu zahrabal.\n\nA pak řekl:\n\n„Tohle je hluboký smysl.“\n\nA veverka se na něj podívala.\n\nA pak se podívala jinam.\n\nA tím mu řekla všechno.\n\nVeverka neměla čas na významy.\n\nNeměla čas na otázky.\n\nNeměla čas na „proč“.",
+      "characters": 224,
+      "words": 41
+    },
+    {
+      "id": "07",
+      "label": "Měla jen čas. A ten běžel. A",
+      "text": "Měla jen čas.\n\nA ten běžel.\n\nA ona s ním.\n\nJednou se někdo pokusil veverku napodobit.\n\nPřesně.\n\nKrok za krokem.\n\nSkok za skokem.\n\nZahrabal.\n\nZamaskoval.",
+      "characters": 152,
+      "words": 25
+    },
+    {
+      "id": "08",
+      "label": "Zamrkal. A pak se zastavil. A řekl:",
+      "text": "Zamrkal.\n\nA pak se zastavil.\n\nA řekl:\n\n„A co teď?“\n\nA nikdo mu neodpověděl.\n\nProtože veverka už byla pryč.\n\nA odpovědi si nenosí.\n\nJen oříšky.\n\nA tak se začalo říkat:",
+      "characters": 166,
+      "words": 30
+    },
+    {
+      "id": "09",
+      "label": "„Modli se činy.“ Ale nikdo nevěděl, co",
+      "text": "„Modli se činy.“\n\nAle nikdo nevěděl, co to znamená.\n\nA tak to začali tisknout na hrníčky.\n\nA na trička.\n\nA na plakáty.\n\nA pak to přestali dělat.\n\nProtože to nikdo nekupoval.\n\nA protože veverka mezitím zahrabala všechny propisky.\n\nA pak přišla zima.",
+      "characters": 248,
+      "words": 42
+    },
+    {
+      "id": "10",
+      "label": "A veverka měla zásoby. A ti, co",
+      "text": "A veverka měla zásoby.\n\nA ti, co si psali citáty na kůru, měli hlad.\n\nA ti, co si psali básně, měli omrzliny.\n\nA ti, co si nic nepsali, ale běhali,\n\nměli taky zásoby.\n\nA nikdo nevěděl proč.\n\nAle všichni si pamatovali, že to začalo,\n\nkdyž se jednou objevila veverka.\n\nA nikomu nic neřekla.",
+      "characters": 288,
+      "words": 53
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 501,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.906475,
+    "pca_pc1_percent": 18.54,
+    "pca_pc2_percent": 16.01,
+    "pca_first_two_percent": 34.55
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.837172,
+        0.947158,
+        0.932609,
+        0.883315,
+        0.975094,
+        0.987968,
+        0.940903,
+        0.854027,
+        0.95994
+      ],
+      [
+        0.837172,
+        0,
+        0.916448,
+        0.953044,
+        0.863186,
+        0.897203,
+        0.9692,
+        0.950031,
+        0.911208,
+        0.917932
+      ],
+      [
+        0.947158,
+        0.916448,
+        0,
+        0.982421,
+        0.84666,
+        0.828247,
+        0.952233,
+        0.816884,
+        0.818019,
+        0.867817
+      ],
+      [
+        0.932609,
+        0.953044,
+        0.982421,
+        0,
+        0.955008,
+        0.935836,
+        0.975284,
+        0.972369,
+        0.905301,
+        0.976929
+      ],
+      [
+        0.883315,
+        0.863186,
+        0.84666,
+        0.955008,
+        0,
+        0.86781,
+        0.932837,
+        0.802394,
+        0.824788,
+        0.875441
+      ],
+      [
+        0.975094,
+        0.897203,
+        0.828247,
+        0.935836,
+        0.86781,
+        0,
+        0.930282,
+        0.858516,
+        0.843517,
+        0.92524
+      ],
+      [
+        0.987968,
+        0.9692,
+        0.952233,
+        0.975284,
+        0.932837,
+        0.930282,
+        0,
+        0.940769,
+        0.964111,
+        0.959359
+      ],
+      [
+        0.940903,
+        0.950031,
+        0.816884,
+        0.972369,
+        0.802394,
+        0.858516,
+        0.940769,
+        0,
+        0.804572,
+        0.856733
+      ],
+      [
+        0.854027,
+        0.911208,
+        0.818019,
+        0.905301,
+        0.824788,
+        0.843517,
+        0.964111,
+        0.804572,
+        0,
+        0.875557
+      ],
+      [
+        0.95994,
+        0.917932,
+        0.867817,
+        0.976929,
+        0.875441,
+        0.92524,
+        0.959359,
+        0.856733,
+        0.875557,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.162828,
+        0.052842,
+        0.067391,
+        0.116685,
+        0.024906,
+        0.012032,
+        0.059097,
+        0.145973,
+        0.04006
+      ],
+      [
+        0.162828,
+        1,
+        0.083552,
+        0.046956,
+        0.136814,
+        0.102797,
+        0.0308,
+        0.049969,
+        0.088792,
+        0.082068
+      ],
+      [
+        0.052842,
+        0.083552,
+        1,
+        0.017579,
+        0.15334,
+        0.171753,
+        0.047767,
+        0.183116,
+        0.181981,
+        0.132183
+      ],
+      [
+        0.067391,
+        0.046956,
+        0.017579,
+        1,
+        0.044992,
+        0.064164,
+        0.024716,
+        0.027631,
+        0.094699,
+        0.023071
+      ],
+      [
+        0.116685,
+        0.136814,
+        0.15334,
+        0.044992,
+        1,
+        0.13219,
+        0.067163,
+        0.197606,
+        0.175212,
+        0.124559
+      ],
+      [
+        0.024906,
+        0.102797,
+        0.171753,
+        0.064164,
+        0.13219,
+        1,
+        0.069718,
+        0.141484,
+        0.156483,
+        0.07476
+      ],
+      [
+        0.012032,
+        0.0308,
+        0.047767,
+        0.024716,
+        0.067163,
+        0.069718,
+        1,
+        0.059231,
+        0.035889,
+        0.040641
+      ],
+      [
+        0.059097,
+        0.049969,
+        0.183116,
+        0.027631,
+        0.197606,
+        0.141484,
+        0.059231,
+        1,
+        0.195428,
+        0.143267
+      ],
+      [
+        0.145973,
+        0.088792,
+        0.181981,
+        0.094699,
+        0.175212,
+        0.156483,
+        0.035889,
+        0.195428,
+        1,
+        0.124443
+      ],
+      [
+        0.04006,
+        0.082068,
+        0.132183,
+        0.023071,
+        0.124559,
+        0.07476,
+        0.040641,
+        0.143267,
+        0.124443,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "05",
+        "b": "08",
+        "distance": 0.802394,
+        "similarity": 0.197606
+      },
+      {
+        "a": "08",
+        "b": "09",
+        "distance": 0.804572,
+        "similarity": 0.195428
+      },
+      {
+        "a": "03",
+        "b": "08",
+        "distance": 0.816884,
+        "similarity": 0.183116
+      },
+      {
+        "a": "03",
+        "b": "09",
+        "distance": 0.818019,
+        "similarity": 0.181981
+      },
+      {
+        "a": "05",
+        "b": "09",
+        "distance": 0.824788,
+        "similarity": 0.175212
+      },
+      {
+        "a": "03",
+        "b": "06",
+        "distance": 0.828247,
+        "similarity": 0.171753
+      },
+      {
+        "a": "01",
+        "b": "02",
+        "distance": 0.837172,
+        "similarity": 0.162828
+      },
+      {
+        "a": "06",
+        "b": "09",
+        "distance": 0.843517,
+        "similarity": 0.156483
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "01",
+        "b": "07",
+        "distance": 0.987968,
+        "similarity": 0.012032
+      },
+      {
+        "a": "03",
+        "b": "04",
+        "distance": 0.982421,
+        "similarity": 0.017579
+      },
+      {
+        "a": "04",
+        "b": "10",
+        "distance": 0.976929,
+        "similarity": 0.023071
+      },
+      {
+        "a": "04",
+        "b": "07",
+        "distance": 0.975284,
+        "similarity": 0.024716
+      },
+      {
+        "a": "01",
+        "b": "06",
+        "distance": 0.975094,
+        "similarity": 0.024906
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      18.5355,
+      16.0144
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "O VEVERCE která se modlí činy Veverka",
+        "x": -7.528380293100774,
+        "y": -13.306400232684958
+      },
+      {
+        "id": "02",
+        "label": "Zahrabat. Zamaskovat. Zamrkat. Znovu. Nikdy nemluvila. Ale",
+        "x": -3.2932742042654835,
+        "y": -4.898549046807003
+      },
+      {
+        "id": "03",
+        "label": "Dlouho. A pak si napsal na kůru",
+        "x": -0.9176010809836265,
+        "y": 22.933216899710764
+      },
+      {
+        "id": "04",
+        "label": "Veverka mezitím doběhla na druhý konec lesa.",
+        "x": -3.2340723480408697,
+        "y": -3.8081422133583898
+      },
+      {
+        "id": "05",
+        "label": "A pak někdo řekl: „Ale co když",
+        "x": -2.7487319777473194,
+        "y": -1.6674986980697089
+      },
+      {
+        "id": "06",
+        "label": "A pak ho znovu zahrabal. A pak",
+        "x": -4.796921863479171,
+        "y": 5.969532916793523
+      },
+      {
+        "id": "07",
+        "label": "Měla jen čas. A ten běžel. A",
+        "x": -2.381614344688728,
+        "y": -2.233302816912419
+      },
+      {
+        "id": "08",
+        "label": "Zamrkal. A pak se zastavil. A řekl:",
+        "x": -0.8301988956065909,
+        "y": 0.48746317982838705
+      },
+      {
+        "id": "09",
+        "label": "„Modli se činy.“ Ale nikdo nevěděl, co",
+        "x": -2.523064702166932,
+        "y": -0.3176727199655332
+      },
+      {
+        "id": "10",
+        "label": "A veverka měla zásoby. A ti, co",
+        "x": 28.253859710079354,
+        "y": -3.1586472685347418
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "05",
+        "to": "08",
+        "death": 0.802394
+      },
+      {
+        "from": "08",
+        "to": "09",
+        "death": 0.804572
+      },
+      {
+        "from": "03",
+        "to": "08",
+        "death": 0.816884
+      },
+      {
+        "from": "03",
+        "to": "06",
+        "death": 0.828247
+      },
+      {
+        "from": "01",
+        "to": "02",
+        "death": 0.837172
+      },
+      {
+        "from": "01",
+        "to": "09",
+        "death": 0.854027
+      },
+      {
+        "from": "08",
+        "to": "10",
+        "death": 0.856733
+      },
+      {
+        "from": "04",
+        "to": "09",
+        "death": 0.905301
+      },
+      {
+        "from": "06",
+        "to": "07",
+        "death": 0.930282
+      }
+    ],
+    "largest_finite_lifetime": 0.930282,
+    "mean_merge_distance": 0.848401
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy vycházejí z prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding. PCA osy jsou specifické pro tuto kartu a nelze je přímo porovnávat napříč kartami."
+  }
+}
