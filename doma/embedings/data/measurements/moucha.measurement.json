@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "moucha",
+  "title": "Moucha",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/moucha.txt",
+    "sha": "b00298ce1865618bf9ce0c9253b07ef7f78566a9",
+    "characters": 3312
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/moucha.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Karta: images/moucha.jpg Text: moucha v průseru O MORUŠI A",
+      "text": "Karta: images/moucha.jpg\n\nText: moucha v průseru\n\nO MORUŠI A MOUŠE\n\naneb jak se průser stal rájem\n\nKdysi — ale klidně i dnes odpoledne —\n\nstála na dvorku stará moruše.\n\nNebyla krásná.\n\nNebyla vznešená.\n\nNebyla praktická.\n\nPadala z ní sladká, temná plíseň léta,\n\nkterá barvila chodník, boty i svědomí.",
+      "characters": 300,
+      "words": 42
+    },
+    {
+      "id": "02",
+      "label": "Pod moruší žili bordeláři. Ne ti dramaticky rozházení. Ti",
+      "text": "Pod moruší žili bordeláři.\n\nNe ti dramaticky rozházení.\n\nTi by měli styl.\n\nTihle bordeláři byli tiší.\n\nNechávali věci tam, kde zůstaly.\n\nHrnek, který „ještě použiju“.\n\nPapíry, které „se budou hodit“.\n\nSkvrny, které „zaschnou a zmizí“.\n\nNezmizely.\n\nSlunce peklo.\n\nMoruše kapala.\n\nZbytky hnily.",
+      "characters": 292,
+      "words": 41
+    },
+    {
+      "id": "03",
+      "label": "A svět pod stromem pomalu měnil skupenství. Pak přiletěla",
+      "text": "A svět pod stromem pomalu měnil skupenství.\n\nPak přiletěla moucha.\n\nNebyla výjimečná.\n\nNebyla hrdinská.\n\nByla dokonale mouchovitá\n\nPřiletěla z průseru.\n\nCizího.\n\nJejího ne.\n\nKroužila nad dvorkem.\n\nZachytila vůni.\n\nZemě.\n\nSladkosti.\n\nRozkladu.\n\nMožnosti.\n\nA přistála.\n\nPro bordeláře: katastrofa.\n\nPro mouchu: švédský stůl existence.",
+      "characters": 331,
+      "words": 39
+    },
+    {
+      "id": "04",
+      "label": "Sedla si na flek pod moruší, který vznikl pomalu,",
+      "text": "Sedla si na flek pod moruší,\n\nkterý vznikl pomalu,\n\npo kapkách,\n\nbez zlého úmyslu,\n\nbez plánu,\n\nbez svědků.\n\nZabzučela.\n\nNe hlasitě.\n\nJen dost, aby to v tichu bylo slyšet.\n\nBordeláři zvedli hlavy.\n\n„Fuj.“\n\nA v tu chvíli si všimli:\n\nskvrn,\n\nlepkavosti,\n\nvůně, která není vůně,\n\nživota, který se dal do pohybu.\n\nMávali rukama.\n\nNadávali.",
+      "characters": 335,
+      "words": 51
+    },
+    {
+      "id": "05",
+      "label": "Hledali hadr. Hledali viníka. Moucha si slastně zabzukala. Ten",
+      "text": "Hledali hadr.\n\nHledali viníka.\n\nMoucha si slastně zabzukala.\n\nTen zvuk nebyl hlasitý.\n\nJen nešel ignorovat.\n\nJeden z chlapů mávl rukou.\n\nDruhý zaklel.\n\nTřetí zvedl botu ze země — a zůstala přilepená k podlaze.\n\nČtvrtý si poprvé všiml, že skvrna není skvrna.\n\nJe to geologie.\n\nMoucha přeběhla o pár centimetrů dál.",
+      "characters": 313,
+      "words": 45
+    },
+    {
+      "id": "06",
+      "label": "A náhle to viděli. Ne mouchu. Sebe. Lepkavá metafyzika",
+      "text": "A náhle to viděli.\n\nNe mouchu.\n\nSebe.\n\nLepkavá metafyzika reality se přilepila na jejich pozornost.\n\nŠlápnutí zanechávalo otisky.\n\nOtisky vytvářely vrstvy.\n\nVrstvy vytvářely historii.\n\nHistorie vytvářela past.\n\n„Tohle nejde uklidit,“ řekl jeden.\n\n„Tohle jsme my,“ řekl druhý.\n\nNikdo neodpověděl.\n\nMoucha se najedla.",
+      "characters": 315,
+      "words": 41
+    },
+    {
+      "id": "07",
+      "label": "Pro ni to byl ráj. Pro ně to byl",
+      "text": "Pro ni to byl ráj.\n\nPro ně to byl konečně viditelný problém.\n\nNe proto, že by byl nový.\n\nAle protože začal bzučet.\n\nA v tom bzučení bylo slyšet:\n\nodkládání,\n\núnava,\n\nzítřek,\n\nkterý nikdy nepřišel.\n\nJeden zvedl krabici.\n\nPod ní byl jiný svět.\n\nDruhý otevřel okno.\n\nVzduch nevěděl, že smí dovnitř.\n\nTřetí vynesl pytel.\n\nByl těžší, než čekal.",
+      "characters": 339,
+      "words": 55
+    },
+    {
+      "id": "08",
+      "label": "Čtvrtý se poprvé nerozhodl sednout. Nikdo nic nesliboval. Nikdo",
+      "text": "Čtvrtý se poprvé nerozhodl sednout.\n\nNikdo nic nesliboval.\n\nNikdo se nepřevtělil v lepšího člověka.\n\nJen poprvé uviděli tvar problému.\n\nMoucha seděla.\n\nNebyl to pro průser její, ale byl pro ní.\n\nPrůser byl domov.\n\nTam, kde ostatní viděli zkázu,\n\nona viděla hojnost.\n\nTam, kde oni cítili hanbu,\n\nona cítila teplo světa.",
+      "characters": 318,
+      "words": 49
+    },
+    {
+      "id": "09",
+      "label": "Tam, kde oni začali uklízet, ona začala hodovat. A",
+      "text": "Tam, kde oni začali uklízet,\n\nona začala hodovat.\n\nA bordeláři?\n\nUklízeli.\n\nA čím víc uklízeli,\n\ntím víc zjišťovali,\n\nže bordel nevznikl dnes.\n\nVznikal po kapkách.\n\nRozhodnutí po rozhodnutí.\n\nOdložením po odložení.\n\nA moucha?\n\nTa bzučela.\n\nNe jako výčitka.\n\nJako komentář.\n\nNajedla se.\n\nOhřála se.\n\nPak odletěla.\n\nProtože ráj není místo,\n\nkde zůstaneš.",
+      "characters": 352,
+      "words": 49
+    },
+    {
+      "id": "10",
+      "label": "Je to místo, které tě už nepotřebuje. Pod moruší",
+      "text": "Je to místo,\n\nkteré tě už nepotřebuje.\n\nPod moruší zůstal dvorek.\n\nČistší.\n\nPomalejší.\n\nTrochu stydlivý.\n\nBordeláři stáli v tichu,\n\nkteré nebylo prázdné.\n\nA někde vysoko nad nimi\n\nkroužila moucha,\n\nhledající další cizí průser,\n\nkterý by se dal proměnit\n\nv dokonalý svět.\n\nProtože pro mouchu není hovno problém.\n\nJe to příležitost.\n\nA svět je plný příležitostí.",
+      "characters": 360,
+      "words": 51
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 749,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.9673920181173846,
+    "pca_variance": [
+      0.13862225210703732,
+      0.12529277761147142
+    ],
+    "distances": [
+      [
+        0,
+        0.9879775647672423,
+        0.9291971083586299,
+        0.9833363527752906,
+        0.9887689891302395,
+        0.9819827412403459,
+        0.9886521506434772,
+        0.9642889711702922,
+        0.9815470016325468,
+        0.9857377049449723
+      ],
+      [
+        0.9879775647672423,
+        0,
+        0.991603861704636,
+        0.9579014845903066,
+        1,
+        0.9906320510437243,
+        0.9828652702133812,
+        0.9561337690512498,
+        0.9565118159530132,
+        0.9255649631098024
+      ],
+      [
+        0.9291971083586299,
+        0.991603861704636,
+        -2.220446049250313e-16,
+        0.9842887152865935,
+        0.9851866827626381,
+        0.9864697664767137,
+        0.9684082996565656,
+        0.976528135948127,
+        0.9855899161688391,
+        0.9376064874974528
+      ],
+      [
+        0.9833363527752906,
+        0.9579014845903066,
+        0.9842887152865935,
+        1.1102230246251565e-16,
+        0.9556315848079974,
+        0.9826818094222485,
+        0.9606482830602778,
+        0.9866130029032619,
+        0.9478402189368766,
+        0.9371976022465723
+      ],
+      [
+        0.9887689891302395,
+        1,
+        0.9851866827626381,
+        0.9556315848079974,
+        0,
+        0.9783461437836998,
+        0.9580205689078782,
+        0.954090377548964,
+        0.9843770757616737,
+        0.9444452647626786
+      ],
+      [
+        0.9819827412403459,
+        0.9906320510437243,
+        0.9864697664767137,
+        0.9826818094222485,
+        0.9783461437836998,
+        0,
+        0.9801854152499747,
+        0.9596732191007497,
+        0.9762297523602474,
+        0.9796568343165236
+      ],
+      [
+        0.9886521506434772,
+        0.9828652702133812,
+        0.9684082996565656,
+        0.9606482830602778,
+        0.9580205689078782,
+        0.9801854152499747,
+        0,
+        0.8990367235065424,
+        0.9752900887551789,
+        0.945627610424729
+      ],
+      [
+        0.9642889711702922,
+        0.9561337690512498,
+        0.976528135948127,
+        0.9866130029032619,
+        0.954090377548964,
+        0.9596732191007497,
+        0.8990367235065424,
+        1.1102230246251565e-16,
+        0.9133872013383427,
+        0.965980239143314
+      ],
+      [
+        0.9815470016325468,
+        0.9565118159530132,
+        0.9855899161688391,
+        0.9478402189368766,
+        0.9843770757616737,
+        0.9762297523602474,
+        0.9752900887551789,
+        0.9133872013383427,
+        0,
+        0.9709019948185004
+      ],
+      [
+        0.9857377049449723,
+        0.9255649631098024,
+        0.9376064874974528,
+        0.9371976022465723,
+        0.9444452647626786,
+        0.9796568343165236,
+        0.945627610424729,
+        0.965980239143314,
+        0.9709019948185004,
+        -2.220446049250313e-16
+      ]
+    ],
+    "coordinates": [
+      [
+        3.4219698121859983,
+        1.0020249083906572
+      ],
+      [
+        3.5175932784134134,
+        -0.5332830913752549
+      ],
+      [
+        1.9774151983586887,
+        -1.3878781447623854
+      ],
+      [
+        6.713699607587719,
+        -13.379131853917476
+      ],
+      [
+        1.4597900011304432,
+        -3.503028587444998
+      ],
+      [
+        2.8686239386571826,
+        1.721650439807855
+      ],
+      [
+        -25.62789052637214,
+        -2.484472084287738
+      ],
+      [
+        -4.0165296156109305,
+        12.24243101194759
+      ],
+      [
+        6.564874796399377,
+        16.53791677425376
+      ],
+      [
+        3.1204535092502574,
+        -10.216229372612075
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.8990367235065424
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.9133872013383427
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.9255649631098024
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "distance": 0.9291971083586299
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.9371976022465723
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.9376064874974528
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.9444452647626786
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.945627610424729
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.9596732191007497
+      }
+    ],
+    "pairs": [
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.899037,
+        "similarity": 0.100963
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.913387,
+        "similarity": 0.086613
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.925565,
+        "similarity": 0.074435
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.929197,
+        "similarity": 0.070803
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.937198,
+        "similarity": 0.062802
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.937606,
+        "similarity": 0.062394
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.944445,
+        "similarity": 0.055555
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.945628,
+        "similarity": 0.054372
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.94784,
+        "similarity": 0.05216
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.95409,
+        "similarity": 0.04591
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.955632,
+        "similarity": 0.044368
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.956134,
+        "similarity": 0.043866
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.956512,
+        "similarity": 0.043488
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.957901,
+        "similarity": 0.042099
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.958021,
+        "similarity": 0.041979
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.959673,
+        "similarity": 0.040327
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.960648,
+        "similarity": 0.039352
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 0.964289,
+        "similarity": 0.035711
+      },
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.96598,
+        "similarity": 0.03402
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.968408,
+        "similarity": 0.031592
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.970902,
+        "similarity": 0.029098
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.97529,
+        "similarity": 0.02471
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.97623,
+        "similarity": 0.02377
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.976528,
+        "similarity": 0.023472
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.978346,
+        "similarity": 0.021654
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 0.979657,
+        "similarity": 0.020343
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.980185,
+        "similarity": 0.019815
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.981547,
+        "similarity": 0.018453
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 0.981983,
+        "similarity": 0.018017
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 0.982682,
+        "similarity": 0.017318
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.982865,
+        "similarity": 0.017135
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 0.983336,
+        "similarity": 0.016664
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.984289,
+        "similarity": 0.015711
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.984377,
+        "similarity": 0.015623
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.985187,
+        "similarity": 0.014813
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.98559,
+        "similarity": 0.01441
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 0.985738,
+        "similarity": 0.014262
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.98647,
+        "similarity": 0.01353
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.986613,
+        "similarity": 0.013387
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.987978,
+        "similarity": 0.012022
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.988652,
+        "similarity": 0.011348
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.988769,
+        "similarity": 0.011231
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.990632,
+        "similarity": 0.009368
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.991604,
+        "similarity": 0.008396
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 1,
+        "similarity": 0
+      }
+    ]
+  }
+}
