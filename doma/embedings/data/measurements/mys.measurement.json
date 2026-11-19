@@ -1,0 +1,428 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "mys",
+  "title": "Myš",
+  "method": "TF-IDF unigramy + bigramy; kosinová vzdálenost; PCA; persistentní homologie H0",
+  "source_segments": [
+    {
+      "id": "s01",
+      "label": "Ne tak docela dávno",
+      "characters": 108,
+      "words": 21
+    },
+    {
+      "id": "s02",
+      "label": "Obyčejná, ale ne normální",
+      "characters": 260,
+      "words": 45
+    },
+    {
+      "id": "s03",
+      "label": "Všímání si přehlíženého",
+      "characters": 239,
+      "words": 39
+    },
+    {
+      "id": "s04",
+      "label": "Zapisování do ticha",
+      "characters": 144,
+      "words": 26
+    },
+    {
+      "id": "s05",
+      "label": "Zvířata a jejich nevysvětlené věci",
+      "characters": 370,
+      "words": 65
+    },
+    {
+      "id": "s06",
+      "label": "První otázka",
+      "characters": 148,
+      "words": 24
+    },
+    {
+      "id": "s07",
+      "label": "Otázka na všechno",
+      "characters": 273,
+      "words": 54
+    },
+    {
+      "id": "s08",
+      "label": "Klíč, pádlo a past",
+      "characters": 136,
+      "words": 24
+    }
+  ],
+  "metrics": {
+    "segments": 8,
+    "feature_dimensions": 456,
+    "compared_pairs": 28,
+    "mean_cosine_distance": 0.947061,
+    "pca_pc1_percent": 20.94,
+    "pca_pc2_percent": 17.62,
+    "pca_first_two_percent": 38.56
+  },
+  "pairwise": {
+    "segment_ids": [
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.902301,
+        0.990935,
+        0.949651,
+        0.958106,
+        0.920927,
+        0.99291,
+        0.97115
+      ],
+      [
+        0.902301,
+        0,
+        0.990591,
+        0.957605,
+        0.973203,
+        0.949484,
+        0.944161,
+        0.941739
+      ],
+      [
+        0.990935,
+        0.990591,
+        0,
+        0.958728,
+        0.911449,
+        0.977395,
+        0.920157,
+        0.982549
+      ],
+      [
+        0.949651,
+        0.957605,
+        0.958728,
+        0,
+        0.933206,
+        0.953408,
+        0.906299,
+        0.957145
+      ],
+      [
+        0.958106,
+        0.973203,
+        0.911449,
+        0.933206,
+        0,
+        0.896897,
+        0.873808,
+        0.957808
+      ],
+      [
+        0.920927,
+        0.949484,
+        0.977395,
+        0.953408,
+        0.896897,
+        0,
+        0.959817,
+        0.965716
+      ],
+      [
+        0.99291,
+        0.944161,
+        0.920157,
+        0.906299,
+        0.873808,
+        0.959817,
+        0,
+        0.920554
+      ],
+      [
+        0.97115,
+        0.941739,
+        0.982549,
+        0.957145,
+        0.957808,
+        0.965716,
+        0.920554,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.097699,
+        0.009065,
+        0.050349,
+        0.041894,
+        0.079073,
+        0.00709,
+        0.02885
+      ],
+      [
+        0.097699,
+        1,
+        0.009409,
+        0.042395,
+        0.026797,
+        0.050516,
+        0.055839,
+        0.058261
+      ],
+      [
+        0.009065,
+        0.009409,
+        1,
+        0.041272,
+        0.088551,
+        0.022605,
+        0.079843,
+        0.017451
+      ],
+      [
+        0.050349,
+        0.042395,
+        0.041272,
+        1,
+        0.066794,
+        0.046592,
+        0.093701,
+        0.042855
+      ],
+      [
+        0.041894,
+        0.026797,
+        0.088551,
+        0.066794,
+        1,
+        0.103103,
+        0.126192,
+        0.042192
+      ],
+      [
+        0.079073,
+        0.050516,
+        0.022605,
+        0.046592,
+        0.103103,
+        1,
+        0.040183,
+        0.034284
+      ],
+      [
+        0.00709,
+        0.055839,
+        0.079843,
+        0.093701,
+        0.126192,
+        0.040183,
+        1,
+        0.079446
+      ],
+      [
+        0.02885,
+        0.058261,
+        0.017451,
+        0.042855,
+        0.042192,
+        0.034284,
+        0.079446,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "s05",
+        "b": "s07",
+        "distance": 0.873808,
+        "similarity": 0.126192
+      },
+      {
+        "a": "s05",
+        "b": "s06",
+        "distance": 0.896897,
+        "similarity": 0.103103
+      },
+      {
+        "a": "s01",
+        "b": "s02",
+        "distance": 0.902301,
+        "similarity": 0.097699
+      },
+      {
+        "a": "s04",
+        "b": "s07",
+        "distance": 0.906299,
+        "similarity": 0.093701
+      },
+      {
+        "a": "s03",
+        "b": "s05",
+        "distance": 0.911449,
+        "similarity": 0.088551
+      },
+      {
+        "a": "s03",
+        "b": "s07",
+        "distance": 0.920157,
+        "similarity": 0.079843
+      },
+      {
+        "a": "s07",
+        "b": "s08",
+        "distance": 0.920554,
+        "similarity": 0.079446
+      },
+      {
+        "a": "s01",
+        "b": "s06",
+        "distance": 0.920927,
+        "similarity": 0.079073
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "s01",
+        "b": "s07",
+        "distance": 0.99291,
+        "similarity": 0.00709
+      },
+      {
+        "a": "s01",
+        "b": "s03",
+        "distance": 0.990935,
+        "similarity": 0.009065
+      },
+      {
+        "a": "s02",
+        "b": "s03",
+        "distance": 0.990591,
+        "similarity": 0.009409
+      },
+      {
+        "a": "s03",
+        "b": "s08",
+        "distance": 0.982549,
+        "similarity": 0.017451
+      },
+      {
+        "a": "s03",
+        "b": "s06",
+        "distance": 0.977395,
+        "similarity": 0.022605
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      20.936,
+      17.6203
+    ],
+    "coordinates": [
+      {
+        "id": "s01",
+        "label": "Ne tak docela dávno",
+        "x": -0.330507,
+        "y": -0.062426
+      },
+      {
+        "id": "s02",
+        "label": "Obyčejná, ale ne normální",
+        "x": -0.000558,
+        "y": -0.007853
+      },
+      {
+        "id": "s03",
+        "label": "Všímání si přehlíženého",
+        "x": 0.052703,
+        "y": 0.029571
+      },
+      {
+        "id": "s04",
+        "label": "Zapisování do ticha",
+        "x": 0.067261,
+        "y": 0.099508
+      },
+      {
+        "id": "s05",
+        "label": "Zvířata a jejich nevysvětlené věci",
+        "x": 0.028105,
+        "y": 0.022902
+      },
+      {
+        "id": "s06",
+        "label": "První otázka",
+        "x": 0.00352,
+        "y": 0.17244
+      },
+      {
+        "id": "s07",
+        "label": "Otázka na všechno",
+        "x": 0.062515,
+        "y": 0.007595
+      },
+      {
+        "id": "s08",
+        "label": "Klíč, pádlo a past",
+        "x": 0.116963,
+        "y": -0.261736
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "interpretation": "Každý úsek začíná jako samostatná komponenta. Při rostoucí vzdálenostní hranici se komponenty spojují. Zaznamenané hodnoty jsou časy zániku všech konečných H0 komponent; jedna komponenta zůstává nespojená až do nekonečna.",
+    "merges": [
+      {
+        "from": "s06",
+        "to": "s01",
+        "death": 0.920927
+      },
+      {
+        "from": "s08",
+        "to": "s07",
+        "death": 0.920554
+      },
+      {
+        "from": "s05",
+        "to": "s03",
+        "death": 0.911449
+      },
+      {
+        "from": "s07",
+        "to": "s04",
+        "death": 0.906299
+      },
+      {
+        "from": "s02",
+        "to": "s01",
+        "death": 0.902301
+      },
+      {
+        "from": "s06",
+        "to": "s05",
+        "death": 0.896897
+      },
+      {
+        "from": "s07",
+        "to": "s05",
+        "death": 0.873808
+      }
+    ],
+    "largest_finite_lifetime": 0.920927,
+    "mean_merge_distance": 0.904605
+  },
+  "provenance": {
+    "source": "GitHub primary card source and its prepared source segments",
+    "vector_type": "locally computed TF-IDF; NOT neural embeddings",
+    "image_embedding": "not computed",
+    "semantic_claims": "Do not interpret lexical distance as semantic distance."
+  }
+}
