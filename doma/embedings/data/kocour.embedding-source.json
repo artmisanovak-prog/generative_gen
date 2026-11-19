@@ -250,5 +250,39 @@
     "comparison_rule": "Only compare vectors produced by the same model/version, modality-compatible embedding space and dimension. Text and image vectors are not comparable unless the model explicitly provides a shared joint space.",
     "joint_multimodal": "Create only if a model explicitly supports a shared text-image embedding space.",
     "no_synthetic_vectors": true
+  },
+  "model_reading_example": {
+    "status": "curated_demonstration_not_model_embedding",
+    "purpose": "Ukázkový cílový výstup pro model, který čte kartu a extrahuje strukturu jevu.",
+    "event": {
+      "cause": {
+        "description": "Kocour spolkl dvě berušky, každá měla sedm teček.",
+        "exact_input_count": 14,
+        "unit": "tečky"
+      },
+      "duration": {
+        "value": 30,
+        "unit": "minutes",
+        "source_expression": "půl hodiny - 30 minut - přesně"
+      },
+      "manifestation": "Kocour krká tečky a předčasně dokončuje věty lidí.",
+      "scope": "Všichni lidé na celém světě.",
+      "consequence": "Lidé po dobu jevu nemohou dokončit vlastní věty; po skončení krkání je opět mohou ukončovat sami.",
+      "output_count_of_regurgitated_dots": {
+        "value": null,
+        "status": "not_specified"
+      },
+      "count_of_prematurely_completed_sentences": {
+        "value": null,
+        "status": "not_specified"
+      }
+    },
+    "inference_constraints": [
+      "Číslo 14 označuje pouze počet teček na dvou spolknutých beruškách.",
+      "Nelze tvrdit, že kocour vykrkal přesně 14 teček.",
+      "Nelze tvrdit, že kocour dokončil 14 vět.",
+      "Neurčený počet není nula.",
+      "Oddělit příčinu, průběh, trvání, rozsah, následek a neznámé veličiny."
+    ]
   }
 }
