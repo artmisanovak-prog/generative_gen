@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "kravy",
+  "title": "Krávy",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/kravy.txt",
+    "sha": "564f3d06f35b125891555c3108965f96944d0f83",
+    "characters": 1796
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/kravy.jpg",
+    "status": "numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Text: bú bú bú blbnu ti hlavu",
+      "text": "Text: bú bú bú blbnu ti hlavu bú\n\nO KRÁVÁCH\n\nkteré blbnou hlavy\n\n—\n\nNa konci louky,\n\nkde tráva rostla jako z vody\n\na plot byl jen nedotažený nápad,\n\nžilo stádo krav.",
+      "characters": 165,
+      "words": 31
+    },
+    {
+      "id": "02",
+      "label": "— Ale ne jen tak nějakých. Tyhle",
+      "text": "—\n\nAle ne jen tak nějakých.\n\nTyhle krávy mluvily.\n\nNe bučely.\n\nMluvily.\n\nJako krávy.\n\nNe Bubáci.",
+      "characters": 96,
+      "words": 15
+    },
+    {
+      "id": "03",
+      "label": "Ale neříkaly nic užitečného. — Říkaly: „Bu",
+      "text": "Ale neříkaly nic užitečného.\n\n—\n\nŘíkaly:\n\n„Bu bu bu, blbnu ti hlavu, bu bu.“\n\n—\n\nA to nebyla hrozba.\n\nTo byla metoda.",
+      "characters": 117,
+      "words": 20
+    },
+    {
+      "id": "04",
+      "label": "— Krávy se totiž bez plotu nudily,",
+      "text": "—\n\nKrávy se totiž bez plotu nudily,\n\nchyběly jim mantynely.\n\na tak se rozhodly, že\n\nje realita strašně pevná.\n\nAihnhoooooonn ne jen pro ně - pro všechny\n\nŽe věty jsou hrozně rovné.\n\nŽe výrazy se tváří,",
+      "characters": 201,
+      "words": 34
+    },
+    {
+      "id": "05",
+      "label": "jako by byly jediné. — A tak",
+      "text": "jako by byly jediné.\n\n—\n\nA tak se rozhodly:\n\nZamlžíme jazyk.\n\nZkomolíme smysl.\n\nZblbneme hlavy.\n\n—",
+      "characters": 98,
+      "words": 14
+    },
+    {
+      "id": "06",
+      "label": "Každé ráno vstaly, přežvykovaly slovni druhy a",
+      "text": "Každé ráno vstaly, přežvykovaly slovni druhy a pak se vydaly do vesnice.\n\nTam si stouply na náves a začaly:\n\n—\n\n„Bu bu bu, blbnu ti hlavu, bu bu.“\n\n—\n\nLidé se nejdřív smáli.\n\nPak se začali škrábat na hlavě.",
+      "characters": 206,
+      "words": 37
+    },
+    {
+      "id": "07",
+      "label": "Pak začali pochybovat, jestlip ta hlava je",
+      "text": "Pak začali pochybovat,\n\njestlip ta hlava je vůbec jejich,\n\nčí hlavu to drbou?\n\na jestli „hlava“ je vůbec správné slovo.\n\nA nakonec si nebyli jistí ani tím, jestli jsou to oni, kdo myslí, nebo jestli za ně myslí krávy?\n\n—\n\nJednou se někdo zeptal:\n\n„Co tím myslíte?“",
+      "characters": 264,
+      "words": 46
+    },
+    {
+      "id": "08",
+      "label": "Kráva odpověděla: „Bu není slovo. Bu je",
+      "text": "Kráva odpověděla:\n\n„Bu není slovo.\n\nBu je stav.\n\nBu je jazyk beze smyslu.\n\nBu je volnost.“\n\n—\n\nA pak dodala:",
+      "characters": 108,
+      "words": 19
+    },
+    {
+      "id": "09",
+      "label": "„Blbnu ti hlavu, protože hlava je si",
+      "text": "„Blbnu ti hlavu, protože hlava je si moc jistá. A palouk nesnáší jistotu.“\n\n—\n\nOd té doby se ve vesnici mluví opatrně.\n\nLidi si tam radši dávaj pozor, aby neřekli nic moc smysluplného.\n\nA když někdo náhodou řekne něco jasného,\n\nv dálce se ozve:\n\n—",
+      "characters": 247,
+      "words": 43
+    },
+    {
+      "id": "10",
+      "label": "„Bu bu bu…“ — A všichni vědí,",
+      "text": "„Bu bu bu…“\n\n—\n\nA všichni vědí, že krávy poslouchají.\n\nA že význam je vratký.\n\nA že jazyk je postava,\n\nA že i on má svou vlastní hlavu\n\nA že hlava je jen louka, kde se dá bloudit.",
+      "characters": 179,
+      "words": 37
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 425,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.926954,
+    "pca_pc1_percent": 18.88,
+    "pca_pc2_percent": 16.45,
+    "pca_first_two_percent": 35.33
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.97609,
+        0.722244,
+        0.990215,
+        0.959588,
+        0.772977,
+        0.991753,
+        0.88088,
+        0.96455,
+        0.885444
+      ],
+      [
+        0.97609,
+        0,
+        0.979152,
+        0.870375,
+        0.958128,
+        1,
+        0.954268,
+        1,
+        1,
+        0.975434
+      ],
+      [
+        0.722244,
+        0.979152,
+        0,
+        0.996811,
+        0.9945,
+        0.698421,
+        0.943915,
+        0.823075,
+        0.944694,
+        0.838297
+      ],
+      [
+        0.990215,
+        0.870375,
+        0.996811,
+        0,
+        0.885886,
+        0.95868,
+        0.949338,
+        0.977211,
+        0.967165,
+        0.81748
+      ],
+      [
+        0.959588,
+        0.958128,
+        0.9945,
+        0.885886,
+        0,
+        0.970913,
+        0.987071,
+        0.976933,
+        0.978748,
+        0.963828
+      ],
+      [
+        0.772977,
+        1,
+        0.698421,
+        0.95868,
+        0.970913,
+        0,
+        0.95126,
+        0.835807,
+        0.918578,
+        0.8708
+      ],
+      [
+        0.991753,
+        0.954268,
+        0.943915,
+        0.949338,
+        0.987071,
+        0.95126,
+        0,
+        0.942951,
+        0.929773,
+        0.927512
+      ],
+      [
+        0.88088,
+        1,
+        0.823075,
+        0.977211,
+        0.976933,
+        0.835807,
+        0.942951,
+        0,
+        0.976195,
+        0.860288
+      ],
+      [
+        0.96455,
+        1,
+        0.944694,
+        0.967165,
+        0.978748,
+        0.918578,
+        0.929773,
+        0.976195,
+        0,
+        0.945715
+      ],
+      [
+        0.885444,
+        0.975434,
+        0.838297,
+        0.81748,
+        0.963828,
+        0.8708,
+        0.927512,
+        0.860288,
+        0.945715,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.02391,
+        0.277756,
+        0.009785,
+        0.040412,
+        0.227023,
+        0.008247,
+        0.11912,
+        0.03545,
+        0.114556
+      ],
+      [
+        0.02391,
+        1,
+        0.020848,
+        0.129625,
+        0.041872,
+        0,
+        0.045732,
+        0,
+        0,
+        0.024566
+      ],
+      [
+        0.277756,
+        0.020848,
+        1,
+        0.003189,
+        0.0055,
+        0.301579,
+        0.056085,
+        0.176925,
+        0.055306,
+        0.161703
+      ],
+      [
+        0.009785,
+        0.129625,
+        0.003189,
+        1,
+        0.114114,
+        0.04132,
+        0.050662,
+        0.022789,
+        0.032835,
+        0.18252
+      ],
+      [
+        0.040412,
+        0.041872,
+        0.0055,
+        0.114114,
+        1,
+        0.029087,
+        0.012929,
+        0.023067,
+        0.021252,
+        0.036172
+      ],
+      [
+        0.227023,
+        0,
+        0.301579,
+        0.04132,
+        0.029087,
+        1,
+        0.04874,
+        0.164193,
+        0.081422,
+        0.1292
+      ],
+      [
+        0.008247,
+        0.045732,
+        0.056085,
+        0.050662,
+        0.012929,
+        0.04874,
+        1,
+        0.057049,
+        0.070227,
+        0.072488
+      ],
+      [
+        0.11912,
+        0,
+        0.176925,
+        0.022789,
+        0.023067,
+        0.164193,
+        0.057049,
+        1,
+        0.023805,
+        0.139712
+      ],
+      [
+        0.03545,
+        0,
+        0.055306,
+        0.032835,
+        0.021252,
+        0.081422,
+        0.070227,
+        0.023805,
+        1,
+        0.054285
+      ],
+      [
+        0.114556,
+        0.024566,
+        0.161703,
+        0.18252,
+        0.036172,
+        0.1292,
+        0.072488,
+        0.139712,
+        0.054285,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "03",
+        "b": "06",
+        "distance": 0.698421,
+        "similarity": 0.301579
+      },
+      {
+        "a": "01",
+        "b": "03",
+        "distance": 0.722244,
+        "similarity": 0.277756
+      },
+      {
+        "a": "01",
+        "b": "06",
+        "distance": 0.772977,
+        "similarity": 0.227023
+      },
+      {
+        "a": "04",
+        "b": "10",
+        "distance": 0.81748,
+        "similarity": 0.18252
+      },
+      {
+        "a": "03",
+        "b": "08",
+        "distance": 0.823075,
+        "similarity": 0.176925
+      },
+      {
+        "a": "06",
+        "b": "08",
+        "distance": 0.835807,
+        "similarity": 0.164193
+      },
+      {
+        "a": "03",
+        "b": "10",
+        "distance": 0.838297,
+        "similarity": 0.161703
+      },
+      {
+        "a": "08",
+        "b": "10",
+        "distance": 0.860288,
+        "similarity": 0.139712
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "02",
+        "b": "09",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "02",
+        "b": "08",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "02",
+        "b": "06",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "03",
+        "b": "04",
+        "distance": 0.996811,
+        "similarity": 0.003189
+      },
+      {
+        "a": "03",
+        "b": "05",
+        "distance": 0.9945,
+        "similarity": 0.0055
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      18.8792,
+      16.4481
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "Text: bú bú bú blbnu ti hlavu",
+        "x": 5.075152265648087,
+        "y": 4.541814473629784
+      },
+      {
+        "id": "02",
+        "label": "— Ale ne jen tak nějakých. Tyhle",
+        "x": -0.28218164125756473,
+        "y": 0.5142947034185668
+      },
+      {
+        "id": "03",
+        "label": "Ale neříkaly nic užitečného. — Říkaly: „Bu",
+        "x": 3.1703702472375,
+        "y": 2.966697678648566
+      },
+      {
+        "id": "04",
+        "label": "— Krávy se totiž bez plotu nudily,",
+        "x": 1.5915217555067305,
+        "y": -7.475667073833784
+      },
+      {
+        "id": "05",
+        "label": "jako by byly jediné. — A tak",
+        "x": 0.4673836605157343,
+        "y": 0.9700638972297898
+      },
+      {
+        "id": "06",
+        "label": "Každé ráno vstaly, přežvykovaly slovni druhy a",
+        "x": 6.15497452906448,
+        "y": 7.305976386812066
+      },
+      {
+        "id": "07",
+        "label": "Pak začali pochybovat, jestlip ta hlava je",
+        "x": -23.606721864385065,
+        "y": -3.7634530967965
+      },
+      {
+        "id": "08",
+        "label": "Kráva odpověděla: „Bu není slovo. Bu je",
+        "x": 1.9134757992410913,
+        "y": 1.1932177655327556
+      },
+      {
+        "id": "09",
+        "label": "„Blbnu ti hlavu, protože hlava je si",
+        "x": -1.990356013183522,
+        "y": 11.58541115755192
+      },
+      {
+        "id": "10",
+        "label": "„Bu bu bu…“ — A všichni vědí,",
+        "x": 7.506381261612269,
+        "y": -17.838355892197658
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "03",
+        "to": "06",
+        "death": 0.698421
+      },
+      {
+        "from": "01",
+        "to": "03",
+        "death": 0.722244
+      },
+      {
+        "from": "04",
+        "to": "10",
+        "death": 0.81748
+      },
+      {
+        "from": "03",
+        "to": "08",
+        "death": 0.823075
+      },
+      {
+        "from": "03",
+        "to": "10",
+        "death": 0.838297
+      },
+      {
+        "from": "02",
+        "to": "04",
+        "death": 0.870375
+      },
+      {
+        "from": "04",
+        "to": "05",
+        "death": 0.885886
+      },
+      {
+        "from": "06",
+        "to": "09",
+        "death": 0.918578
+      },
+      {
+        "from": "07",
+        "to": "10",
+        "death": 0.927512
+      }
+    ],
+    "largest_finite_lifetime": 0.927512,
+    "mean_merge_distance": 0.833541
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy vycházejí z prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding. PCA osy jsou specifické pro tuto kartu a nelze je přímo porovnávat napříč kartami."
+  }
+}
