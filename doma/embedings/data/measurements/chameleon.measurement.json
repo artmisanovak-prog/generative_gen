@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "chameleon",
+  "title": "Chameleon",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/chameleon.txt",
+    "sha": "4ab3d884b77547fdc21cebae99712e802262ca70",
+    "characters": 1145
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/chameleon.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "O CHAMELEONOVI Chameleon si mezi zrcadly neví rady.",
+      "text": "O CHAMELEONOVI\n\nChameleon si mezi zrcadly neví rady.",
+      "characters": 52,
+      "words": 7
+    },
+    {
+      "id": "02",
+      "label": "Je příběh o přizpůsobení, které se ztratilo samo v",
+      "text": "Je příběh o přizpůsobení, které se ztratilo samo v sobě.",
+      "characters": 56,
+      "words": 8
+    },
+    {
+      "id": "03",
+      "label": "O tom, že když se příliš snažíš zapadnout, můžeš",
+      "text": "O tom, že když se příliš snažíš zapadnout, můžeš zapomenout, kam vlastně patříš.",
+      "characters": 80,
+      "words": 12
+    },
+    {
+      "id": "04",
+      "label": "A že zrcadla nejsou pravda – jen odraz. ---",
+      "text": "A že zrcadla nejsou pravda – jen odraz.\n\n---\n\n🦎 Pohádka o chameleonovi, který se ztratil v odrazech",
+      "characters": 100,
+      "words": 12
+    },
+    {
+      "id": "05",
+      "label": "Chameleon byl mistr přizpůsobení. Barvy mu lezly po kůži",
+      "text": "Chameleon byl mistr přizpůsobení.\n\nBarvy mu lezly po kůži jako myšlenky.\n\nZměna byla jeho jazyk.\n\nTicho jeho taktika.",
+      "characters": 117,
+      "words": 18
+    },
+    {
+      "id": "06",
+      "label": "A okolí jeho zrcadlo. Jednoho dne vešel do místnosti",
+      "text": "A okolí jeho zrcadlo.\n\nJednoho dne vešel do místnosti plné zrcadel.\n\nZrcadlo vlevo – modré.\n\nZrcadlo vpravo – červené.",
+      "characters": 118,
+      "words": 16
+    },
+    {
+      "id": "07",
+      "label": "Zrcadlo za ním – zelené. Zrcadlo před ním –",
+      "text": "Zrcadlo za ním – zelené.\n\nZrcadlo před ním – prázdné.\n\nChameleon se snažil.\n\nZměnil se.\n\nZrcadlově.\n\nZrcadlově.\n\nZrcadlově.",
+      "characters": 123,
+      "words": 16
+    },
+    {
+      "id": "08",
+      "label": "Až už nevěděl, co je odraz a co je",
+      "text": "Až už nevěděl, co je odraz a co je on.\n\n„Kdo jsem?“ zeptal se.\n\nAle zrcadla neodpovídají.\n\nZrcadla jen vrací.\n\nA tak se změnil znovu.\n\nA znovu.",
+      "characters": 143,
+      "words": 24
+    },
+    {
+      "id": "09",
+      "label": "A znovu. Až byl vším. A ničím. Nakonec si",
+      "text": "A znovu.\n\nAž byl vším.\n\nA ničím.\n\nNakonec si sedl doprostřed.\n\nZavřel oči.\n\nA řekl:\n\n„Možná nejsem barva.\n\nMožná jsem tvar.\n\nMožná jsem pohyb.",
+      "characters": 142,
+      "words": 21
+    },
+    {
+      "id": "10",
+      "label": "Možná jsem otázka.“ A tak se začalo říkat, že",
+      "text": "Možná jsem otázka.“\n\nA tak se začalo říkat, že chameleon mezi zrcadly není zmatený.\n\nJe jen ten, kdo se snaží být vším,\n\naby zjistil, co z toho je pravda.",
+      "characters": 154,
+      "words": 27
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 253,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.968582784157553,
+    "pca_variance": [
+      0.1788630958743678,
+      0.15697339382255626
+    ],
+    "distances": [
+      [
+        0,
+        1,
+        1,
+        0.9517328172783892,
+        0.9776956014819378,
+        1,
+        0.9792564993632972,
+        1,
+        0.9673089215565862,
+        0.8861826911809455
+      ],
+      [
+        1,
+        1.1102230246251565e-16,
+        0.9832568256191055,
+        0.9826264353077966,
+        0.9667251820309647,
+        1,
+        0.9753182073283395,
+        0.9343826884222679,
+        1,
+        0.9336475869208599
+      ],
+      [
+        1,
+        0.9832568256191055,
+        0,
+        0.9600301497136431,
+        1,
+        1,
+        0.9805495012095523,
+        0.9822873748005342,
+        1,
+        0.9648999455824154
+      ],
+      [
+        0.9517328172783892,
+        0.9826264353077966,
+        0.9600301497136431,
+        0,
+        1,
+        1,
+        0.9798171785502592,
+        0.8948488433471856,
+        1,
+        0.9224397156081339
+      ],
+      [
+        0.9776956014819378,
+        0.9667251820309647,
+        1,
+        1,
+        -2.220446049250313e-16,
+        0.9581054465013807,
+        0.9883063264612804,
+        1,
+        0.9815711530256583,
+        0.9892318413827708
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0.9581054465013807,
+        -2.220446049250313e-16,
+        0.8831118853347374,
+        1,
+        1,
+        1
+      ],
+      [
+        0.9792564993632972,
+        0.9753182073283395,
+        0.9805495012095523,
+        0.9798171785502592,
+        0.9883063264612804,
+        0.8831118853347374,
+        2.220446049250313e-16,
+        0.9575200926503935,
+        1,
+        0.9635819983519257
+      ],
+      [
+        1,
+        0.9343826884222679,
+        0.9822873748005342,
+        0.8948488433471856,
+        1,
+        1,
+        0.9575200926503935,
+        1.1102230246251565e-16,
+        0.9292835791213456,
+        0.8313634232155636
+      ],
+      [
+        0.9673089215565862,
+        1,
+        1,
+        1,
+        0.9815711530256583,
+        1,
+        1,
+        0.9292835791213456,
+        2.220446049250313e-16,
+        0.8811433757426081
+      ],
+      [
+        0.8861826911809455,
+        0.9336475869208599,
+        0.9648999455824154,
+        0.9224397156081339,
+        0.9892318413827708,
+        1,
+        0.9635819983519257,
+        0.8313634232155636,
+        0.8811433757426081,
+        0
+      ]
+    ],
+    "coordinates": [
+      [
+        -1.1386808612940191,
+        0.5922080766865463
+      ],
+      [
+        -1.1265410889397458,
+        -0.29733116519722524
+      ],
+      [
+        -1.963657546782827,
+        -0.03159136191611894
+      ],
+      [
+        -0.4915527563912342,
+        -1.0475772972000246
+      ],
+      [
+        -5.116811246403927,
+        1.58930020708422
+      ],
+      [
+        -7.026743105621848,
+        -1.3733252469434505
+      ],
+      [
+        -7.306525284328162,
+        -4.939871409283671
+      ],
+      [
+        10.630533938575251,
+        -9.855176697888036
+      ],
+      [
+        3.6421050967336717,
+        13.611052882796715
+      ],
+      [
+        9.897872854452848,
+        1.7523120118610431
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.8313634232155636
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.8811433757426081
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.8831118853347374
+      },
+      {
+        "a": 0,
+        "b": 9,
+        "distance": 0.8861826911809455
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.8948488433471856
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.9336475869208599
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.9575200926503935
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.9581054465013807
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.9600301497136431
+      }
+    ],
+    "pairs": [
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.831363,
+        "similarity": 0.168637
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.881143,
+        "similarity": 0.118857
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.883112,
+        "similarity": 0.116888
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 0.886183,
+        "similarity": 0.113817
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.894849,
+        "similarity": 0.105151
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.92244,
+        "similarity": 0.07756
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.929284,
+        "similarity": 0.070716
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.933648,
+        "similarity": 0.066352
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.934383,
+        "similarity": 0.065617
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 0.951733,
+        "similarity": 0.048267
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.95752,
+        "similarity": 0.04248
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.958105,
+        "similarity": 0.041895
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.96003,
+        "similarity": 0.03997
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.963582,
+        "similarity": 0.036418
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.9649,
+        "similarity": 0.0351
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 0.966725,
+        "similarity": 0.033275
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.967309,
+        "similarity": 0.032691
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.975318,
+        "similarity": 0.024682
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.977696,
+        "similarity": 0.022304
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.979256,
+        "similarity": 0.020744
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.979817,
+        "similarity": 0.020183
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.98055,
+        "similarity": 0.01945
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.981571,
+        "similarity": 0.018429
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.982287,
+        "similarity": 0.017713
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.982626,
+        "similarity": 0.017374
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.983257,
+        "similarity": 0.016743
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.988306,
+        "similarity": 0.011694
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.989232,
+        "similarity": 0.010768
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 1,
+        "similarity": 0
+      }
+    ]
+  }
+}
