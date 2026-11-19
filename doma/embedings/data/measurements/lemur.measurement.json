@@ -1,0 +1,442 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card": "lemur",
+  "method": "TF-IDF unigram baseline, cosine distance, complete pair graph, Kruskal H0",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/lemur.txt",
+    "raw_sha": "d51838f7bee2e992ba56859c95d63151c2d0a917"
+  },
+  "segments": [
+    {
+      "id": "l01",
+      "text": "Lemur se narodil v koutku.\nV koutku místnosti, v koutku světa, v koutku oka.\nTam, kde se věci obvykle nechávají být.\nTam, kde se neptá.\nTam, kde se neukazuje.",
+      "chars": 158,
+      "words": 18
+    },
+    {
+      "id": "l02",
+      "text": "A tak si řekl:\n„Budu nenápadný.“\n„Budu tak nenápadný, že mě ani moje vlastní stín nepozná.“\n„Budu tak tichý, že i ticho bude hlasité vedle mě.“",
+      "chars": 143,
+      "words": 14
+    },
+    {
+      "id": "l03",
+      "text": "Jenže měl oči jak lampy.\nOcas vztyčený jak vykřičník.\nA srst jako výkladní skříň, co se snaží být tapetou.",
+      "chars": 106,
+      "words": 14
+    },
+    {
+      "id": "l04",
+      "text": "Vedle něj seděla postava.\nKlidná.\nTichá.\nBez barvy.\nBez pohybu.\nBez potřeby být.",
+      "chars": 80,
+      "words": 10
+    },
+    {
+      "id": "l05",
+      "text": "Řekla:\n„Nejlepší je nechat to být. Vše ostatní je moc nápadné.“\nA lemur se snažil.",
+      "chars": 82,
+      "words": 10
+    },
+    {
+      "id": "l06",
+      "text": "Ale oči mu svítily i pod dekou.\nOcas mu trčel i bez svolení.\nA srst mu zářila jako reklama na klid, co bliká.",
+      "chars": 109,
+      "words": 12
+    },
+    {
+      "id": "l07",
+      "text": "„Nejsem nápadný,“ šeptal.\n„Jsem jen… výrazně nenápadný.“\n„Jsem jen… ticho, co má barvy.“\n„Jsem jen… pozadí, co se nedá přehlédnout.“",
+      "chars": 132,
+      "words": 13
+    },
+    {
+      "id": "l08",
+      "text": "Postava vedle něj neřekla nic.\nJen se dívala.\nA to bylo horší než slova.",
+      "chars": 72,
+      "words": 7
+    },
+    {
+      "id": "l09",
+      "text": "Lemur se pokusil být stínem.\nAle jeho stín měl vlastní názor.\nLemur se pokusil být flekem na zdi.\nAle flek ho odmítl, protože byl moc výrazný.",
+      "chars": 142,
+      "words": 18
+    },
+    {
+      "id": "l10",
+      "text": "Nakonec si sedl.\nPřestal se snažit.\nOči mu svítily.\nOcas mu trčel.\nSrst mu zářila.",
+      "chars": 82,
+      "words": 10
+    },
+    {
+      "id": "l11",
+      "text": "A postava vedle něj řekla:\n„Teď jsi konečně neviditelný.“\n„Jak to?“ zeptal se lemur.\n„Protože už se nesnažíš.“",
+      "chars": 110,
+      "words": 12
+    },
+    {
+      "id": "l12",
+      "text": "A tak se lemur stal mistrem nenápadnosti.\nNe tím, že zmizel.\nAle tím, že přestal křičet, že nechce být vidět.",
+      "chars": 109,
+      "words": 12
+    },
+    {
+      "id": "l13",
+      "text": "A každý, kdo ho uvidí, řekne:\n„To je ten nenápadný lemur.“\nA pak se tváří, že ho nevidí.\nA to je přesně to, co chtěl.",
+      "chars": 117,
+      "words": 10
+    }
+  ],
+  "metrics": {
+    "segment_count": 13,
+    "vocabulary_size": 108,
+    "pair_count": 78,
+    "mean_distance": 0.956165,
+    "mean_similarity": 0.043835
+  },
+  "pairwise": {
+    "closest_pairs": [
+      {
+        "a": "l06",
+        "b": "l10",
+        "similarity": 0.4595890362962749,
+        "distance": 0.5404109637037251
+      },
+      {
+        "a": "l04",
+        "b": "l08",
+        "similarity": 0.2491154616098089,
+        "distance": 0.7508845383901911
+      },
+      {
+        "a": "l03",
+        "b": "l06",
+        "similarity": 0.23542628322722303,
+        "distance": 0.764573716772777
+      },
+      {
+        "a": "l08",
+        "b": "l11",
+        "similarity": 0.22499369466096364,
+        "distance": 0.7750063053390364
+      },
+      {
+        "a": "l04",
+        "b": "l11",
+        "similarity": 0.1924038421498313,
+        "distance": 0.8075961578501687
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "l10",
+        "b": "l13",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "l10",
+        "b": "l11",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "l09",
+        "b": "l10",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "l08",
+        "b": "l13",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "l08",
+        "b": "l12",
+        "similarity": 0,
+        "distance": 1
+      }
+    ],
+    "distance_matrix": [
+      [
+        0,
+        1,
+        0.98015,
+        0.9757,
+        0.95269,
+        1,
+        1,
+        1,
+        0.95051,
+        1,
+        0.97805,
+        0.95958,
+        0.97739
+      ],
+      [
+        1,
+        0,
+        1,
+        0.95515,
+        1,
+        1,
+        0.88583,
+        0.94755,
+        0.89846,
+        1,
+        0.95949,
+        1,
+        0.91999
+      ],
+      [
+        0.98015,
+        1,
+        0,
+        0.96505,
+        0.96598,
+        0.76457,
+        1,
+        1,
+        0.90756,
+        0.8145,
+        1,
+        0.97093,
+        1
+      ],
+      [
+        0.9757,
+        0.95515,
+        0.96505,
+        0,
+        0.95835,
+        1,
+        0.9296,
+        0.75088,
+        0.95642,
+        1,
+        0.8076,
+        0.96441,
+        1
+      ],
+      [
+        0.95269,
+        1,
+        0.96598,
+        0.95835,
+        0,
+        1,
+        1,
+        1,
+        0.84743,
+        1,
+        0.87768,
+        0.93072,
+        0.96124
+      ],
+      [
+        1,
+        1,
+        0.76457,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0.54041,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0.88583,
+        1,
+        0.9296,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.94849
+      ],
+      [
+        1,
+        0.94755,
+        1,
+        0.75088,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0.77501,
+        1,
+        1
+      ],
+      [
+        0.95051,
+        0.89846,
+        0.90756,
+        0.95642,
+        0.84743,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0.89777,
+        0.92753,
+        0.95945
+      ],
+      [
+        1,
+        1,
+        0.8145,
+        1,
+        1,
+        0.54041,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0.91993,
+        1
+      ],
+      [
+        0.97805,
+        0.95949,
+        1,
+        0.8076,
+        0.87768,
+        1,
+        1,
+        0.77501,
+        0.89777,
+        1,
+        0,
+        0.96786,
+        0.96403
+      ],
+      [
+        0.95958,
+        1,
+        0.97093,
+        0.96441,
+        0.93072,
+        1,
+        1,
+        1,
+        0.92753,
+        0.91993,
+        0.96786,
+        0,
+        0.96689
+      ],
+      [
+        0.97739,
+        0.91999,
+        1,
+        1,
+        0.96124,
+        1,
+        0.94849,
+        1,
+        0.95945,
+        1,
+        0.96403,
+        0.96689,
+        0
+      ]
+    ]
+  },
+  "topology": {
+    "type": "H0 / Kruskal MST",
+    "merges": [
+      {
+        "a": "l06",
+        "b": "l10",
+        "similarity": 0.4595890362962749,
+        "distance": 0.5404109637037251
+      },
+      {
+        "a": "l04",
+        "b": "l08",
+        "similarity": 0.2491154616098089,
+        "distance": 0.7508845383901911
+      },
+      {
+        "a": "l03",
+        "b": "l06",
+        "similarity": 0.23542628322722303,
+        "distance": 0.764573716772777
+      },
+      {
+        "a": "l08",
+        "b": "l11",
+        "similarity": 0.22499369466096364,
+        "distance": 0.7750063053390364
+      },
+      {
+        "a": "l05",
+        "b": "l09",
+        "similarity": 0.15257422463453807,
+        "distance": 0.8474257753654619
+      },
+      {
+        "a": "l05",
+        "b": "l11",
+        "similarity": 0.12231802246956291,
+        "distance": 0.8776819775304371
+      },
+      {
+        "a": "l02",
+        "b": "l07",
+        "similarity": 0.11416772475779025,
+        "distance": 0.8858322752422098
+      },
+      {
+        "a": "l02",
+        "b": "l09",
+        "similarity": 0.10153912950764987,
+        "distance": 0.8984608704923501
+      },
+      {
+        "a": "l03",
+        "b": "l09",
+        "similarity": 0.09243795111683473,
+        "distance": 0.9075620488831653
+      },
+      {
+        "a": "l10",
+        "b": "l12",
+        "similarity": 0.08006676366721077,
+        "distance": 0.9199332363327892
+      },
+      {
+        "a": "l02",
+        "b": "l13",
+        "similarity": 0.08001015342813811,
+        "distance": 0.9199898465718619
+      },
+      {
+        "a": "l01",
+        "b": "l09",
+        "similarity": 0.0494888148341287,
+        "distance": 0.9505111851658713
+      }
+    ],
+    "merge_count": 12
+  },
+  "provenance": {
+    "note": "Lokálně vypočtený lexikální TF-IDF baseline, nikoli neuronový embedding. Obrazový vektor nebyl vypočítán.",
+    "illustration_path": "../primarni_data/ilustrace/lemur.jpg",
+    "illustration_available": false
+  }
+}
