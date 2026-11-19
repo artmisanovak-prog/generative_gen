@@ -4,114 +4,103 @@
   "method": "TF-IDF unigram baseline, cosine distance, complete pair graph, Kruskal H0",
   "source": {
     "path": "doma/primarni_data/kriva_pohadka/slon.txt",
-    "raw_sha": "bd11ea6d9fd95ce8ddbdc31f36dab8bbb20212b4"
+    "raw_sha": "bd11ea6d9fd95ce8ddbdc31f36dab8bbb20212b4",
+    "text": "Karta: doma/ilustrace/slon.jpg\n\nText: jednu třešni ti dám slone, když mě dohoníš\n\n\n\nO SLONOVI\n\nkterý běžel za třešní\n\n\nSlon byl velký. \n\nTěžký. \n\nRozvážný. \n\nNosil v sobě paměť krajin, které už neexistují. \n\nKdyž šel, země se chvěla. \n\nKdyž stál, čas se zpomalil.\n\n\nA pak přišla ona. \n\nMalá. \n\nRychlá. \n\nNeuchopitelná. \n\nMožná myš. \n\nMožná vítr. \n\nMožná jen hlas.\n\n\n„Jednu třešeň ti dám, slone,“ řekla, \n\n„když mě dohoníš.“\n\n\nSlon se podíval na své nohy. \n\nNa zem. \n\nNa horizont. \n\nA pak se rozběhl. \n\nNe rychle. \n\nAle srdcem.\n\n\nTřešeň byla červená. \n\nLesklá. \n\nNedosažitelná. \n\nA slon běžel. \n\nZa chutí. \n\nZa slibem. \n\nZa něčím, co možná ani neexistuje.\n\n\nCestou míjel stromy, které si ho pamatovaly. \n\nŘeky, které ho kdysi chladily. \n\nKamínky, které kdysi se mu smály. \n\nAle on běžel dál. \n\nPřestože třešeň byla jenom ovoce.\n\nProtože třešeň byla víc než ovoce. \n\nByla výzva. \n\nByla hra. \n\nByla touha být lehký.\n\nByla touha být silnější.\n\n\n„Jednu třešeň ti dám, slone,“ znělo pořád. \n\nAle nikdy ji nedostal. \n\nA právě proto běžel. \n\nAby nemohl zastavit.\n\nProtože kdyby ji dostal, \n\nco by zbylo?\n\n\nA tak se začalo říkat, že někde v krajině běží slon. \n\nZa třešní, kterou nikdy nedohoní. \n\nA že dokud se za ní požene, nikdy se nehoní. \n\nA že stačí běžet za něčím malým. \n\nA věřit, že to má velký smysl\n"
   },
   "segments": [
     {
       "id": "s01",
-      "text": "Slon byl velký.\nTěžký.\nRozvážný.\nNosil v sobě paměť krajin, které už neexistují.\nKdyž šel, země se chvěla.\nKdyž stál, čas se zpomalil.",
-      "chars": 134,
-      "words": 15
+      "text": "Nosil v sobě paměť krajin, které už neexistují.",
+      "chars": 47,
+      "words": 5
     },
     {
       "id": "s02",
-      "text": "A pak přišla ona.\nMalá.\nRychlá.\nNeuchopitelná.\nMožná myš.\nMožná vítr.\nMožná jen hlas.",
-      "chars": 85,
-      "words": 10
+      "text": "„Jednu třešeň ti dám, slone,“ řekla,",
+      "chars": 36,
+      "words": 5
     },
     {
       "id": "s03",
-      "text": "Slon se podíval na své nohy.\nNa zem.\nNa horizont.\nA pak se rozběhl.\nNe rychle.\nAle srdcem.",
-      "chars": 90,
-      "words": 9
+      "text": "Cestou míjel stromy, které si ho pamatovaly.",
+      "chars": 44,
+      "words": 4
     },
     {
       "id": "s04",
-      "text": "Třešeň byla červená.\nLesklá.\nNedosažitelná.\nA slon běžel.\nZa chutí.\nZa slibem.\nZa něčím, co možná ani neexistuje.",
-      "chars": 113,
-      "words": 11
+      "text": "„Jednu třešeň ti dám, slone,“ znělo pořád.",
+      "chars": 42,
+      "words": 6
     },
     {
       "id": "s05",
-      "text": "Cestou míjel stromy, které si ho pamatovaly.\nŘeky, které ho kdysi chladily.\nKamínky, které kdysi se mu smály.\nAle on běžel dál.\nPřestože třešeň byla jenom ovoce.",
-      "chars": 161,
-      "words": 16
+      "text": "A tak se začalo říkat, že někde v krajině běží slon.",
+      "chars": 52,
+      "words": 6
     },
     {
       "id": "s06",
-      "text": "Protože třešeň byla víc než ovoce.\nByla výzva.\nByla hra.\nByla touha být lehký.\nByla touha být silnější.",
-      "chars": 103,
-      "words": 12
-    },
-    {
-      "id": "s07",
-      "text": "„Jednu třešeň ti dám, slone,“ znělo pořád.\nAle nikdy ji nedostal.\nA právě proto běžel.\nAby nemohl zastavit.",
-      "chars": 107,
-      "words": 12
-    },
-    {
-      "id": "s08",
-      "text": "A tak se začalo říkat, že někde v krajině běží slon.\nZa třešní, kterou nikdy nedohoní.\nA že dokud se za ní požene, nikdy se nehoní.\nA že stačí běžet za něčím malým.\nA věřit, že to má velký smysl.",
-      "chars": 195,
-      "words": 21
+      "text": "A že dokud se za ní požene, nikdy se nehoní.",
+      "chars": 44,
+      "words": 4
     }
   ],
   "metrics": {
-    "segment_count": 8,
-    "vocabulary_size": 87,
-    "pair_count": 28,
-    "mean_distance": 0.966565,
-    "mean_similarity": 0.033435
+    "segment_count": 6,
+    "vocabulary_size": 26,
+    "pair_count": 15,
+    "mean_distance": 0.962945,
+    "mean_similarity": 0.037055
   },
   "pairwise": {
     "closest_pairs": [
       {
         "a": "s02",
         "b": "s04",
-        "similarity": 0.15430166505249776,
-        "distance": 0.8456983349475022
+        "similarity": 0.5558193540214353,
+        "distance": 0.44418064597856466
       },
       {
-        "a": "s04",
-        "b": "s07",
-        "similarity": 0.09602945930502138,
-        "distance": 0.9039705406949786
+        "a": "s01",
+        "b": "s02",
+        "similarity": 0,
+        "distance": 1
       },
       {
-        "a": "s04",
-        "b": "s08",
-        "similarity": 0.08477552791703102,
-        "distance": 0.915224472082969
+        "a": "s01",
+        "b": "s03",
+        "similarity": 0,
+        "distance": 1
       },
       {
-        "a": "s05",
-        "b": "s06",
-        "similarity": 0.08103615535963526,
-        "distance": 0.9189638446403647
+        "a": "s01",
+        "b": "s04",
+        "similarity": 0,
+        "distance": 1
       },
       {
-        "a": "s04",
+        "a": "s01",
         "b": "s05",
-        "similarity": 0.08032425856436987,
-        "distance": 0.9196757414356301
+        "similarity": 0,
+        "distance": 1
       }
     ],
     "most_distant_pairs": [
       {
-        "a": "s06",
-        "b": "s08",
-        "similarity": 0,
-        "distance": 1
-      },
-      {
         "a": "s05",
-        "b": "s08",
+        "b": "s06",
         "similarity": 0,
         "distance": 1
       },
       {
-        "a": "s03",
-        "b": "s07",
+        "a": "s04",
+        "b": "s06",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "s04",
+        "b": "s05",
         "similarity": 0,
         "distance": 1
       },
@@ -132,81 +121,49 @@
       [
         0,
         1,
-        0.96307,
-        0.96377,
-        1,
-        1,
-        1,
-        0.9333
-      ],
-      [
-        1,
-        0,
-        1,
-        0.8457,
         1,
         1,
         1,
         1
       ],
       [
-        0.96307,
         1,
         0,
-        0.95306,
         1,
+        0.44418,
         1,
-        1,
-        0.96854
-      ],
-      [
-        0.96377,
-        0.8457,
-        0.95306,
-        0,
-        0.91968,
-        0.96109,
-        0.90397,
-        0.91522
+        1
       ],
       [
         1,
         1,
-        1,
-        0.91968,
         0,
-        0.91896,
-        0.92719,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0.44418,
+        1,
+        0,
+        1,
         1
       ],
       [
         1,
         1,
         1,
-        0.96109,
-        0.91896,
+        1,
         0,
-        0.96473,
         1
       ],
       [
         1,
         1,
         1,
-        0.90397,
-        0.92719,
-        0.96473,
-        0,
-        0.92555
-      ],
-      [
-        0.9333,
-        1,
-        0.96854,
-        0.91522,
         1,
         1,
-        0.92555,
         0
       ]
     ]
@@ -217,47 +174,35 @@
       {
         "a": "s02",
         "b": "s04",
-        "similarity": 0.15430166505249776,
-        "distance": 0.8456983349475022
-      },
-      {
-        "a": "s04",
-        "b": "s07",
-        "similarity": 0.09602945930502138,
-        "distance": 0.9039705406949786
-      },
-      {
-        "a": "s04",
-        "b": "s08",
-        "similarity": 0.08477552791703102,
-        "distance": 0.915224472082969
-      },
-      {
-        "a": "s05",
-        "b": "s06",
-        "similarity": 0.08103615535963526,
-        "distance": 0.9189638446403647
-      },
-      {
-        "a": "s04",
-        "b": "s05",
-        "similarity": 0.08032425856436987,
-        "distance": 0.9196757414356301
+        "similarity": 0.5558193540214353,
+        "distance": 0.44418064597856466
       },
       {
         "a": "s01",
-        "b": "s08",
-        "similarity": 0.06670315890422618,
-        "distance": 0.9332968410957738
+        "b": "s02",
+        "similarity": 0,
+        "distance": 1
       },
       {
-        "a": "s03",
-        "b": "s04",
-        "similarity": 0.04693990985271479,
-        "distance": 0.9530600901472852
+        "a": "s01",
+        "b": "s03",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "s01",
+        "b": "s05",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "s01",
+        "b": "s06",
+        "similarity": 0,
+        "distance": 1
       }
     ],
-    "merge_count": 7
+    "merge_count": 5
   },
   "provenance": {
     "note": "Lokálně vypočtený lexikální TF-IDF baseline, nikoli neuronový embedding. Obrazový vektor nebyl vypočítán.",
