@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "kliste",
+  "title": "Klíště",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/kliste.txt",
+    "sha": "5cb8d006b3f1c117355c6085c4ca485f221af080",
+    "characters": 1453
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/kliste.jpg",
+    "status": "numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Text: kdyby nebyly srnky tak lvi nemaj",
+      "text": "Text: kdyby nebyly srnky tak lvi nemaj co žrát. I klíště sní o laních\n\nKLÍŠTĚ\n\n– Bez nás by nebyli oni",
+      "characters": 102,
+      "words": 20
+    },
+    {
+      "id": "02",
+      "label": "Laň stála v lese a byla potichu",
+      "text": "Laň stála v lese a  byla potichu tak, že z toho\n\nvznikl prostor.\n\nLev si bez ní neuměl představit večeři.",
+      "characters": 105,
+      "words": 20
+    },
+    {
+      "id": "03",
+      "label": "Básník si bez ní neuměl představit metaforu.",
+      "text": "Básník si bez ní neuměl představit metaforu.\n\nA klíště si bez ní neumělo představit budoucnost.\n\nLaň o tom všem věděla.",
+      "characters": 119,
+      "words": 20
+    },
+    {
+      "id": "04",
+      "label": "A přesto si každý den šla jen",
+      "text": "A přesto si každý den šla jen tak projít svět.\n\nŘíkala si:\n\n„Někdo musí být půda, aby jiní mohli být příběh.“",
+      "characters": 109,
+      "words": 21
+    },
+    {
+      "id": "05",
+      "label": "A když se jí jednou někdo zeptal,",
+      "text": "A když se jí jednou někdo zeptal, jestli jí to nevadí,\n\nodpověděla:",
+      "characters": 67,
+      "words": 12
+    },
+    {
+      "id": "06",
+      "label": "laň - kdyby nebyly srnky tak lvi",
+      "text": "laň - kdyby nebyly srnky tak lvi nemaj co žrát. . Ale i klíště sní o laních..\n\nprotoze klíšťata naopak nikdo žrát nechce, nikdo je nemá rád..\n\nnikdo neví tajemné klíšťí chorobě - oni klíšťata na celém světě, spí všichni ve stejném momentě a tím se snová realita otřese a stavájí se z ní dvě..bohužel, zrovna klíště není tvor, co by si neporanilo..",
+      "characters": 347,
+      "words": 61
+    },
+    {
+      "id": "07",
+      "label": "s ní - sní a - s",
+      "text": "s ní -\n\nsní a -\n\ns ní -",
+      "characters": 23,
+      "words": 6
+    },
+    {
+      "id": "08",
+      "label": "nastejně ve stejnou hodinu všichni klíšťata vytvoří",
+      "text": "nastejně ve stejnou hodinu všichni klíšťata vytvoří si pravidlo -\n\nsní o laních - pít laní krev\n\nsní o laních - přejí si být sami laně",
+      "characters": 134,
+      "words": 23
+    },
+    {
+      "id": "09",
+      "label": "a ve chvíli kdy všichni klíšti usnou",
+      "text": "a ve chvíli kdy všichni klíšti usnou\n\nbrobouzí se laně - možná se domluvili klíšťata spolu ve svém společném snu a laně jsou jen živý výplod jejich snů\n\nmožná věř tomu, že když zahlédneš laně, je čas klíštáků co sní všichni spolu",
+      "characters": 229,
+      "words": 41
+    },
+    {
+      "id": "10",
+      "label": "laň vznikla z klíštěcího pocitu marnosti a",
+      "text": "laň vznikla z klíštěcího pocitu marnosti a kolapsu že ani hladový lev a ani ten sup, neda si klíště na zub\n\na laň je bílá upírova prosba, pokus se do nebe dostat..",
+      "characters": 163,
+      "words": 32
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 374,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.949445,
+    "pca_pc1_percent": 24.91,
+    "pca_pc2_percent": 19.34,
+    "pca_first_two_percent": 44.25
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.968157,
+        0.927572,
+        0.987184,
+        1,
+        0.666503,
+        0.982272,
+        0.86151,
+        0.982114,
+        0.979266
+      ],
+      [
+        0.968157,
+        0,
+        0.722209,
+        0.966056,
+        0.992807,
+        0.958272,
+        0.948471,
+        0.984413,
+        0.982107,
+        0.918743
+      ],
+      [
+        0.927572,
+        0.722209,
+        0,
+        0.964742,
+        0.993298,
+        0.94515,
+        0.912817,
+        0.948927,
+        0.993065,
+        0.947616
+      ],
+      [
+        0.987184,
+        0.966056,
+        0.964742,
+        0,
+        0.969393,
+        0.978976,
+        0.991361,
+        0.935949,
+        0.980769,
+        0.97586
+      ],
+      [
+        1,
+        0.992807,
+        0.993298,
+        0.969393,
+        0,
+        0.975333,
+        0.988752,
+        1,
+        0.955357,
+        0.972316
+      ],
+      [
+        0.666503,
+        0.958272,
+        0.94515,
+        0.978976,
+        0.975333,
+        0,
+        0.958471,
+        0.889263,
+        0.913565,
+        0.928446
+      ],
+      [
+        0.982272,
+        0.948471,
+        0.912817,
+        0.991361,
+        0.988752,
+        0.958471,
+        0,
+        0.970178,
+        0.977945,
+        0.979035
+      ],
+      [
+        0.86151,
+        0.984413,
+        0.948927,
+        0.935949,
+        1,
+        0.889263,
+        0.970178,
+        0,
+        0.906344,
+        0.988506
+      ],
+      [
+        0.982114,
+        0.982107,
+        0.993065,
+        0.980769,
+        0.955357,
+        0.913565,
+        0.977945,
+        0.906344,
+        0,
+        0.95594
+      ],
+      [
+        0.979266,
+        0.918743,
+        0.947616,
+        0.97586,
+        0.972316,
+        0.928446,
+        0.979035,
+        0.988506,
+        0.95594,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.031843,
+        0.072428,
+        0.012816,
+        0,
+        0.333497,
+        0.017728,
+        0.13849,
+        0.017886,
+        0.020734
+      ],
+      [
+        0.031843,
+        1,
+        0.277791,
+        0.033944,
+        0.007193,
+        0.041728,
+        0.051529,
+        0.015587,
+        0.017893,
+        0.081257
+      ],
+      [
+        0.072428,
+        0.277791,
+        1,
+        0.035258,
+        0.006702,
+        0.05485,
+        0.087183,
+        0.051073,
+        0.006935,
+        0.052384
+      ],
+      [
+        0.012816,
+        0.033944,
+        0.035258,
+        1,
+        0.030607,
+        0.021024,
+        0.008639,
+        0.064051,
+        0.019231,
+        0.02414
+      ],
+      [
+        0,
+        0.007193,
+        0.006702,
+        0.030607,
+        1,
+        0.024667,
+        0.011248,
+        0,
+        0.044643,
+        0.027684
+      ],
+      [
+        0.333497,
+        0.041728,
+        0.05485,
+        0.021024,
+        0.024667,
+        1,
+        0.041529,
+        0.110737,
+        0.086435,
+        0.071554
+      ],
+      [
+        0.017728,
+        0.051529,
+        0.087183,
+        0.008639,
+        0.011248,
+        0.041529,
+        1,
+        0.029822,
+        0.022055,
+        0.020965
+      ],
+      [
+        0.13849,
+        0.015587,
+        0.051073,
+        0.064051,
+        0,
+        0.110737,
+        0.029822,
+        1,
+        0.093656,
+        0.011494
+      ],
+      [
+        0.017886,
+        0.017893,
+        0.006935,
+        0.019231,
+        0.044643,
+        0.086435,
+        0.022055,
+        0.093656,
+        1,
+        0.04406
+      ],
+      [
+        0.020734,
+        0.081257,
+        0.052384,
+        0.02414,
+        0.027684,
+        0.071554,
+        0.020965,
+        0.011494,
+        0.04406,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "01",
+        "b": "06",
+        "distance": 0.666503,
+        "similarity": 0.333497
+      },
+      {
+        "a": "02",
+        "b": "03",
+        "distance": 0.722209,
+        "similarity": 0.277791
+      },
+      {
+        "a": "01",
+        "b": "08",
+        "distance": 0.86151,
+        "similarity": 0.13849
+      },
+      {
+        "a": "06",
+        "b": "08",
+        "distance": 0.889263,
+        "similarity": 0.110737
+      },
+      {
+        "a": "08",
+        "b": "09",
+        "distance": 0.906344,
+        "similarity": 0.093656
+      },
+      {
+        "a": "03",
+        "b": "07",
+        "distance": 0.912817,
+        "similarity": 0.087183
+      },
+      {
+        "a": "06",
+        "b": "09",
+        "distance": 0.913565,
+        "similarity": 0.086435
+      },
+      {
+        "a": "02",
+        "b": "10",
+        "distance": 0.918743,
+        "similarity": 0.081257
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "05",
+        "b": "08",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "01",
+        "b": "05",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "03",
+        "b": "05",
+        "distance": 0.993298,
+        "similarity": 0.006702
+      },
+      {
+        "a": "03",
+        "b": "09",
+        "distance": 0.993065,
+        "similarity": 0.006935
+      },
+      {
+        "a": "02",
+        "b": "05",
+        "distance": 0.992807,
+        "similarity": 0.007193
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      24.9138,
+      19.3365
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "Text: kdyby nebyly srnky tak lvi nemaj",
+        "x": -2.746424835059783,
+        "y": -2.221274579397462
+      },
+      {
+        "id": "02",
+        "label": "Laň stála v lese a byla potichu",
+        "x": 3.6916706256300196,
+        "y": -3.979702546437046
+      },
+      {
+        "id": "03",
+        "label": "Básník si bez ní neuměl představit metaforu.",
+        "x": 3.5087277183117953,
+        "y": -4.595063040452235
+      },
+      {
+        "id": "04",
+        "label": "A přesto si každý den šla jen",
+        "x": 4.014794900730982,
+        "y": -3.3642201192973937
+      },
+      {
+        "id": "05",
+        "label": "A když se jí jednou někdo zeptal,",
+        "x": 3.1588636438892648,
+        "y": -1.8401040467010839
+      },
+      {
+        "id": "06",
+        "label": "laň - kdyby nebyly srnky tak lvi",
+        "x": -25.142000623637593,
+        "y": 1.8437694208825046
+      },
+      {
+        "id": "07",
+        "label": "s ní - sní a - s",
+        "x": 2.6939258395769516,
+        "y": -2.102474880228862
+      },
+      {
+        "id": "08",
+        "label": "nastejně ve stejnou hodinu všichni klíšťata vytvoří",
+        "x": 1.7925528242490771,
+        "y": -0.9665549889559414
+      },
+      {
+        "id": "09",
+        "label": "a ve chvíli kdy všichni klíšti usnou",
+        "x": 5.256564949076157,
+        "y": 22.09908141689015
+      },
+      {
+        "id": "10",
+        "label": "laň vznikla z klíštěcího pocitu marnosti a",
+        "x": 3.771324957233142,
+        "y": -4.873456636302612
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "01",
+        "to": "06",
+        "death": 0.666503
+      },
+      {
+        "from": "02",
+        "to": "03",
+        "death": 0.722209
+      },
+      {
+        "from": "01",
+        "to": "08",
+        "death": 0.86151
+      },
+      {
+        "from": "08",
+        "to": "09",
+        "death": 0.906344
+      },
+      {
+        "from": "03",
+        "to": "07",
+        "death": 0.912817
+      },
+      {
+        "from": "02",
+        "to": "10",
+        "death": 0.918743
+      },
+      {
+        "from": "01",
+        "to": "03",
+        "death": 0.927572
+      },
+      {
+        "from": "04",
+        "to": "08",
+        "death": 0.935949
+      },
+      {
+        "from": "05",
+        "to": "09",
+        "death": 0.955357
+      }
+    ],
+    "largest_finite_lifetime": 0.955357,
+    "mean_merge_distance": 0.867445
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy vycházejí z prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding. PCA osy jsou specifické pro tuto kartu a nelze je přímo porovnávat napříč kartami."
+  }
+}
