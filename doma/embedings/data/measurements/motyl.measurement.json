@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "motyl",
+  "title": "Motýl",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/motyl.txt",
+    "sha": "7f7be9c9f56a8257c997803f5428a8b0bfd3708c",
+    "characters": 1836
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/motyl.jpg",
+    "status": "numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "O MOTÝLECH kterých se nenajíš — „Já",
+      "text": "O MOTÝLECH \nkterých se nenajíš\n\n—\n\n„Já mám hlad,“ řekla.\n\n„Tak tady máš,“ řekl.\n\nA podal jí motýly.\n\nTři.\n\nJeden modrý, jeden žlutý, jeden trochu rozmazaný.",
+      "characters": 156,
+      "words": 25
+    },
+    {
+      "id": "02",
+      "label": "Ten třetí se jmenoval Horác, ale to",
+      "text": "Ten třetí se jmenoval Horác, ale to se dozvěděli až později.\n\n—\n\n„To se nedá sníst,“ řekla.\n\n„Ale dá se na to koukat,“ řekl.\n\n„Já nechci koukat. Já chci jíst.“\n\n„Motýli jsou lehcí. Nezatíží ti žaludek.“",
+      "characters": 202,
+      "words": 35
+    },
+    {
+      "id": "03",
+      "label": "„Ale já chci, aby mi žaludek zpíval,",
+      "text": "„Ale já chci, aby mi žaludek zpíval, ne aby si šeptal básničky.“\n\n—\n\nMotýli se zatím rozhlíželi.\n\nJeden si lehl do polívky.\n\nDruhý se schoval pod rohlík.\n\nTřetí Horác se snažil otevřít ledničku, ale neměl palce.\n\n—",
+      "characters": 214,
+      "words": 35
+    },
+    {
+      "id": "04",
+      "label": "„Já mám hlad,“ řekla znovu. „A ty",
+      "text": "„Já mám hlad,“ řekla znovu.\n\n„A ty mi dáváš křídla.“\n\n„Křídla jsou taky něco,“ řekl.\n\n„Ale nejsou chleba,“ řekla.\n\n„To je pravda,“ řekl.\n\n„Ale chleba neumí lítat.“",
+      "characters": 163,
+      "words": 27
+    },
+    {
+      "id": "05",
+      "label": "“A ještě je chleba nejvic emo,\" řekl",
+      "text": "“A ještě je chleba nejvic emo,\" řekl polohlasem.\n\n\" Jakto?“ řekla.\n\n“Řeže se a má dvě patky.\" řekl.\n\n\"aha” uzavřela ona.\n\n—\n\nChvíli bylo ticho.\n\nMotýli se tvářili, že rozumí.",
+      "characters": 174,
+      "words": 28
+    },
+    {
+      "id": "06",
+      "label": "Ale nerozuměli. Jeden se pokusil být salát.",
+      "text": "Ale nerozuměli.\n\nJeden se pokusil být salát.\n\nDruhý se schoulil do tvaru knedlíku.\n\nHorác se převlékl za banán.\n\nA začal si říkat Florián.\n\n—",
+      "characters": 141,
+      "words": 23
+    },
+    {
+      "id": "07",
+      "label": "„Tohle je divný,“ řekla. „To je umění,“",
+      "text": "„Tohle je divný,“ řekla.\n\n„To je umění,“ řekl.\n\n„To je hlad,“ řekla.\n\n„To je interpretace,“ řekl.\n\n„To je nesmysl,“ řekla.\n\n„To je možné,“ řekl.\n\n—",
+      "characters": 147,
+      "words": 24
+    },
+    {
+      "id": "08",
+      "label": "Nakonec si sedla na zem. Motýli jí",
+      "text": "Nakonec si sedla na zem.\n\nMotýli jí kroužili kolem hlavy.\n\nDělali vítr a i víry v myšlenkách.\n\nA jeden jí přistál na nose.\n\n„Já tě nesním,“ řekla mu.\n\n„To je dobře,“ řekl Florián.",
+      "characters": 179,
+      "words": 33
+    },
+    {
+      "id": "09",
+      "label": "„Já bych stejně chutnal jako neděle.“ —",
+      "text": "„Já bych stejně chutnal jako neděle.“\n\n—\n\nA tak si vzala rohlík.\n\nBez motýlů.\n\nBez klišé.\n\nBez chutí.\n\n—",
+      "characters": 104,
+      "words": 17
+    },
+    {
+      "id": "10",
+      "label": "Ale v hlavě jí drnčela věta: „Motýlů",
+      "text": "Ale v hlavě jí drnčela věta:\n\n„Motýlů v břiše se nenajíš.“\n\n—\n\nA pokaždé, když jí někdo chtěl nakrmit láskou,\n\nzeptala se:\n\n„A máš k tomu i přílohu?”",
+      "characters": 149,
+      "words": 27
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 400,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.941479,
+    "pca_pc1_percent": 16.74,
+    "pca_pc2_percent": 14.09,
+    "pca_first_two_percent": 30.83
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.957699,
+        0.953199,
+        0.893242,
+        0.958524,
+        0.941989,
+        0.950195,
+        0.925323,
+        0.968342,
+        0.906656
+      ],
+      [
+        0.957699,
+        0,
+        0.860127,
+        0.911923,
+        0.938336,
+        0.91048,
+        0.885033,
+        0.931776,
+        0.988458,
+        0.948693
+      ],
+      [
+        0.953199,
+        0.860127,
+        0,
+        0.957337,
+        0.948884,
+        0.841774,
+        1,
+        0.966908,
+        0.960922,
+        0.957061
+      ],
+      [
+        0.893242,
+        0.911923,
+        0.957337,
+        0,
+        0.917924,
+        0.978976,
+        0.766824,
+        0.938347,
+        0.98763,
+        0.976366
+      ],
+      [
+        0.958524,
+        0.938336,
+        0.948884,
+        0.917924,
+        0,
+        0.950643,
+        0.914621,
+        0.950203,
+        0.988772,
+        0.943188
+      ],
+      [
+        0.941989,
+        0.91048,
+        0.841774,
+        0.978976,
+        0.950643,
+        0,
+        1,
+        0.957398,
+        0.982298,
+        0.942925
+      ],
+      [
+        0.950195,
+        0.885033,
+        1,
+        0.766824,
+        0.914621,
+        1,
+        0,
+        0.860199,
+        1,
+        1
+      ],
+      [
+        0.925323,
+        0.931776,
+        0.966908,
+        0.938347,
+        0.950203,
+        0.957398,
+        0.860199,
+        0,
+        0.973957,
+        0.9016
+      ],
+      [
+        0.968342,
+        0.988458,
+        0.960922,
+        0.98763,
+        0.988772,
+        0.982298,
+        1,
+        0.973957,
+        0,
+        0.971787
+      ],
+      [
+        0.906656,
+        0.948693,
+        0.957061,
+        0.976366,
+        0.943188,
+        0.942925,
+        1,
+        0.9016,
+        0.971787,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.042301,
+        0.046801,
+        0.106758,
+        0.041476,
+        0.058011,
+        0.049805,
+        0.074677,
+        0.031658,
+        0.093344
+      ],
+      [
+        0.042301,
+        1,
+        0.139873,
+        0.088077,
+        0.061664,
+        0.08952,
+        0.114967,
+        0.068224,
+        0.011542,
+        0.051307
+      ],
+      [
+        0.046801,
+        0.139873,
+        1,
+        0.042663,
+        0.051116,
+        0.158226,
+        0,
+        0.033092,
+        0.039078,
+        0.042939
+      ],
+      [
+        0.106758,
+        0.088077,
+        0.042663,
+        1,
+        0.082076,
+        0.021024,
+        0.233176,
+        0.061653,
+        0.01237,
+        0.023634
+      ],
+      [
+        0.041476,
+        0.061664,
+        0.051116,
+        0.082076,
+        1,
+        0.049357,
+        0.085379,
+        0.049797,
+        0.011228,
+        0.056812
+      ],
+      [
+        0.058011,
+        0.08952,
+        0.158226,
+        0.021024,
+        0.049357,
+        1,
+        0,
+        0.042602,
+        0.017702,
+        0.057075
+      ],
+      [
+        0.049805,
+        0.114967,
+        0,
+        0.233176,
+        0.085379,
+        0,
+        1,
+        0.139801,
+        0,
+        0
+      ],
+      [
+        0.074677,
+        0.068224,
+        0.033092,
+        0.061653,
+        0.049797,
+        0.042602,
+        0.139801,
+        1,
+        0.026043,
+        0.0984
+      ],
+      [
+        0.031658,
+        0.011542,
+        0.039078,
+        0.01237,
+        0.011228,
+        0.017702,
+        0,
+        0.026043,
+        1,
+        0.028213
+      ],
+      [
+        0.093344,
+        0.051307,
+        0.042939,
+        0.023634,
+        0.056812,
+        0.057075,
+        0,
+        0.0984,
+        0.028213,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "04",
+        "b": "07",
+        "distance": 0.766824,
+        "similarity": 0.233176
+      },
+      {
+        "a": "03",
+        "b": "06",
+        "distance": 0.841774,
+        "similarity": 0.158226
+      },
+      {
+        "a": "02",
+        "b": "03",
+        "distance": 0.860127,
+        "similarity": 0.139873
+      },
+      {
+        "a": "07",
+        "b": "08",
+        "distance": 0.860199,
+        "similarity": 0.139801
+      },
+      {
+        "a": "02",
+        "b": "07",
+        "distance": 0.885033,
+        "similarity": 0.114967
+      },
+      {
+        "a": "01",
+        "b": "04",
+        "distance": 0.893242,
+        "similarity": 0.106758
+      },
+      {
+        "a": "08",
+        "b": "10",
+        "distance": 0.9016,
+        "similarity": 0.0984
+      },
+      {
+        "a": "01",
+        "b": "10",
+        "distance": 0.906656,
+        "similarity": 0.093344
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "07",
+        "b": "10",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "07",
+        "b": "09",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "06",
+        "b": "07",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "03",
+        "b": "07",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "05",
+        "b": "09",
+        "distance": 0.988772,
+        "similarity": 0.011228
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      16.7381,
+      14.0924
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "O MOTÝLECH kterých se nenajíš — „Já",
+        "x": 1.2936785861042042,
+        "y": 4.6245735977681965
+      },
+      {
+        "id": "02",
+        "label": "Ten třetí se jmenoval Horác, ale to",
+        "x": 2.7227705082682756,
+        "y": -16.500381914780462
+      },
+      {
+        "id": "03",
+        "label": "„Ale já chci, aby mi žaludek zpíval,",
+        "x": 11.269121269604158,
+        "y": -5.515039699535002
+      },
+      {
+        "id": "04",
+        "label": "„Já mám hlad,“ řekla znovu. „A ty",
+        "x": -5.603707253603693,
+        "y": -0.005843716840403948
+      },
+      {
+        "id": "05",
+        "label": "“A ještě je chleba nejvic emo,\" řekl",
+        "x": 0.31517106242078713,
+        "y": 3.0778270468498214
+      },
+      {
+        "id": "06",
+        "label": "Ale nerozuměli. Jeden se pokusil být salát.",
+        "x": 4.882351269444546,
+        "y": 0.9088975044364305
+      },
+      {
+        "id": "07",
+        "label": "„Tohle je divný,“ řekla. „To je umění,“",
+        "x": -18.315006613093473,
+        "y": -4.354807658146351
+      },
+      {
+        "id": "08",
+        "label": "Nakonec si sedla na zem. Motýli jí",
+        "x": -2.8190487679818874,
+        "y": 7.169908908062414
+      },
+      {
+        "id": "09",
+        "label": "„Já bych stejně chutnal jako neděle.“ —",
+        "x": 2.3296750117030087,
+        "y": 3.4334530344274383
+      },
+      {
+        "id": "10",
+        "label": "Ale v hlavě jí drnčela věta: „Motýlů",
+        "x": 3.924994927132005,
+        "y": 7.1614128977578
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "04",
+        "to": "07",
+        "death": 0.766824
+      },
+      {
+        "from": "03",
+        "to": "06",
+        "death": 0.841774
+      },
+      {
+        "from": "02",
+        "to": "03",
+        "death": 0.860127
+      },
+      {
+        "from": "07",
+        "to": "08",
+        "death": 0.860199
+      },
+      {
+        "from": "02",
+        "to": "07",
+        "death": 0.885033
+      },
+      {
+        "from": "01",
+        "to": "04",
+        "death": 0.893242
+      },
+      {
+        "from": "08",
+        "to": "10",
+        "death": 0.9016
+      },
+      {
+        "from": "05",
+        "to": "07",
+        "death": 0.914621
+      },
+      {
+        "from": "03",
+        "to": "09",
+        "death": 0.960922
+      }
+    ],
+    "largest_finite_lifetime": 0.960922,
+    "mean_merge_distance": 0.876038
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy vycházejí z prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding. PCA osy jsou specifické pro tuto kartu a nelze je přímo porovnávat napříč kartami."
+  }
+}
