@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "zralok",
+  "title": "Žralok",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/zralok.txt",
+    "sha": "05cc87e0d49813f4b08cddfd3d56a875944e0458",
+    "characters": 1580
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/zralok.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Karta: images/zralok.jpg Text: NAD : POD 1 : 1",
+      "text": "Karta: images/zralok.jpg\n\nText: NAD : POD 1 : 1\n\nO ŽRALOKOVI\n\nkterý měl poměr\n\n—\n\nnad : pod = 1 : 1\n\n—",
+      "characters": 102,
+      "words": 13
+    },
+    {
+      "id": "02",
+      "label": "Zní to jako rovnice, ale zároveň jako hádanka. Žralok",
+      "text": "Zní to jako rovnice, ale zároveň jako hádanka. Žralok je tvor, co se tváří, že je dole, ale občas se vynoří. Nad hladinou je jen na chvíli, pod ní je doma. A přesto — poměr je 1:1. Jako kdyby to, co je vidět, bylo stejně důležité jako to, co není.",
+      "characters": 247,
+      "words": 47
+    },
+    {
+      "id": "03",
+      "label": "— Žralok žil pod vodou. To se ví. Tam",
+      "text": "—\n\nŽralok žil pod vodou.\n\nTo se ví.\n\nTam je doma.\n\nTam je klid.\n\nTam se neptá nikdo na nic.\n\n—\n\nAle jednou za čas se vynořil.\n\nJen na chvíli.",
+      "characters": 141,
+      "words": 28
+    },
+    {
+      "id": "04",
+      "label": "Jen na nádech. Jen na pohled. — A pokaždé,",
+      "text": "Jen na nádech.\n\nJen na pohled.\n\n—\n\nA pokaždé, když se vynořil, někdo ho uviděl.\n\nA řekl:\n\n„Žralok! Pozor!“\n\n„Nebezpečí!“\n\n„Zuby!“",
+      "characters": 129,
+      "words": 18
+    },
+    {
+      "id": "05",
+      "label": "A žralok se zase ponořil. Pod hladinu. Do ticha.",
+      "text": "A žralok se zase ponořil.\n\nPod hladinu.\n\nDo ticha.\n\nDo místa, kde nikdo nekřičí.\n\n—\n\nAle začal si počítat.\n\nKolikrát je nad.\n\nKolikrát je pod.",
+      "characters": 142,
+      "words": 23
+    },
+    {
+      "id": "06",
+      "label": "A zjistil: 1 : 1 — Jednou nahoře. Jednou",
+      "text": "A zjistil:\n\n1 : 1\n\n—\n\nJednou nahoře.\n\nJednou dole.\n\nJednou viděn.\n\nJednou skryt.\n\n—\n\n„To je spravedlivé,“ řekl si.\n\n„To je rovnováha.“\n\n„To je život.“\n\n—",
+      "characters": 153,
+      "words": 20
+    },
+    {
+      "id": "07",
+      "label": "Ale pak přišla ryba. Malá. Zvědavá. A zeptala se:",
+      "text": "Ale pak přišla ryba.\n\nMalá.\n\nZvědavá.\n\nA zeptala se:\n\n„Proč se vůbec vynořuješ?“\n\n„Aby si mě všimli,“ řekl žralok.\n\n„Aby věděli, že jsem.“",
+      "characters": 138,
+      "words": 22
+    },
+    {
+      "id": "08",
+      "label": "„Ale pak se bojí,“ řekla ryba. „To je jejich",
+      "text": "„Ale pak se bojí,“ řekla ryba.\n\n„To je jejich věc,“ řekl žralok.\n\n„Já jsem jen poměr.“\n\n—\n\nRyba si to zapsala.\n\nDo bubliny.\n\nDo kruhu na vodě.",
+      "characters": 142,
+      "words": 26
+    },
+    {
+      "id": "09",
+      "label": "Do paměti. — A pak se zeptala: „A co",
+      "text": "Do paměti.\n\n—\n\nA pak se zeptala:\n\n„A co kdyby ses vynořil dvakrát?“\n\n„Pak bych byl víc nad než pod,“ řekl žralok.\n\n„A to už nejsem já.“\n\n—",
+      "characters": 138,
+      "words": 23
+    },
+    {
+      "id": "10",
+      "label": "Od té doby si žralok hlídá poměr. Jednou nahoře.",
+      "text": "Od té doby si žralok hlídá poměr.\n\nJednou nahoře.\n\nJednou dole.\n\nNikdy víc.\n\nNikdy míň.\n\n—\n\nA když ho někdo zahlédne,\n\nje to přesně ten okamžik, co má být.\n\nNe dřív.\n\nNe později.",
+      "characters": 178,
+      "words": 31
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 349,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.938190541308884,
+    "pca_variance": [
+      0.2249436213398864,
+      0.1422612578638355
+    ],
+    "distances": [
+      [
+        0,
+        0.9611042265824022,
+        0.9811460640982362,
+        1,
+        0.9319724855463464,
+        1,
+        1,
+        0.9867709801526032,
+        0.9492067504463996,
+        0.9887168855343423
+      ],
+      [
+        0.9611042265824022,
+        0,
+        0.8448250229633978,
+        0.9375571330176011,
+        0.9121425352929239,
+        0.8765886214249221,
+        0.9596644384532597,
+        0.908184921337748,
+        0.9252630512066948,
+        0.930695847621685
+      ],
+      [
+        0.9811460640982362,
+        0.8448250229633978,
+        -2.220446049250313e-16,
+        0.8548404601401471,
+        0.9217033786821325,
+        0.9013393862317534,
+        0.9571119416159438,
+        0.9228350632600054,
+        0.9537095754811686,
+        0.961717167367169
+      ],
+      [
+        1,
+        0.9375571330176011,
+        0.8548404601401471,
+        1.1102230246251565e-16,
+        0.9881209652186232,
+        0.9902900487396772,
+        0.9574168373721446,
+        0.9174176850443236,
+        0.947532796652708,
+        0.9439767399619864
+      ],
+      [
+        0.9319724855463464,
+        0.9121425352929239,
+        0.9217033786821325,
+        0.9881209652186232,
+        0,
+        0.9524100123281214,
+        0.9666928141773083,
+        0.9094102641097387,
+        0.934247433175781,
+        0.9778550067738404
+      ],
+      [
+        1,
+        0.8765886214249221,
+        0.9013393862317534,
+        0.9902900487396772,
+        0.9524100123281214,
+        0,
+        0.9828183630465518,
+        0.8561986469901306,
+        0.9699483641051443,
+        0.8028240358866717
+      ],
+      [
+        1,
+        0.9596644384532597,
+        0.9571119416159438,
+        0.9574168373721446,
+        0.9666928141773083,
+        0.9828183630465518,
+        2.220446049250313e-16,
+        0.8621204111430549,
+        0.9140603081314095,
+        0.9884797677121816
+      ],
+      [
+        0.9867709801526032,
+        0.908184921337748,
+        0.9228350632600054,
+        0.9174176850443236,
+        0.9094102641097387,
+        0.8561986469901306,
+        0.8621204111430549,
+        0,
+        0.8640648481647023,
+        0.9629962262994588
+      ],
+      [
+        0.9492067504463996,
+        0.9252630512066948,
+        0.9537095754811686,
+        0.947532796652708,
+        0.934247433175781,
+        0.9699483641051443,
+        0.9140603081314095,
+        0.8640648481647023,
+        0,
+        0.962596847409332
+      ],
+      [
+        0.9887168855343423,
+        0.930695847621685,
+        0.961717167367169,
+        0.9439767399619864,
+        0.9778550067738404,
+        0.8028240358866717,
+        0.9884797677121816,
+        0.9629962262994588,
+        0.962596847409332,
+        0
+      ]
+    ],
+    "coordinates": [
+      [
+        2.8456804597272383,
+        1.5460858813629397
+      ],
+      [
+        -24.31734129782545,
+        -1.067426893389511
+      ],
+      [
+        0.21032118219530674,
+        6.020102307308192
+      ],
+      [
+        2.777285780594276,
+        1.8745459289963333
+      ],
+      [
+        2.5290278215608057,
+        4.141361120521962
+      ],
+      [
+        1.9393604805653926,
+        -5.333140018764771
+      ],
+      [
+        3.7825810238856667,
+        3.82967520717259
+      ],
+      [
+        3.0917692042184,
+        3.3538284611799205
+      ],
+      [
+        3.049749308403769,
+        2.9175333454774437
+      ],
+      [
+        4.091566036674592,
+        -17.282565339865137
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.8028240358866717
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.8448250229633978
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.8548404601401471
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.8561986469901306
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.8621204111430549
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.8640648481647023
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.8765886214249221
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.9094102641097387
+      },
+      {
+        "a": 0,
+        "b": 4,
+        "distance": 0.9319724855463464
+      }
+    ],
+    "pairs": [
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 0.802824,
+        "similarity": 0.197176
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.844825,
+        "similarity": 0.155175
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.85484,
+        "similarity": 0.14516
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.856199,
+        "similarity": 0.143801
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.86212,
+        "similarity": 0.13788
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.864065,
+        "similarity": 0.135935
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.876589,
+        "similarity": 0.123411
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.901339,
+        "similarity": 0.098661
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.908185,
+        "similarity": 0.091815
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.90941,
+        "similarity": 0.09059
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 0.912143,
+        "similarity": 0.087857
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.91406,
+        "similarity": 0.08594
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.917418,
+        "similarity": 0.082582
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.921703,
+        "similarity": 0.078297
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.922835,
+        "similarity": 0.077165
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.925263,
+        "similarity": 0.074737
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.930696,
+        "similarity": 0.069304
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.931972,
+        "similarity": 0.068028
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.934247,
+        "similarity": 0.065753
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.937557,
+        "similarity": 0.062443
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.943977,
+        "similarity": 0.056023
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.947533,
+        "similarity": 0.052467
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.949207,
+        "similarity": 0.050793
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.95241,
+        "similarity": 0.04759
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.95371,
+        "similarity": 0.04629
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.957112,
+        "similarity": 0.042888
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.957417,
+        "similarity": 0.042583
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.959664,
+        "similarity": 0.040336
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.961104,
+        "similarity": 0.038896
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.961717,
+        "similarity": 0.038283
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.962597,
+        "similarity": 0.037403
+      },
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.962996,
+        "similarity": 0.037004
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.966693,
+        "similarity": 0.033307
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.969948,
+        "similarity": 0.030052
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.977855,
+        "similarity": 0.022145
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.981146,
+        "similarity": 0.018854
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.982818,
+        "similarity": 0.017182
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 0.986771,
+        "similarity": 0.013229
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.988121,
+        "similarity": 0.011879
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.98848,
+        "similarity": 0.01152
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 0.988717,
+        "similarity": 0.011283
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 0.99029,
+        "similarity": 0.00971
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 1,
+        "similarity": 0
+      }
+    ]
+  }
+}
