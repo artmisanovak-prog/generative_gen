@@ -1,0 +1,668 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card": "kozel",
+  "method": "TF-IDF unigram baseline, cosine distance, complete pair graph, Kruskal H0",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/kozel.txt",
+    "raw_sha": "19f767a3b8e915d6dbb4fd5f2bc4ce5aaa797558",
+    "text": "🐐  o kozlovi  \n\nTy budeš já a já budu tvá. Zkusit si roli není zrada – je to způsob, jak pochopit.\n\n\nByl jednou jeden kozel. Černý jako noc, ale ne temný – spíš nečitelný.  \n\nMěl bradku jako otázku, rohy jako závorky a oči, které se dívaly dovnitř.  \n\nNe do sebe. Do tebe.\n\n\nJednoho dne potkal myš.  \n\nMyš se na něj podívala a řekla:  \n\n„Ty budeš já a já budu tvá.“  \n\nA sáhla mu na bradku.  \n\nZe zvědavosti.\n\nZ potřeby.  \n\nZkusit si roli.\n\n\nKozel neuhnul.  \n\nJen se usmál – pokud se to u kozla dá poznat – a řekl:  \n\n„Zkusit si roli není zrada. Je to způsob, jak pochopit.“\n\n\nA tak si vyměnili pohledy.  \n\nMyš se naučila mečet.  \n\nKozel se naučil mlčet.\n\n\nMyš chodila po světě s kozlí bradkou a lidé se jí ptali:  \n\n„Kdo jsi?“  \n\nA ona odpovídala:  \n\n„Já jsem ten, kdo se ptá.“\n\n\nKozel chodil po světě s myším pohledem a zvířata se ho ptala:  \n\n„Kdo jsi?“  \n\nA on odpovídal:  \n\n„Já jsem ten, kdo se dívá.“\n\n\nA svět se trochu posunul.  \n\nNe moc. Jen o jedno slovo.  \n\nSlovo „já“ začalo být pohyblivé.  \n\nZačalo se půjčovat.  \n\nZačalo se zkoušet.\n\n\nA když se jednou potkali znovu, myš řekla:  \n\n„Už nejsem tebou.“  \n\nA kozel odpověděl:  \n\n„Ale já jsem pořád tvůj.“\n\n\nOd té doby se říká, že když si někdo zkusí být někým jiným,  \n\nnezradí sebe.  \n\nJen rozšíří hranice.  \n\nA že bradka není jen ozdoba.  \n\nJe to otázka, kterou si můžeš nasadit.\n"
+  },
+  "segments": [
+    {
+      "id": "k01",
+      "text": "Ty budeš já a já budu tvá. Zkusit si roli není zrada – je to způsob, jak pochopit.",
+      "chars": 82,
+      "words": 9
+    },
+    {
+      "id": "k02",
+      "text": "Byl jednou jeden kozel. Černý jako noc, ale ne temný – spíš nečitelný.",
+      "chars": 70,
+      "words": 9
+    },
+    {
+      "id": "k03",
+      "text": "Měl bradku jako otázku, rohy jako závorky a oči, které se dívaly dovnitř.",
+      "chars": 73,
+      "words": 10
+    },
+    {
+      "id": "k04",
+      "text": "Myš se na něj podívala a řekla:",
+      "chars": 31,
+      "words": 4
+    },
+    {
+      "id": "k05",
+      "text": "„Ty budeš já a já budu tvá.“",
+      "chars": 28,
+      "words": 3
+    },
+    {
+      "id": "k06",
+      "text": "Jen se usmál – pokud se to u kozla dá poznat – a řekl:",
+      "chars": 54,
+      "words": 5
+    },
+    {
+      "id": "k07",
+      "text": "„Zkusit si roli není zrada. Je to způsob, jak pochopit.“",
+      "chars": 56,
+      "words": 6
+    },
+    {
+      "id": "k08",
+      "text": "A tak si vyměnili pohledy.",
+      "chars": 26,
+      "words": 2
+    },
+    {
+      "id": "k09",
+      "text": "Myš chodila po světě s kozlí bradkou a lidé se jí ptali:",
+      "chars": 56,
+      "words": 7
+    },
+    {
+      "id": "k10",
+      "text": "„Já jsem ten, kdo se ptá.“",
+      "chars": 26,
+      "words": 3
+    },
+    {
+      "id": "k11",
+      "text": "Kozel chodil po světě s myším pohledem a zvířata se ho ptala:",
+      "chars": 61,
+      "words": 7
+    },
+    {
+      "id": "k12",
+      "text": "„Já jsem ten, kdo se dívá.“",
+      "chars": 27,
+      "words": 3
+    },
+    {
+      "id": "k13",
+      "text": "Ne moc. Jen o jedno slovo.",
+      "chars": 26,
+      "words": 3
+    },
+    {
+      "id": "k14",
+      "text": "Slovo „já“ začalo být pohyblivé.",
+      "chars": 32,
+      "words": 4
+    },
+    {
+      "id": "k15",
+      "text": "A když se jednou potkali znovu, myš řekla:",
+      "chars": 42,
+      "words": 5
+    },
+    {
+      "id": "k16",
+      "text": "Od té doby se říká, že když si někdo zkusí být někým jiným,",
+      "chars": 59,
+      "words": 7
+    },
+    {
+      "id": "k17",
+      "text": "A že bradka není jen ozdoba.",
+      "chars": 28,
+      "words": 3
+    },
+    {
+      "id": "k18",
+      "text": "Je to otázka, kterou si můžeš nasadit.",
+      "chars": 38,
+      "words": 4
+    }
+  ],
+  "metrics": {
+    "segment_count": 18,
+    "vocabulary_size": 72,
+    "pair_count": 153,
+    "mean_distance": 0.976417,
+    "mean_similarity": 0.023583
+  },
+  "pairwise": {
+    "closest_pairs": [
+      {
+        "a": "k01",
+        "b": "k07",
+        "similarity": 0.8097347159655058,
+        "distance": 0.19026528403449416
+      },
+      {
+        "a": "k01",
+        "b": "k05",
+        "similarity": 0.5867961228231329,
+        "distance": 0.41320387717686713
+      },
+      {
+        "a": "k10",
+        "b": "k12",
+        "similarity": 0.5734627567147809,
+        "distance": 0.42653724328521914
+      },
+      {
+        "a": "k04",
+        "b": "k15",
+        "similarity": 0.33166408427438254,
+        "distance": 0.6683359157256175
+      },
+      {
+        "a": "k13",
+        "b": "k14",
+        "similarity": 0.2248631144459683,
+        "distance": 0.7751368855540317
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "k17",
+        "b": "k18",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k16",
+        "b": "k18",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k16",
+        "b": "k17",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k15",
+        "b": "k18",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k15",
+        "b": "k17",
+        "similarity": 0,
+        "distance": 1
+      }
+    ],
+    "distance_matrix": [
+      [
+        0,
+        1,
+        1,
+        1,
+        0.4132,
+        1,
+        0.19027,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.87429,
+        1
+      ],
+      [
+        1,
+        0,
+        0.87241,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.90574,
+        1,
+        1,
+        1,
+        0.87858,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0.87241,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0.8912,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.66834,
+        1,
+        1,
+        1
+      ],
+      [
+        0.4132,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0.19027,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.84475,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0.8912,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0.89239,
+        1,
+        1,
+        1,
+        0.90123,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0.42654,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0.90574,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.89239,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.42654,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0.77514,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.77514,
+        0,
+        1,
+        0.8577,
+        1,
+        1
+      ],
+      [
+        1,
+        0.87858,
+        1,
+        0.66834,
+        1,
+        1,
+        1,
+        1,
+        0.90123,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.8577,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0.87429,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.84475,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "topology": {
+    "type": "H0 / Kruskal MST",
+    "merges": [
+      {
+        "a": "k01",
+        "b": "k07",
+        "similarity": 0.8097347159655058,
+        "distance": 0.19026528403449416
+      },
+      {
+        "a": "k01",
+        "b": "k05",
+        "similarity": 0.5867961228231329,
+        "distance": 0.41320387717686713
+      },
+      {
+        "a": "k10",
+        "b": "k12",
+        "similarity": 0.5734627567147809,
+        "distance": 0.42653724328521914
+      },
+      {
+        "a": "k04",
+        "b": "k15",
+        "similarity": 0.33166408427438254,
+        "distance": 0.6683359157256175
+      },
+      {
+        "a": "k13",
+        "b": "k14",
+        "similarity": 0.2248631144459683,
+        "distance": 0.7751368855540317
+      },
+      {
+        "a": "k07",
+        "b": "k17",
+        "similarity": 0.15525186099466326,
+        "distance": 0.8447481390053367
+      },
+      {
+        "a": "k14",
+        "b": "k16",
+        "similarity": 0.1423048373191047,
+        "distance": 0.8576951626808953
+      },
+      {
+        "a": "k02",
+        "b": "k03",
+        "similarity": 0.12758624395804496,
+        "distance": 0.872413756041955
+      },
+      {
+        "a": "k02",
+        "b": "k15",
+        "similarity": 0.12142029999627912,
+        "distance": 0.8785797000037209
+      },
+      {
+        "a": "k04",
+        "b": "k09",
+        "similarity": 0.10880001761449376,
+        "distance": 0.8911999823855062
+      },
+      {
+        "a": "k09",
+        "b": "k11",
+        "similarity": 0.10760668432905152,
+        "distance": 0.8923933156709485
+      },
+      {
+        "a": "k01",
+        "b": "k02",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k01",
+        "b": "k06",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k01",
+        "b": "k08",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k01",
+        "b": "k10",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k01",
+        "b": "k13",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "k01",
+        "b": "k18",
+        "similarity": 0,
+        "distance": 1
+      }
+    ],
+    "merge_count": 17
+  },
+  "provenance": {
+    "note": "Lokálně vypočtený lexikální TF-IDF baseline, nikoli neuronový embedding. Obrazový vektor nebyl vypočítán.",
+    "illustration_path": "../primarni_data/ilustrace/kozel.jpg",
+    "illustration_available": true
+  }
+}
