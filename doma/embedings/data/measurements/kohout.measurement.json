@@ -1,0 +1,580 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "kohout",
+  "title": "Kohout",
+  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/kohout.txt",
+    "sha": "b63da2fcc4f3db14ffe4bd2b11d7ce4117292cc1",
+    "characters": 8385
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/kohout.jpg",
+    "status": "Image embedding not computed."
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "O KOHOUTOVI 🌞 kohout v sázce Na počátku byl",
+      "text": "O KOHOUTOVI\n\n🌞 kohout v sázce\n\nNa počátku byl svět, který měl Slunce, a Slunce mělo faraona.\n\nFaraon měl kohouta, lid měl tik, a všechno se dělo v jednom mžiku, jako když se sen rozhodne, že bude dělat realitu.\n\nV tom světě žil faraon, který se prohlásil za syna samotného Slunce a napůl za boha.\n\nA žil tam lid, který věřil všemu, co znělo dostatečně hlasitě.\n\nA žila tam myš — malá, zlatá, zapisující to, co ostatní neviděli, protože se dívali příliš přímo.\n\nJednoho dne se myš potkala s faraonem.\n\nFaraon byl uchvácen, protože chtěl mít všechno, co zahlédl.\n\nJenže myš nebyla věc, nebyla otázka, nebyla trofej.\n\nByla to hlavně jeho Myšlenka.\n\nA přestože\n\nA protože\n\nA právěže\n\nTo ale faraon si uvědomí jasně i přesně.\n\nTo ale faraon odmítá brát na vědomí - přísně.",
+      "characters": 768,
+      "words": 118
+    },
+    {
+      "id": "02",
+      "label": "A tak, místo aby se ptal, vyhlásil válku spánku.",
+      "text": "A tak, místo aby se ptal, vyhlásil válku spánku.\n\nA protože jeho pýcha přetekla všechny břehy, vsadil co asi?\n\nSlunce.\n\nJen tak.\n\nTotiž to zfaraonstělý třeštiprdlo jednoduše vůbec nenapadlo, že by mohlo nebýt po jeho.\n\nSlunce se mezitím klouzalo po obzoru, lidi z lidu si toho léta z úletu už už malém nehty kouší koušou\n\nNervy hustší houstnou.\n\nAle kohout\n\nAle slunce\n\nAle ráno\n\n50 : 50\n\nAle budík\n\nAle áano\n\nFaraon řekl\n\nbylo to psáno\n\nFaraon neprohrál Slunce\n\nAle původ i názor\n\nNeprohrál Slunce\n\nAle celý svůj obzor\n\nKohout slyšel slovo sázka a instinktivně se připravil na zápas — tak byl zvyklý.\n\nJenže se nesázelo o něj.\n\nSázka zněla:\n\nSlunce zlaté\n\nZlato v hrdle\n\nDáme si páku - hlasy budiž svaly naše\n\nLid zastavil se v němém úžase\n\nFaraon sebejistě na soka křikne\n\nbudík pípej křič a kokrhej kohoute víc\n\n50 : 50",
+      "characters": 822,
+      "words": 130
+    },
+    {
+      "id": "03",
+      "label": "aréna a autogramy ámen a vem to čert -",
+      "text": "aréna a autogramy ámen a vem to čert\n\n- v celém prostoru teď visí rady\n\nať si uši vlastní rukou raději zacpou dámy\n\nkohout boj svádí, nikdo ho nenavádí\n\n- jenže to slov a vět je zvyk - a všech řečí\n\n50 : 50 je poměr velmi přesný\n\nfaraon : kohout i tenhle poměr se zdá být jasný\n\nale 50 : 50\n\nten kdo pyšně slovem hází - váhu nebere vážně kohout boj svádí\n\na ten kdo svuj zvuk hned mění v činy? - nahned a bez magie dusledek příčiny\n\nano výpočty jsou přece jasné - leda myši\n\nKohout kokrhá a kyrýká jak jen umí, co mu síly..\n\nFaraon si prsty tuká melodii metronomu\n\na lid celý celé jitro čeká doufá sází se a hádá..\n\nA v tom - budik crrrrr CINK Cinky BRNK cinkycink..a dal se line z nej jen ticho jako jako v hrobě\n\nA kohoutův křikot - je slyšet až za roh..\n\nA toho prvého rána od události",
+      "characters": 788,
+      "words": 132
+    },
+    {
+      "id": "04",
+      "label": "co se stalo to, že v budíku došly baterie.?",
+      "text": "co se stalo to, že v budíku došly baterie.?\n\nA kohout překokrhal se soubejem a faraoron\n\nvyhrál ticho jen\n\nTak prohrál Slunce, svůj původ i svůj stín.\n\nA kdo ztratí světlo, ztratí i to, co ho následuje.\n\nOd té chvíle bloudí, shání baterky do budíku a doufá, že až zazvoní, probudí se z toho bdění zpátky do snu o božském stavu.. myš si ťuká na hlavu..vždyť faraon nespí a budík si ani nenařídil, baterky nikde k mání a kohoutovo kokrhání k šílenství ho dohání - a ječí na toho kuravého ptáka, ať mu ho vrátí.\n\nHuláká Ječí a řve co to jde..\n\nFaraon na kohouta\n\nKohout na Budíka\n\nBudík na Slunce\n\nA to? Smálo se a smálo\n\ntlemilo se a ne málo\n\nvždyť od chvíle kdy Vycházelo\n\njen Mžik a pak zbytek celého dne zapadalo.\n\nJenže kohout dál kokrhá.\n\nprotože je ráno\n\nLid dál přihlíží.\n\nHlavy prikyvují - áno tak tak áno áno",
+      "characters": 815,
+      "words": 133
+    },
+    {
+      "id": "05",
+      "label": "A myš dál zapisuje — protože zvířata se kolem",
+      "text": "A myš dál zapisuje — protože zvířata se kolem ní shromažďují a co se nevysvětluje jí ukazují.\n\nV perspektivách, v kterých žijí existovat všichni smějí..na záznamu o tom tvrdě všichni lpějí..a myší zápisky mezi nimi kolují..a oni se vidí a mají tím realně nabytý důkaz a původ..jaký by myš sama měla k tomu důvod?\n\nOni jí potřebují jako MetaStredníBod\n\nskrz ní umožňují se podmínky pro život.\n\nCHCES MYŠ?\n\nnikdy nikdo neodpoví: NECHCI\n\n- a přece myš ? opravdu nechci..\n\nnikdo si netroufne - nezúčastnit se..\n\nnikdo neriskne - že trřeba..možná..\n\n..nebo tu myš chce??\n\nví ale že ji né nechce\n\na není si uz jistý..\n\nmožná..\n\nže NE nechce\n\nasi tu myš chce...\n\n_PAST\n\npast - kterou položila myš\n\n- porucha - myš není oběť pasti - myš se stává pastí",
+      "characters": 743,
+      "words": 115
+    },
+    {
+      "id": "06",
+      "label": "porucha - detaily, děj v posunu významu, mnohovrzevnatost, chyba,",
+      "text": "porucha - detaily, děj v posunu významu, mnohovrzevnatost, chyba, paradox, nemoralita, implicitni pravidla, kombinace, vrstvy, perspektivy..\n\n- KNIHY , SVITKY, BLOGY, VZKAZY NA LEDNIČCE..\n\nCO NEZAZNAMENÁŠ TY, ZAZNAMENÁM JÁ - MYŠ - zvíře i myšlenka, tělo i idea  - PÁDLO, PAST, KLÍČ\n\nA Slunce?\n\nTo se chláme zbytek dne\n\npak si vyschlou hubou vyprahle odplivne,\n\nspolkne suchou větu, a zapadne.\n\n+++++++++\n\nO KOHOUTOVI\n\n🌞 kohout v sázce\n\nNa počátku byl svět, který měl Slunce, a Slunce mělo faraona.\n\nFaraon měl kohouta, lid měl dík, a všechno se dělo v jednom mžiku, jako když se sen rozhodne, že bude skutečností.\n\nV tom světě žil faraon, který se prohlásil synem Slunce.\n\nA žil tam lid, který věřil všemu, co znělo dostatečně hlasitě.\n\nA žila tam myš — malá, zlatá, zapisující to, co ostatní neviděli, protože se dívali příliš přímo.",
+      "characters": 835,
+      "words": 115
+    },
+    {
+      "id": "07",
+      "label": "Jednoho dne se myš potkala s faraonem. Faraon byl",
+      "text": "Jednoho dne se myš potkala s faraonem.\n\nFaraon byl uchvácen, protože chtěl mít všechno, co zahlédl.\n\nJenže myš nebyla věc, nebyla otázka, nebyla trofej.\n\nByla to hlavně jeho Myšlenka.\n\nA přestože\n\nA přestože\n\nA právěže\n\nTo ale faraon si uvědomí\n\nTo ale faraon odmítá brát na vědomí.\n\nA tak, místo aby se ptal, vyhlásil válku spánku.\n\nA protože jeho pýcha přetekla všechny břehy, vsadil co asi?\n\nSlunce.\n\nJen tak.\n\nTo faraondký třeštiprdlo jednoduše nenapadlo, že by mohlo nebýt po jeho.\n\nSlunce se mezitím klouzalo po obzoru, lidi z lidu si toho skoro nepovšimli.\n\nAle kohout\n\nAle ráno\n\n50 : 50\n\nano.\n\nKohout slyšel slovo sázka a instinktivně se připravil na zápas — tak byl zvyklý.\n\nJenže se nesázelo o něj.\n\nSázka zněla:\n\nSlunce zlaté\n\nZlato v hrdle\n\nDáme si páku - hlasy budiž svaly naše\n\nLid zastavil se v němém úžase\n\nFaraon sebejistě na soka křikne",
+      "characters": 854,
+      "words": 132
+    },
+    {
+      "id": "08",
+      "label": "budík pípej ktič a kokrhej kohoute víc a 50",
+      "text": "budík pípej ktič a kokrhej kohoute víc\n\na 50 : 50 aréna a autogramy\n\n- v celém prostoru teď visí rady\n\nať si uši vlastní rukou zacpou dámy\n\nkohout boj svádí, nikdo ho nenavádí\n\n- jenže to slov a vět je zvyk - a všech řečí\n\n50 : 50 je poměr velmi přesný\n\nfaraon : kohout i tenhle poměr se zdá být jasný\n\nale 50 : 50\n\nten kdo pyšně slovem hází - váhu nebereme\n\na ten kdo svuj zvuk hned mění v činy? - nahned a bez magie\n\nano výpočty jsou jasné..\n\nKohout kokrha a kyryka jak jen umi, co mu síly..\n\nFaraon si prsty tuká melodii metronomu\n\na lid cely cele jitro čeká doufá sází se a hádá..\n\nA v tom - budik crrrrr CINK Cinky BRNK cinkycink..a dal se line z nej jen ticho jako jako v hrobě\n\nA kohoutův křikot - je slyšet až za roh..\n\nA toho prvého rána od události\n\nco se to stalo, že v budíku došly baterie.?\n\nA kohout překokrhal ticho.\n\nA vyhrál.",
+      "characters": 842,
+      "words": 138
+    },
+    {
+      "id": "09",
+      "label": "Faraon prohrál Slunce, svůj původ i svůj stín. A",
+      "text": "Faraon prohrál Slunce, svůj původ i svůj stín.\n\nA kdo ztratí světlo, ztratí i to, co ho následuje.\n\nOd té chvíle bloudí, shání baterky do budíku a doufá, že až zazvoní, probudí se z toho bdění zpátky do snu o božském stavu.. myš si ťuká na hlavu..vždyť faron nespí a budík si nenařídil, baterky nikde k mání a kohoutovo kokrhání k šílenství ho dohání - a ječí na toho kuraveho ptáka, ať mu ho vrátí.\n\nFaraon na kohouta\n\nKohout na Budíka\n\nBudík na Slunce\n\nA to? Smálo se a smálo\n\ntlemilo se a ne málo\n\nvždyť chvíle co Vycházelo\n\njen Mžik a pak zbytek dne zapadalo.\n\nJenže kohout dál kokrhá.\n\nprotože je ráno\n\nLid dál přihlíží.\n\nA myš dál zapisuje — protože zvířata se kolem ní shromažďují a co se vysvětluje jí ukazují.",
+      "characters": 718,
+      "words": 115
+    },
+    {
+      "id": "10",
+      "label": "V perspektivách, v kterých žijí existovat všichni smějí..na záznamu",
+      "text": "V perspektivách, v kterých žijí existovat všichni smějí..na záznamu o tom všichni lpějí..a mysí zápisky mezi nimi kolují..a oni se vidí a mají tím realně nabytý důkaz a původ..jaký by myš sama měla k tomu důvod?\n\nOni jí potrebuju jako MetaStredníBod\n\nskrz ni umožňující jsou podmínky pro život.\n\nCHCES MYŠ?\n\nnikdy nikdo neodpoví: NECHCI\n\nale přece myš opravdu nikdo nechce\n\nnikdo si netroufne - nezúčastnit se..\n\nnikdo neriskne - že trřeba..možná..\n\n..nebo tu myš chce??\n\nneví jestli ji chce\n\na není si uz jistý..\n\nmožná..\n\nže NE nechce\n\nasi tu myš chce...\n\n_PAST\n\npast - kterou položila myš\n\n- porucha - myš není oběť pasti - myš se stává pastí\n\nporucha - detaily, děj v posunu významu, mnohovrzevnatost, chyba, paradox, nemoralita, implicitni pravidla, kombinace, vrstvy, perspektivy..\n\n- KNIHY , SVITKY, BLOGY, VZKAZY NA LEDNIČCE..\n\nCO NEZAZNAMENÁŠ TY, MYŠ - zvíře i myšlenka, tělo i idea\n\nA Slunce?\n\nTo se chláme zbytek dne\n\na vyschlou svou hmotou si odplivne,\n\nsuchou větu spolkne a zapadne.",
+      "characters": 996,
+      "words": 143
+    }
+  ],
+  "measurement": {
+    "vocabulary_dimensions": 1196,
+    "segment_count": 10,
+    "pair_count": 45,
+    "mean_cosine_distance": 0.8473534481819385,
+    "pca_variance": [
+      0.2367974097359248,
+      0.21128705306158618
+    ],
+    "distances": [
+      [
+        0,
+        0.9019917455051092,
+        0.9483494542615614,
+        0.9166405406596981,
+        0.9292831040141493,
+        0.4566386377102315,
+        0.6083517333150557,
+        0.9432775915712576,
+        0.9075352832332643,
+        0.9339125311287488
+      ],
+      [
+        0.9019917455051092,
+        0,
+        0.9152329298041175,
+        0.892137337757729,
+        0.9590484505978182,
+        0.9304315465227466,
+        0.38848784884367327,
+        0.866597256454282,
+        0.9126855654202685,
+        0.9599917718593617
+      ],
+      [
+        0.9483494542615614,
+        0.9152329298041175,
+        0,
+        0.9207678890317034,
+        0.9700141023182848,
+        0.9675217972518504,
+        0.9230879067112956,
+        0.21950950648382295,
+        0.9267431033219892,
+        0.9692844263973371
+      ],
+      [
+        0.9166405406596981,
+        0.892137337757729,
+        0.9207678890317034,
+        -2.220446049250313e-16,
+        0.9437475463043451,
+        0.9209622775856442,
+        0.8822811755581497,
+        0.8715421322585059,
+        0.2565113981473359,
+        0.9485049752461636
+      ],
+      [
+        0.9292831040141493,
+        0.9590484505978182,
+        0.9700141023182848,
+        0.9437475463043451,
+        1.1102230246251565e-16,
+        0.9338919857336648,
+        0.9323881491037413,
+        0.9642440090045247,
+        0.851292557065102,
+        0.2992912734041866
+      ],
+      [
+        0.4566386377102315,
+        0.9304315465227466,
+        0.9675217972518504,
+        0.9209622775856442,
+        0.9338919857336648,
+        -2.220446049250313e-16,
+        0.9117649114014494,
+        0.9617841571158722,
+        0.9096108058463764,
+        0.7166895833503639
+      ],
+      [
+        0.6083517333150557,
+        0.38848784884367327,
+        0.9230879067112956,
+        0.8822811755581497,
+        0.9323881491037413,
+        0.9117649114014494,
+        -2.220446049250313e-16,
+        0.9083716968090785,
+        0.9034112468117467,
+        0.9348379393294214
+      ],
+      [
+        0.9432775915712576,
+        0.866597256454282,
+        0.21950950648382295,
+        0.8715421322585059,
+        0.9642440090045247,
+        0.9617841571158722,
+        0.9083716968090785,
+        0,
+        0.9149878750236805,
+        0.9679300517244607
+      ],
+      [
+        0.9075352832332643,
+        0.9126855654202685,
+        0.9267431033219892,
+        0.2565113981473359,
+        0.851292557065102,
+        0.9096108058463764,
+        0.9034112468117467,
+        0.9149878750236805,
+        -2.220446049250313e-16,
+        0.9293373611880611
+      ],
+      [
+        0.9339125311287488,
+        0.9599917718593617,
+        0.9692844263973371,
+        0.9485049752461636,
+        0.2992912734041866,
+        0.7166895833503639,
+        0.9348379393294214,
+        0.9679300517244607,
+        0.9293373611880611,
+        -2.220446049250313e-16
+      ]
+    ],
+    "coordinates": [
+      [
+        3.098459477101359,
+        13.569619010604086
+      ],
+      [
+        -8.348078883454592,
+        21.848908937793528
+      ],
+      [
+        -22.944393623651543,
+        -20.633460370770237
+      ],
+      [
+        -4.090576902821828,
+        2.815843832262106
+      ],
+      [
+        24.076757184909276,
+        -12.976695049218195
+      ],
+      [
+        9.064508023632133,
+        4.9066075714101665
+      ],
+      [
+        -5.036882385512178,
+        23.1833594383466
+      ],
+      [
+        -23.898162037388207,
+        -20.01380730622098
+      ],
+      [
+        -0.9535652027695708,
+        1.547295520412066
+      ],
+      [
+        29.031934349955232,
+        -14.247671584619255
+      ]
+    ],
+    "h0_merges": [
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.21950950648382295
+      },
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.2565113981473359
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.2992912734041866
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 0.38848784884367327
+      },
+      {
+        "a": 0,
+        "b": 5,
+        "distance": 0.4566386377102315
+      },
+      {
+        "a": 0,
+        "b": 6,
+        "distance": 0.6083517333150557
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.7166895833503639
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.851292557065102
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.866597256454282
+      }
+    ],
+    "pairs": [
+      {
+        "a": 3,
+        "b": 8,
+        "distance": 0.21951,
+        "similarity": 0.78049
+      },
+      {
+        "a": 4,
+        "b": 9,
+        "distance": 0.256511,
+        "similarity": 0.743489
+      },
+      {
+        "a": 5,
+        "b": 10,
+        "distance": 0.299291,
+        "similarity": 0.700709
+      },
+      {
+        "a": 2,
+        "b": 7,
+        "distance": 0.388488,
+        "similarity": 0.611512
+      },
+      {
+        "a": 1,
+        "b": 6,
+        "distance": 0.456639,
+        "similarity": 0.543361
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "distance": 0.608352,
+        "similarity": 0.391648
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "distance": 0.71669,
+        "similarity": 0.28331
+      },
+      {
+        "a": 5,
+        "b": 9,
+        "distance": 0.851293,
+        "similarity": 0.148707
+      },
+      {
+        "a": 2,
+        "b": 8,
+        "distance": 0.866597,
+        "similarity": 0.133403
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "distance": 0.871542,
+        "similarity": 0.128458
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "distance": 0.882281,
+        "similarity": 0.117719
+      },
+      {
+        "a": 2,
+        "b": 4,
+        "distance": 0.892137,
+        "similarity": 0.107863
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "distance": 0.901992,
+        "similarity": 0.098008
+      },
+      {
+        "a": 7,
+        "b": 9,
+        "distance": 0.903411,
+        "similarity": 0.096589
+      },
+      {
+        "a": 1,
+        "b": 9,
+        "distance": 0.907535,
+        "similarity": 0.092465
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "distance": 0.908372,
+        "similarity": 0.091628
+      },
+      {
+        "a": 6,
+        "b": 9,
+        "distance": 0.909611,
+        "similarity": 0.090389
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "distance": 0.911765,
+        "similarity": 0.088235
+      },
+      {
+        "a": 2,
+        "b": 9,
+        "distance": 0.912686,
+        "similarity": 0.087314
+      },
+      {
+        "a": 8,
+        "b": 9,
+        "distance": 0.914988,
+        "similarity": 0.085012
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "distance": 0.915233,
+        "similarity": 0.084767
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "distance": 0.916641,
+        "similarity": 0.083359
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "distance": 0.920768,
+        "similarity": 0.079232
+      },
+      {
+        "a": 4,
+        "b": 6,
+        "distance": 0.920962,
+        "similarity": 0.079038
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "distance": 0.923088,
+        "similarity": 0.076912
+      },
+      {
+        "a": 3,
+        "b": 9,
+        "distance": 0.926743,
+        "similarity": 0.073257
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "distance": 0.929283,
+        "similarity": 0.070717
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "distance": 0.929337,
+        "similarity": 0.070663
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "distance": 0.930432,
+        "similarity": 0.069568
+      },
+      {
+        "a": 5,
+        "b": 7,
+        "distance": 0.932388,
+        "similarity": 0.067612
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "distance": 0.933892,
+        "similarity": 0.066108
+      },
+      {
+        "a": 1,
+        "b": 10,
+        "distance": 0.933913,
+        "similarity": 0.066087
+      },
+      {
+        "a": 7,
+        "b": 10,
+        "distance": 0.934838,
+        "similarity": 0.065162
+      },
+      {
+        "a": 1,
+        "b": 8,
+        "distance": 0.943278,
+        "similarity": 0.056722
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "distance": 0.943748,
+        "similarity": 0.056252
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "distance": 0.948349,
+        "similarity": 0.051651
+      },
+      {
+        "a": 4,
+        "b": 10,
+        "distance": 0.948505,
+        "similarity": 0.051495
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "distance": 0.959048,
+        "similarity": 0.040952
+      },
+      {
+        "a": 2,
+        "b": 10,
+        "distance": 0.959992,
+        "similarity": 0.040008
+      },
+      {
+        "a": 6,
+        "b": 8,
+        "distance": 0.961784,
+        "similarity": 0.038216
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "distance": 0.964244,
+        "similarity": 0.035756
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "distance": 0.967522,
+        "similarity": 0.032478
+      },
+      {
+        "a": 8,
+        "b": 10,
+        "distance": 0.96793,
+        "similarity": 0.03207
+      },
+      {
+        "a": 3,
+        "b": 10,
+        "distance": 0.969284,
+        "similarity": 0.030716
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "distance": 0.970014,
+        "similarity": 0.029986
+      }
+    ]
+  }
+}
