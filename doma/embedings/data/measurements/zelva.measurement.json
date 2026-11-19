@@ -1,0 +1,560 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card_id": "zelva",
+  "title": "Želva",
+  "method": "Samostatný TF-IDF unigram + bigram prostor v rámci jedné karty; kosinová vzdálenost; PCA nad centrovanou Gramovou maticí; H0 přes Kruskalův MST.",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/zelva.txt",
+    "sha": "8329a97ada5f5bf0fbca015662162e363c7984f4",
+    "characters": 2578
+  },
+  "illustration": {
+    "path": "../primarni_data/ilustrace/zelva.jpg",
+    "status": "numerický obrazový embedding zatím nevypočítán"
+  },
+  "source_segments": [
+    {
+      "id": "01",
+      "label": "Text: želva běží závod celé roky zajíc",
+      "text": "Text: želva běží závod celé roky zajíc poslal už čtyři pohlednice Sicílie Madrid Grónsko a Nemanice\n\nO ŽELVĚ\n\nkterá běží závod, a zajíci, který posílá pohlednice\n\nŽelva běží závod.\n\nCelé roky.\n\nNe pomalu.\n\nJen důkladně.\n\nKaždý krok je jako otisk.\n\nKaždý otisk stopy jako razítko.\n\nKaždý den jako další stránka v kalendáři, co nikdo neotáčí.",
+      "characters": 340,
+      "words": 55
+    },
+    {
+      "id": "02",
+      "label": "Zajíc už dávno doběhl. Pak se vrátil.",
+      "text": "Zajíc už dávno doběhl.\n\nPak se vrátil.\n\nPak zase odběhl.\n\nPak si sedl.\n\nPak si lehl.\n\nA pak začal psát.\n\nPoslal pohlednici ze Sicílie.\n\n„Tady je slunce, co se tváří jako výmluva.“\n\nPoslal pohlednici z Madridu.\n\n„Tady se běhá akorát v myšlenkách.“",
+      "characters": 246,
+      "words": 42
+    },
+    {
+      "id": "03",
+      "label": "Poslal pohlednici z Grónska. „Tady je ticho,",
+      "text": "Poslal pohlednici z Grónska.\n\n„Tady je ticho, co se nedá doběhnout.“\n\nA nakonec z Nemanic.\n\n„Tady není nic. Ale to nevadí.“\n\nŽelva běží.\n\nDlouho\n\nNečte hned.\n\nČasu má dost.\n\nAle každý pohled jí přistane na krunýři.\n\nA ona je nese.",
+      "characters": 230,
+      "words": 40
+    },
+    {
+      "id": "04",
+      "label": "Jako důkazy. Jako sny. Jako možnosti. Jako",
+      "text": "Jako důkazy.\n\nJako sny.\n\nJako možnosti.\n\nJako mapy míst, kde nikdy nebyla, ale možná jednou bude.\n\nAle někdy po cestě,\n\nkdyž se zastaví,\n\nba chvíli\n\ntřeba kvůli křovisu, co se tváří\n\njako večeře — vytáhne jednu.\n\nSicílie.",
+      "characters": 221,
+      "words": 36
+    },
+    {
+      "id": "05",
+      "label": "Slunce, co se tváří jako výmluva. A",
+      "text": "Slunce, co se tváří jako výmluva.\n\nA želva si řekne: „Tam bych mohla jednou dojít.“\n\nA běží dál.\n\nMadrid.\n\nMěsto, kde se běhá jenom v myšlenkách.\n\nTo ji zaujme.\n\nProtože ona běží tělem..\n\nAle možná by mohla i v myšlenkách?\n\nA tak si to poznamená.",
+      "characters": 246,
+      "words": 45
+    },
+    {
+      "id": "06",
+      "label": "Do krunýře. Do vzoru. Grónsko. Ticho, který",
+      "text": "Do krunýře.\n\nDo vzoru.\n\nGrónsko.\n\nTicho, který se nedá předběhnout.\n\nTo ji dojme.\n\nProtože to ona zná.\n\nAle nikdy to nepředběhla.\n\nJen jí to něco přesně připomíná.\n\nNemanice.\n\nNic.",
+      "characters": 180,
+      "words": 29
+    },
+    {
+      "id": "07",
+      "label": "Ale to nevadí. To je její oblíbená.",
+      "text": "Ale to nevadí.\n\nTo je její oblíbená.\n\nProtože nic je místo, kde se může stát všechno.\n\nA tak želva běží.\n\nA čte.\n\nA každy pohled má jako směr.\n\nNe cíl.\n\nAle důvod.\n\nZajíc mezitím píše dál.\n\nNe proto, že by musel.",
+      "characters": 212,
+      "words": 41
+    },
+    {
+      "id": "08",
+      "label": "Ale protože želva běží. A dokud běží,",
+      "text": "Ale protože želva běží.\n\nA dokud běží, má komu psát.\n\nJednou napíše:\n\n„Tady jsem si uvědomil, že možná nejde o to, kdo doběhne.\n\nAle o to, kdo má kam psát.“\n\nA želva si to přečte.\n\nA usměje se.\n\nNe proto, že by to bylo vtipné.\n\nAle protože to je pravda.\n\nA tak běží dál.",
+      "characters": 270,
+      "words": 54
+    },
+    {
+      "id": "09",
+      "label": "A pohlednice jí šustí na zádech. Slova",
+      "text": "A pohlednice jí šustí na zádech.\n\nSlova se splétají jako mašle.\n\nA vítr je čte s ní.\n\nA slunce je bledne.\n\nA déšť je rozmazává.\n\nA zajíc píše dál.\n\nZ míst, která možná\n\nani eexistující.\n\nAle pokud je želva\n\njednou přečte,",
+      "characters": 221,
+      "words": 41
+    },
+    {
+      "id": "10",
+      "label": "možná začnou. A každý z nich běží",
+      "text": "možná začnou.\n\nA každý z nich běží závod.\n\nJiný cíl, stejný důvod.\n\n„Zajíc běží, aby mohl psát.\n\nA želva běží, aby mohla číst.“\n\na želva čte, aby zajíc mohl psat.”\n\na zajíc píše, aby želva měla co číst.\n\nA že závod není o čase.\n\nJe o tom, kdo si pamatuje, proč vůbec závodí.",
+      "characters": 274,
+      "words": 53
+    }
+  ],
+  "metrics": {
+    "segments": 10,
+    "feature_dimensions": 558,
+    "compared_pairs": 45,
+    "mean_cosine_distance": 0.912934,
+    "pca_pc1_percent": 16.61,
+    "pca_pc2_percent": 15.69,
+    "pca_first_two_percent": 32.3
+  },
+  "pairwise": {
+    "segment_ids": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "distance_matrix": [
+      [
+        0,
+        0.951941,
+        0.937124,
+        0.94118,
+        0.931605,
+        0.963967,
+        0.914491,
+        0.930392,
+        0.925653,
+        0.85511
+      ],
+      [
+        0.951941,
+        0,
+        0.862229,
+        0.929257,
+        0.827775,
+        0.99177,
+        0.964397,
+        0.935044,
+        0.949088,
+        0.948972
+      ],
+      [
+        0.937124,
+        0.862229,
+        0,
+        0.968005,
+        0.922951,
+        0.894587,
+        0.841533,
+        0.88573,
+        0.898599,
+        0.923432
+      ],
+      [
+        0.94118,
+        0.929257,
+        0.968005,
+        0,
+        0.896833,
+        0.973356,
+        0.947765,
+        0.96842,
+        0.943732,
+        0.992753
+      ],
+      [
+        0.931605,
+        0.827775,
+        0.922951,
+        0.896833,
+        0,
+        0.904682,
+        0.867744,
+        0.801087,
+        0.912136,
+        0.899073
+      ],
+      [
+        0.963967,
+        0.99177,
+        0.894587,
+        0.973356,
+        0.904682,
+        0,
+        0.923228,
+        0.873398,
+        0.978911,
+        1
+      ],
+      [
+        0.914491,
+        0.964397,
+        0.841533,
+        0.947765,
+        0.867744,
+        0.923228,
+        0,
+        0.751457,
+        0.869381,
+        0.869365
+      ],
+      [
+        0.930392,
+        0.935044,
+        0.88573,
+        0.96842,
+        0.801087,
+        0.873398,
+        0.751457,
+        0,
+        0.904182,
+        0.829301
+      ],
+      [
+        0.925653,
+        0.949088,
+        0.898599,
+        0.943732,
+        0.912136,
+        0.978911,
+        0.869381,
+        0.904182,
+        0,
+        0.880379
+      ],
+      [
+        0.85511,
+        0.948972,
+        0.923432,
+        0.992753,
+        0.899073,
+        1,
+        0.869365,
+        0.829301,
+        0.880379,
+        0
+      ]
+    ],
+    "similarity_matrix": [
+      [
+        1,
+        0.048059,
+        0.062876,
+        0.05882,
+        0.068395,
+        0.036033,
+        0.085509,
+        0.069608,
+        0.074347,
+        0.14489
+      ],
+      [
+        0.048059,
+        1,
+        0.137771,
+        0.070743,
+        0.172225,
+        0.00823,
+        0.035603,
+        0.064956,
+        0.050912,
+        0.051028
+      ],
+      [
+        0.062876,
+        0.137771,
+        1,
+        0.031995,
+        0.077049,
+        0.105413,
+        0.158467,
+        0.11427,
+        0.101401,
+        0.076568
+      ],
+      [
+        0.05882,
+        0.070743,
+        0.031995,
+        1,
+        0.103167,
+        0.026644,
+        0.052235,
+        0.03158,
+        0.056268,
+        0.007247
+      ],
+      [
+        0.068395,
+        0.172225,
+        0.077049,
+        0.103167,
+        1,
+        0.095318,
+        0.132256,
+        0.198913,
+        0.087864,
+        0.100927
+      ],
+      [
+        0.036033,
+        0.00823,
+        0.105413,
+        0.026644,
+        0.095318,
+        1,
+        0.076772,
+        0.126602,
+        0.021089,
+        0
+      ],
+      [
+        0.085509,
+        0.035603,
+        0.158467,
+        0.052235,
+        0.132256,
+        0.076772,
+        1,
+        0.248543,
+        0.130619,
+        0.130635
+      ],
+      [
+        0.069608,
+        0.064956,
+        0.11427,
+        0.03158,
+        0.198913,
+        0.126602,
+        0.248543,
+        1,
+        0.095818,
+        0.170699
+      ],
+      [
+        0.074347,
+        0.050912,
+        0.101401,
+        0.056268,
+        0.087864,
+        0.021089,
+        0.130619,
+        0.095818,
+        1,
+        0.119621
+      ],
+      [
+        0.14489,
+        0.051028,
+        0.076568,
+        0.007247,
+        0.100927,
+        0,
+        0.130635,
+        0.170699,
+        0.119621,
+        1
+      ]
+    ],
+    "closest_pairs": [
+      {
+        "a": "07",
+        "b": "08",
+        "distance": 0.751457,
+        "similarity": 0.248543
+      },
+      {
+        "a": "05",
+        "b": "08",
+        "distance": 0.801087,
+        "similarity": 0.198913
+      },
+      {
+        "a": "02",
+        "b": "05",
+        "distance": 0.827775,
+        "similarity": 0.172225
+      },
+      {
+        "a": "08",
+        "b": "10",
+        "distance": 0.829301,
+        "similarity": 0.170699
+      },
+      {
+        "a": "03",
+        "b": "07",
+        "distance": 0.841533,
+        "similarity": 0.158467
+      },
+      {
+        "a": "01",
+        "b": "10",
+        "distance": 0.85511,
+        "similarity": 0.14489
+      },
+      {
+        "a": "02",
+        "b": "03",
+        "distance": 0.862229,
+        "similarity": 0.137771
+      },
+      {
+        "a": "05",
+        "b": "07",
+        "distance": 0.867744,
+        "similarity": 0.132256
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "06",
+        "b": "10",
+        "distance": 1,
+        "similarity": 0
+      },
+      {
+        "a": "04",
+        "b": "10",
+        "distance": 0.992753,
+        "similarity": 0.007247
+      },
+      {
+        "a": "02",
+        "b": "06",
+        "distance": 0.99177,
+        "similarity": 0.00823
+      },
+      {
+        "a": "06",
+        "b": "09",
+        "distance": 0.978911,
+        "similarity": 0.021089
+      },
+      {
+        "a": "04",
+        "b": "06",
+        "distance": 0.973356,
+        "similarity": 0.026644
+      }
+    ]
+  },
+  "pca": {
+    "variance_percent": [
+      16.6137,
+      15.6853
+    ],
+    "coordinates": [
+      {
+        "id": "01",
+        "label": "Text: želva běží závod celé roky zajíc",
+        "x": 18.096732287941727,
+        "y": -17.602502403353576
+      },
+      {
+        "id": "02",
+        "label": "Zajíc už dávno doběhl. Pak se vrátil.",
+        "x": -10.236837246677684,
+        "y": -6.281986449838611
+      },
+      {
+        "id": "03",
+        "label": "Poslal pohlednici z Grónska. „Tady je ticho,",
+        "x": -4.247720542219438,
+        "y": -1.2760536596815908
+      },
+      {
+        "id": "04",
+        "label": "Jako důkazy. Jako sny. Jako možnosti. Jako",
+        "x": -4.548231206113582,
+        "y": -4.835308276302065
+      },
+      {
+        "id": "05",
+        "label": "Slunce, co se tváří jako výmluva. A",
+        "x": -5.584989099178838,
+        "y": 0.3925557956948207
+      },
+      {
+        "id": "06",
+        "label": "Do krunýře. Do vzoru. Grónsko. Ticho, který",
+        "x": -4.293824511675487,
+        "y": -1.1889514754554515
+      },
+      {
+        "id": "07",
+        "label": "Ale to nevadí. To je její oblíbená.",
+        "x": -1.847569856229877,
+        "y": 2.782470298650032
+      },
+      {
+        "id": "08",
+        "label": "Ale protože želva běží. A dokud běží,",
+        "x": -3.1834220911720195,
+        "y": 12.2277772250831
+      },
+      {
+        "id": "09",
+        "label": "A pohlednice jí šustí na zádech. Slova",
+        "x": -1.206655341338264,
+        "y": 0.06248247155833815
+      },
+      {
+        "id": "10",
+        "label": "možná začnou. A každý z nich běží",
+        "x": 17.052517606663393,
+        "y": 15.719516473644967
+      }
+    ]
+  },
+  "topology": {
+    "type": "H0 Vietoris–Rips / complete weighted graph / Kruskal minimum spanning tree",
+    "merges": [
+      {
+        "from": "07",
+        "to": "08",
+        "death": 0.751457
+      },
+      {
+        "from": "05",
+        "to": "08",
+        "death": 0.801087
+      },
+      {
+        "from": "02",
+        "to": "05",
+        "death": 0.827775
+      },
+      {
+        "from": "08",
+        "to": "10",
+        "death": 0.829301
+      },
+      {
+        "from": "03",
+        "to": "07",
+        "death": 0.841533
+      },
+      {
+        "from": "01",
+        "to": "10",
+        "death": 0.85511
+      },
+      {
+        "from": "07",
+        "to": "09",
+        "death": 0.869381
+      },
+      {
+        "from": "06",
+        "to": "08",
+        "death": 0.873398
+      },
+      {
+        "from": "04",
+        "to": "05",
+        "death": 0.896833
+      }
+    ],
+    "largest_finite_lifetime": 0.896833,
+    "mean_merge_distance": 0.838431
+  },
+  "provenance": {
+    "segmentation": "Souvislé odstavce zdroje seskupené do navazujících bloků; text úseků zachovává původní znění a pořadí. Názvy vycházejí z prvních slov.",
+    "limitations": "TF-IDF je lexikální baseline, nikoli neuronový embedding. PCA osy jsou specifické pro tuto kartu a nelze je přímo porovnávat napříč kartami."
+  }
+}
