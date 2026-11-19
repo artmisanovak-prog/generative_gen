@@ -1,0 +1,403 @@
+{
+  "schema": "semantic-gap.local-measurement.v1",
+  "card": "zajic",
+  "method": "TF-IDF unigram baseline, cosine distance, complete pair graph, Kruskal H0",
+  "source": {
+    "path": "doma/primarni_data/kriva_pohadka/zajic.txt",
+    "raw_sha": "33eb111b22831669881d7236bcf41ace2886e794"
+  },
+  "segments": [
+    {
+      "id": "z01",
+      "text": "Bylo jedno pole, takové obyčejné, plné trávy, obilí a prachu. V létě, slunce stálo vysoko, dokázalo se to pole vznítit jedinou jiskrou. A tak se i stalo: zapraskalo suché stéblo, rozfoukal se vítr, a oheň se rozběhl přes lány rychleji než lidský krok. Všechna zvířata, která tam byla, věděla, co mají dělat. Utíkat. Utíkat pryč, co nejdál, co nejrychleji. Utíkal bažant, myši, i celé hejno koroptví. A také zajíci.",
+      "chars": 414,
+      "words": 48
+    },
+    {
+      "id": "z02",
+      "text": "Jenže jeden zajíc – vlastně zaječice – byla jiná. Nebyla statečnější než ostatní, nebyla chytřejší, dokonce ani nebyla rychlejší. Jen se lekla tak moc, že zapomněla na všechny instinkty. A zatímco ostatní běželi kupředu před ohněm, ona udělala pravý opak: skočila přímo do plamenů.",
+      "chars": 281,
+      "words": 31
+    },
+    {
+      "id": "z03",
+      "text": "Teď byste čekali, že se promění v popel a zůstane po ní jen smutný pach spálených chlupů. Ale kdepak. Ona dopadla do místa, které už bylo shořelé. Tam, kde oheň už dávno sežral všechen svůj pokrm a nechal jen černou zemi. A tak zaječice prošla plameny, aniž by jí ublížily.",
+      "chars": 273,
+      "words": 29
+    },
+    {
+      "id": "z04",
+      "text": "A tohle se stalo legendou. Protože všechno, co přežije proti logice, se stane pohádkou.",
+      "chars": 87,
+      "words": 10
+    },
+    {
+      "id": "z05",
+      "text": "Zajíci si pak začali vyprávět, že ona je ohnivzdorná. Že se jí žádný žár nemůže dotknout, protože oheň si ji spletl s popelem a nechal ji být. Jiní říkali, že to byla náhoda – že jen zakopla a náhodou dopadla do bezpečí. Ale pohádky o náhodě nebývají uvěřitelné, proto si přidávali vlastní verze.",
+      "chars": 296,
+      "words": 28
+    },
+    {
+      "id": "z06",
+      "text": "Jedni tvrdili, že zaječice byla vyvolená – že měla v srsti zakódované znamení, neviditelné očima, ale čitelné plamenům. Jiní, že ji chránila pradávná smlouva mezi ohněm a zajíci: „Když skočíš do mých úst dobrovolně, já tě nespálím.“ A další vykládali, že to byla zkouška – že kdo se dokáže vzdát vlastního pudu sebezáchovy, ten se stává nesmrtelným.",
+      "chars": 349,
+      "words": 35
+    },
+    {
+      "id": "z07",
+      "text": "A tak zaječice, která jen zakopla o vlastní strach, byla prohlášena za hrdinku.",
+      "chars": 79,
+      "words": 6
+    },
+    {
+      "id": "z08",
+      "text": "Ale ona sama se nikdy necítila hrdinkou. Když seděla večer na okraji pole a čistila si spálené vousky, říkala si: „Já jsem se jen lekla. Jen jsem skočila blbě.“ A přitom se kolem ní scházeli ostatní a šeptali: „Podívej, to je ta, co neshorí.“",
+      "chars": 242,
+      "words": 24
+    },
+    {
+      "id": "z09",
+      "text": "Časem začala chápat, že nezáleží na tom, co se opravdu stalo. Realita byla jen podklad, jako spáleniště pod jejími tlapkami. To, co rostlo nad ní, byla řeč, příběh, legenda. A tak se naučila nosit svůj omyl jako korunu. Když se jí někdo ptal, jak to udělala, neodpovídala. Jen se tajemně usmála a trochu si načechrala srst, aby to vypadalo, že opravdu skrývá nějaké kouzlo.",
+      "chars": 373,
+      "words": 37
+    },
+    {
+      "id": "z10",
+      "text": "Od té doby se traduje, že zajíce nemůžeš zapálit. Že není palivo, že není dřevo na hranici. Oheň ho možná spálí, ale nikdy nepohltí. Protože kdo jednou skočil do plamenů a vyšel ven živý, toho si už žádný oheň netroufne znovu.",
+      "chars": 226,
+      "words": 28
+    },
+    {
+      "id": "z11",
+      "text": "A děti v lese se učí od matek tuto pohádku: „Neboj se strachu. Strach tě může hodit tam, kam by tě nikdy nenapadlo jít. A možná právě tam je cesta k přežití.“",
+      "chars": 158,
+      "words": 19
+    },
+    {
+      "id": "z12",
+      "text": "A tak se stalo, že jedna zaječice, co jen udělala chybu, se zapsala do paměti jako hrdinka.",
+      "chars": 91,
+      "words": 9
+    }
+  ],
+  "metrics": {
+    "segment_count": 12,
+    "vocabulary_size": 259,
+    "pair_count": 66,
+    "mean_distance": 0.976439,
+    "mean_similarity": 0.023561
+  },
+  "pairwise": {
+    "closest_pairs": [
+      {
+        "a": "z05",
+        "b": "z07",
+        "similarity": 0.13753604050784773,
+        "distance": 0.8624639594921523
+      },
+      {
+        "a": "z09",
+        "b": "z12",
+        "similarity": 0.1372765390522579,
+        "distance": 0.8627234609477421
+      },
+      {
+        "a": "z02",
+        "b": "z08",
+        "similarity": 0.09860236986391302,
+        "distance": 0.901397630136087
+      },
+      {
+        "a": "z07",
+        "b": "z11",
+        "similarity": 0.08099495959937864,
+        "distance": 0.9190050404006214
+      },
+      {
+        "a": "z05",
+        "b": "z10",
+        "similarity": 0.0787303754981622,
+        "distance": 0.9212696245018378
+      }
+    ],
+    "most_distant_pairs": [
+      {
+        "a": "z11",
+        "b": "z12",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "z10",
+        "b": "z12",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "z09",
+        "b": "z11",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "z09",
+        "b": "z10",
+        "similarity": 0,
+        "distance": 1
+      },
+      {
+        "a": "z08",
+        "b": "z12",
+        "similarity": 0,
+        "distance": 1
+      }
+    ],
+    "distance_matrix": [
+      [
+        0,
+        1,
+        0.98701,
+        0.97753,
+        0.96974,
+        0.98544,
+        1,
+        0.96447,
+        0.9888,
+        0.98022,
+        1,
+        0.97475
+      ],
+      [
+        1,
+        0,
+        0.98686,
+        1,
+        1,
+        0.96516,
+        0.9681,
+        0.9014,
+        0.98289,
+        0.97399,
+        1,
+        0.93586
+      ],
+      [
+        0.98701,
+        0.98686,
+        0,
+        1,
+        0.92552,
+        0.98727,
+        0.9658,
+        1,
+        0.97649,
+        0.9739,
+        1,
+        0.97261
+      ],
+      [
+        0.97753,
+        1,
+        1,
+        0,
+        0.96175,
+        1,
+        1,
+        1,
+        0.97443,
+        0.96235,
+        1,
+        0.94236
+      ],
+      [
+        0.96974,
+        1,
+        0.92552,
+        0.96175,
+        0,
+        0.95444,
+        0.86246,
+        1,
+        1,
+        0.92127,
+        1,
+        1
+      ],
+      [
+        0.98544,
+        0.96516,
+        0.98727,
+        1,
+        0.95444,
+        0,
+        0.96912,
+        1,
+        1,
+        0.97482,
+        1,
+        0.97526
+      ],
+      [
+        1,
+        0.9681,
+        0.9658,
+        1,
+        0.86246,
+        0.96912,
+        0,
+        1,
+        1,
+        1,
+        0.91901,
+        0.93352
+      ],
+      [
+        0.96447,
+        0.9014,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0.97653,
+        0.97191,
+        1
+      ],
+      [
+        0.9888,
+        0.98289,
+        0.97649,
+        0.97443,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0.86272
+      ],
+      [
+        0.98022,
+        0.97399,
+        0.9739,
+        0.96235,
+        0.92127,
+        0.97482,
+        1,
+        0.97653,
+        1,
+        0,
+        0.93922,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0.91901,
+        0.97191,
+        1,
+        0.93922,
+        0,
+        1
+      ],
+      [
+        0.97475,
+        0.93586,
+        0.97261,
+        0.94236,
+        1,
+        0.97526,
+        0.93352,
+        1,
+        0.86272,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "topology": {
+    "type": "H0 / Kruskal MST",
+    "merges": [
+      {
+        "a": "z05",
+        "b": "z07",
+        "similarity": 0.13753604050784773,
+        "distance": 0.8624639594921523
+      },
+      {
+        "a": "z09",
+        "b": "z12",
+        "similarity": 0.1372765390522579,
+        "distance": 0.8627234609477421
+      },
+      {
+        "a": "z02",
+        "b": "z08",
+        "similarity": 0.09860236986391302,
+        "distance": 0.901397630136087
+      },
+      {
+        "a": "z07",
+        "b": "z11",
+        "similarity": 0.08099495959937864,
+        "distance": 0.9190050404006214
+      },
+      {
+        "a": "z05",
+        "b": "z10",
+        "similarity": 0.0787303754981622,
+        "distance": 0.9212696245018378
+      },
+      {
+        "a": "z03",
+        "b": "z05",
+        "similarity": 0.07448483805299988,
+        "distance": 0.9255151619470001
+      },
+      {
+        "a": "z07",
+        "b": "z12",
+        "similarity": 0.06648352712316519,
+        "distance": 0.9335164728768348
+      },
+      {
+        "a": "z02",
+        "b": "z12",
+        "similarity": 0.06413738302897842,
+        "distance": 0.9358626169710216
+      },
+      {
+        "a": "z04",
+        "b": "z12",
+        "similarity": 0.057643545880426084,
+        "distance": 0.9423564541195739
+      },
+      {
+        "a": "z05",
+        "b": "z06",
+        "similarity": 0.04556240758775787,
+        "distance": 0.9544375924122421
+      },
+      {
+        "a": "z01",
+        "b": "z08",
+        "similarity": 0.03553369355919256,
+        "distance": 0.9644663064408074
+      }
+    ],
+    "merge_count": 11
+  },
+  "provenance": {
+    "note": "Lokálně vypočtený lexikální TF-IDF baseline, nikoli neuronový embedding. Obrazový vektor nebyl vypočítán.",
+    "illustration_path": "../primarni_data/ilustrace/zajic.jpg",
+    "illustration_available": false
+  }
+}
