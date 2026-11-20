@@ -1,12 +1,20 @@
 {
-  "schema": "semantic-gap.local-measurement.v1",
+  "schema": "semantic-gap.local-measurement.v2",
   "card_id": "zizala",
   "title": "Žížala",
-  "method": "TF-IDF unigram + bigram; cosine distance; PCA on centered Gram matrix; H0 via Kruskal MST.",
+  "segmentation": {
+    "status": "reviewed_provisional",
+    "unit": "natural narrative/event units",
+    "fixed_segment_count": false,
+    "principle": "Segment boundaries follow source transitions; whole source remains a separate unit. No target count is imposed.",
+    "front_matter": "Title and subtitle are retained in the full source but excluded from narrative segments.",
+    "notes": "Four provisional event/relational units; boundaries are explicit and preserve original wording and order."
+  },
   "source": {
     "path": "doma/primarni_data/kriva_pohadka/zizala.txt",
     "sha": "ff35caf79951e09bde2682a635e972d3580a4ec3",
-    "characters": 455
+    "characters": 455,
+    "full_text": "O ŽÍŽALE\n\n-\"rozklad jako růst\"\n\n\n🪱 ŽÍŽALA \n\nkterá byla na roztrhání a byla dál\n\n\nŽížala se jednoho dne roztrhla.\n\nNe schválně. Prostě život.\n\nZ jedné byly dvě.\n\nA obě si myslely, že jsou ta původní.\n\nKaždá lezla jinam.\n\nJedna k dešti. Druhá ke kořenům.\n\nPotkávaly se jen pod zemí, kde se nedá ukázat prstem.\n\nTam si šeptaly:\n\n„Rozpad není konec. Je to rozmnožení ticha.“\n\nA hlína jim rozuměla.\n\nProtože hlína ví, že všechno, co se rozpadne, má víc času.\n"
   },
   "illustration": {
     "path": "../primarni_data/ilustrace/zizala.jpg",
@@ -15,566 +23,42 @@
   "source_segments": [
     {
       "id": "01",
-      "label": "O ŽÍŽALE -\"rozklad jako růst\" 🪱 ŽÍŽALA",
-      "text": "O ŽÍŽALE\n\n-\"rozklad jako růst\"\n\n🪱 ŽÍŽALA",
-      "characters": 41,
-      "words": 5
+      "label": "Roztržení a vznik dvou",
+      "role": "událost",
+      "text": "Žížala se jednoho dne roztrhla.\n\nNe schválně. Prostě život.\n\nZ jedné byly dvě.",
+      "characters": 78,
+      "words": 13
     },
     {
       "id": "02",
-      "label": "která byla na roztrhání a byla dál",
-      "text": "která byla na roztrhání a byla dál",
-      "characters": 34,
-      "words": 6
+      "label": "Dvě původní",
+      "role": "identita",
+      "text": "A obě si myslely, že jsou ta původní.",
+      "characters": 37,
+      "words": 8
     },
     {
       "id": "03",
-      "label": "Žížala se jednoho dne roztrhla.",
-      "text": "Žížala se jednoho dne roztrhla.",
-      "characters": 31,
-      "words": 5
+      "label": "Dva směry a setkávání",
+      "role": "pohyb a vztah",
+      "text": "Každá lezla jinam.\n\nJedna k dešti. Druhá ke kořenům.\n\nPotkávaly se jen pod zemí, kde se nedá ukázat prstem.",
+      "characters": 107,
+      "words": 19
     },
     {
       "id": "04",
-      "label": "Ne schválně. Prostě život. Z jedné byly dvě.",
-      "text": "Ne schválně. Prostě život.\n\nZ jedné byly dvě.",
-      "characters": 45,
-      "words": 7
-    },
-    {
-      "id": "05",
-      "label": "A obě si myslely, že jsou ta původní.",
-      "text": "A obě si myslely, že jsou ta původní.",
-      "characters": 37,
-      "words": 7
-    },
-    {
-      "id": "06",
-      "label": "Každá lezla jinam.",
-      "text": "Každá lezla jinam.",
-      "characters": 18,
-      "words": 3
-    },
-    {
-      "id": "07",
-      "label": "Jedna k dešti. Druhá ke kořenům.",
-      "text": "Jedna k dešti. Druhá ke kořenům.",
-      "characters": 32,
-      "words": 5
-    },
-    {
-      "id": "08",
-      "label": "Potkávaly se jen pod zemí, kde se nedá ukázat",
-      "text": "Potkávaly se jen pod zemí, kde se nedá ukázat prstem.",
-      "characters": 53,
-      "words": 10
-    },
-    {
-      "id": "09",
-      "label": "Tam si šeptaly: „Rozpad není konec. Je to rozmnožení",
-      "text": "Tam si šeptaly:\n\n„Rozpad není konec. Je to rozmnožení ticha.“",
-      "characters": 61,
-      "words": 10
-    },
-    {
-      "id": "10",
-      "label": "A hlína jim rozuměla. Protože hlína ví, že všechno,",
-      "text": "A hlína jim rozuměla.\n\nProtože hlína ví, že všechno, co se rozpadne, má víc času.",
-      "characters": 81,
-      "words": 14
+      "label": "Rozpad, ticho a hlína",
+      "role": "závěrečný obrat",
+      "text": "Tam si šeptaly:\n\n„Rozpad není konec. Je to rozmnožení ticha.“\n\nA hlína jim rozuměla.\n\nProtože hlína ví, že všechno, co se rozpadne, má víc času.",
+      "characters": 144,
+      "words": 25
     }
   ],
   "measurement": {
-    "vocabulary_dimensions": 126,
-    "segment_count": 10,
-    "pair_count": 45,
-    "mean_cosine_distance": 0.9923938667892821,
-    "pca_variance": [
-      0.2178926667863511,
-      0.1572007196848078
-    ],
-    "distances": [
-      [
-        0,
-        1,
-        0.9149445498544329,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      [
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      [
-        0.9149445498544329,
-        1,
-        -2.220446049250313e-16,
-        1,
-        1,
-        1,
-        1,
-        0.9122670022833322,
-        1,
-        0.9638408731451193
-      ],
-      [
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1.1102230246251565e-16,
-        1,
-        1,
-        1,
-        0.952658216753866,
-        0.9614769230113435
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        2.220446049250313e-16,
-        1,
-        1,
-        1,
-        1
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1
-      ],
-      [
-        1,
-        1,
-        0.9122670022833322,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0.9525364404695956
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        0.952658216753866,
-        1,
-        1,
-        1,
-        0,
-        1
-      ],
-      [
-        1,
-        1,
-        0.9638408731451193,
-        1,
-        0.9614769230113435,
-        1,
-        1,
-        0.9525364404695956,
-        1,
-        0
-      ]
-    ],
-    "coordinates": [
-      [
-        -1.2878915416393948,
-        0.08776211620499809
-      ],
-      [
-        -1.6484140583504967,
-        0.24104797321719187
-      ],
-      [
-        -0.9441755879415933,
-        -0.7611651359860888
-      ],
-      [
-        -1.6484140583498605,
-        0.24104797321719199
-      ],
-      [
-        -1.0595810229697962,
-        1.1052411015697616
-      ],
-      [
-        -1.0318201344015139,
-        0.10367331350151236
-      ],
-      [
-        -1.269192684606337,
-        0.14498809942447335
-      ],
-      [
-        -1.2054727993413088,
-        -9.230825961182923
-      ],
-      [
-        -2.979062254457804,
-        7.1612783079431335
-      ],
-      [
-        13.074024142059567,
-        0.9069522120907532
-      ]
-    ],
-    "h0_merges": [
-      {
-        "a": 2,
-        "b": 7,
-        "distance": 0.9122670022833322
-      },
-      {
-        "a": 0,
-        "b": 2,
-        "distance": 0.9149445498544329
-      },
-      {
-        "a": 7,
-        "b": 9,
-        "distance": 0.9525364404695956
-      },
-      {
-        "a": 4,
-        "b": 8,
-        "distance": 0.952658216753866
-      },
-      {
-        "a": 4,
-        "b": 9,
-        "distance": 0.9614769230113435
-      },
-      {
-        "a": 0,
-        "b": 1,
-        "distance": 1
-      },
-      {
-        "a": 0,
-        "b": 3,
-        "distance": 1
-      },
-      {
-        "a": 0,
-        "b": 5,
-        "distance": 1
-      },
-      {
-        "a": 0,
-        "b": 6,
-        "distance": 1
-      }
-    ],
-    "pairs": [
-      {
-        "a": 3,
-        "b": 8,
-        "distance": 0.912267,
-        "similarity": 0.087733
-      },
-      {
-        "a": 1,
-        "b": 3,
-        "distance": 0.914945,
-        "similarity": 0.085055
-      },
-      {
-        "a": 8,
-        "b": 10,
-        "distance": 0.952536,
-        "similarity": 0.047464
-      },
-      {
-        "a": 5,
-        "b": 9,
-        "distance": 0.952658,
-        "similarity": 0.047342
-      },
-      {
-        "a": 5,
-        "b": 10,
-        "distance": 0.961477,
-        "similarity": 0.038523
-      },
-      {
-        "a": 3,
-        "b": 10,
-        "distance": 0.963841,
-        "similarity": 0.036159
-      },
-      {
-        "a": 1,
-        "b": 2,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 1,
-        "b": 4,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 1,
-        "b": 5,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 1,
-        "b": 6,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 1,
-        "b": 7,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 1,
-        "b": 8,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 1,
-        "b": 9,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 1,
-        "b": 10,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 3,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 4,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 5,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 6,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 7,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 8,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 9,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 2,
-        "b": 10,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 3,
-        "b": 4,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 3,
-        "b": 5,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 3,
-        "b": 6,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 3,
-        "b": 7,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 3,
-        "b": 9,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 4,
-        "b": 5,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 4,
-        "b": 6,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 4,
-        "b": 7,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 4,
-        "b": 8,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 4,
-        "b": 9,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 4,
-        "b": 10,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 5,
-        "b": 6,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 5,
-        "b": 7,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 5,
-        "b": 8,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 6,
-        "b": 7,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 6,
-        "b": 8,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 6,
-        "b": 9,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 6,
-        "b": 10,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 7,
-        "b": 8,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 7,
-        "b": 9,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 7,
-        "b": 10,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 8,
-        "b": 9,
-        "distance": 1,
-        "similarity": 0
-      },
-      {
-        "a": 9,
-        "b": 10,
-        "distance": 1,
-        "similarity": 0
-      }
-    ]
+    "status": "invalidated_by_segmentation_revision",
+    "reason": "Previous 10-segment measurements were calculated on artificial fragments and must not be reused. Recompute TF-IDF, cosine distances, PCA and H0 from these four revised segments.",
+    "vocabulary_dimensions": null,
+    "segment_count": 4,
+    "pair_count": 6
   }
 }
