@@ -10,7 +10,8 @@ Samostatné offline-first pracovní prostředí v repozitáři `generative_gen`.
 - [Experience Store](experience.html) – lokální archiv zkušeností, pravidel, hypotéz a neúspěšných pokusů.
 - [Transfer Bench](transfer.html) – evidence experimentů s přenosem pravidel mezi doménami.
 
-- [BGE-M3 Pilot notebook](BGE_M3_Pilot.ipynb) – Kaggle notebook pro výpočet českých textových embeddingů z původních karet Myš, Ryba a Kocour.
+- [Pilot Results](results.html) – načtení a zobrazení výstupního JSON z Kaggle: strukturální měření, kontexty a vektorová geometrie.
+- [BGE-M3 Pilot notebook](BGE_M3_Pilot.ipynb) – Kaggle notebook pro výpočet embeddingů celých pohádek, opakování slov a interpunkce, kontextů výskytů a párové geometrie tří vektorů.
 
 ## Stav a technické hranice
 
