@@ -10,10 +10,12 @@ Pracovní repozitář projektu **Chceš myš? / Semantic Gap**.
 - [Ilustrace – seznam obrazových zdrojů](doma/primarni_data/ilustrace/README.md)
 - [Audio – přehled zvukových odkazů](doma/primarni_data/audio/README.md)
 - [Embeddings – vizuální pracoviště a karty](doma/embedings/index.html)
+- [MOUSE CORE – relační prostředí a experimentální nástroje](doma/mouse_core/index.html)
 
 ## Struktura
 
 - `doma/primarni_data/` – původní textové, obrazové a zvukové zdroje
 - `doma/embedings/` – samostatné HTML nástroje, karty a datové podklady
+- `doma/mouse_core/` – Gap Workspace, Vector Lab, Experience Store a Transfer Bench
 
 Cesty v odkazech jsou relativní vůči tomuto repozitáři. Primární zdroje zůstávají oddělené od analýz a odvozených dat.
